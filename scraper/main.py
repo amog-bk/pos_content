@@ -76,7 +76,7 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Weekly India business-insurance scraper")
     parser.add_argument("--week", default=None, help="ISO week label (default: current week)")
     parser.add_argument("--out", default="roundups", help="Output root directory")
-    parser.add_argument("--min-score", type=int, default=5, help="Minimum classifier score")
+    parser.add_argument("--min-score", type=int, default=8, help="Minimum classifier score")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
 

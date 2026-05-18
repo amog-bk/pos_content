@@ -16,7 +16,7 @@ on:
       min_score:
         description: "Minimum classifier score for inclusion"
         required: false
-        default: "5"
+        default: "8"
 
 permissions:
   contents: write
@@ -41,7 +41,7 @@ jobs:
           if [ -n "${{ github.event.inputs.week }}" ]; then
             WEEK_ARG="--week ${{ github.event.inputs.week }}"
           fi
-          MIN_SCORE="${{ github.event.inputs.min_score || '5' }}"
+          MIN_SCORE="${{ github.event.inputs.min_score || '8' }}"
           python -m scraper.main $WEEK_ARG --min-score "$MIN_SCORE" -v
 
       - name: Commit roundup

@@ -40,12 +40,15 @@ sources:
     categories: [regulation]
 
   # -------- Tier 1: Industry data --------
+  # GIC Council and IIB both block automated traffic (403/timeout from
+  # GitHub runners). Disabled until we find an alternative ingestion path
+  # (their PDF data downloads may need a separate scheduled job).
   - id: gic_council
     name: General Insurance Council
     url: https://www.gicouncil.in
     parser: generic_html
     tier: 1
-    enabled: true
+    enabled: false
     partner_relevance: 4
     categories: [stats, commercial]
 
@@ -54,7 +57,7 @@ sources:
     url: https://iib.gov.in
     parser: generic_html
     tier: 1
-    enabled: true
+    enabled: false
     partner_relevance: 3
     categories: [stats, claims, fraud]
 
@@ -68,23 +71,36 @@ sources:
     partner_relevance: 5
     categories: [regulation, commercial, reinsurance, insurtech]
 
-  - id: et_insurance
-    name: Economic Times Insurance
-    url: https://economictimes.indiatimes.com/industry/banking/finance/insure
-    parser: generic_html
+  # ET / Business Standard / Moneycontrol block direct scraping. We use
+  # Google News RSS as a reliable proxy — same domain, just discovered via
+  # Google's index. Titles include " - Publication" suffix which our parser
+  # strips and uses as the displayed source name.
+  - id: et_insurance_gnews
+    name: Economic Times (via Google News)
+    url: https://news.google.com/rss/search?q=site%3Aeconomictimes.indiatimes.com+insurance&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
     tier: 2
     enabled: true
     partner_relevance: 4
     categories: [regulation, commercial, health]
 
-  - id: business_standard_insurance
-    name: Business Standard Insurance
-    url: https://www.business-standard.com/topic/insurance
-    parser: generic_html
+  - id: business_standard_insurance_gnews
+    name: Business Standard (via Google News)
+    url: https://news.google.com/rss/search?q=site%3Abusiness-standard.com+insurance&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
     tier: 2
     enabled: true
     partner_relevance: 4
     categories: [regulation, commercial, financials]
+
+  - id: moneycontrol_insurance_gnews
+    name: Moneycontrol (via Google News)
+    url: https://news.google.com/rss/search?q=site%3Amoneycontrol.com+insurance&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 3
+    categories: [financials, commercial]
 
   - id: mint_insurance
     name: Mint Insurance
@@ -95,23 +111,35 @@ sources:
     partner_relevance: 3
     categories: [health, regulation]
 
+  # Financial Express returned high noise (share-price pages) in Week-1.
+  # Disabled until we have a tighter parser for it.
   - id: financial_express_insurance
     name: Financial Express Insurance
     url: https://www.financialexpress.com/about/insurance/
     parser: generic_html
     tier: 2
-    enabled: true
+    enabled: false
     partner_relevance: 3
     categories: [regulation, reform]
 
-  - id: moneycontrol_insurance
-    name: Moneycontrol Insurance
-    url: https://www.moneycontrol.com/news/business/insurance/
-    parser: generic_html
+  # Broad commercial-insurance topic feed across Indian news.
+  - id: india_commercial_insurance_gnews
+    name: Commercial Insurance India (via Google News)
+    url: https://news.google.com/rss/search?q=%22commercial+insurance%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
     tier: 2
     enabled: true
-    partner_relevance: 3
-    categories: [financials, commercial]
+    partner_relevance: 4
+    categories: [commercial]
+
+  - id: india_cyber_insurance_gnews
+    name: Cyber Insurance India (via Google News)
+    url: https://news.google.com/rss/search?q=%22cyber+insurance%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [cyber]
 
   # -------- Tier 3: Reinsurance & global --------
   - id: gic_re

@@ -43,9 +43,22 @@ SIGNALS: list[tuple[str, str, int]] = [
 
 NOISE = re.compile(
     r"\b(life insurance plan|term plan|ulip|endowment|child plan|retirement plan|"
-    r"best.*plan|top 10|sponsored|advertorial|astrolog|horoscope)\b",
+    r"best.*plan|top 10|sponsored|advertorial|astrolog|horoscope|"
+    r"share price|stock price|mutual fund nav|ipo gmp|"
+    r"short description)\b",
     re.IGNORECASE,
 )
+
+# Whole-title strings that are obvious placeholders / template leakage.
+PLACEHOLDER_TITLES = {
+    "circular",
+    "परिपत्र",
+    "परिपत्र / circular",
+    "short description",
+    "news",
+    "press release",
+    "notification",
+}
 
 
 @dataclass
@@ -57,6 +70,8 @@ class ScoredItem:
 
 def score(item: Item) -> ScoredItem:
     text = f"{item.title} {item.summary}".lower()
+    if item.title.strip().lower() in PLACEHOLDER_TITLES:
+        return ScoredItem(item=item, score=-5, tags=["noise"])
     if NOISE.search(text):
         return ScoredItem(item=item, score=-5, tags=["noise"])
 

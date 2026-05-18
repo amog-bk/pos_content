@@ -12,10 +12,34 @@ later if you want — but template-only keeps voice tight and predictable.
 """
 from __future__ import annotations
 
+import re
 from datetime import datetime
 from pathlib import Path
 
 from .classifier import ScoredItem
+
+# Devanagari (Hindi) Unicode block — used to detect and strip bilingual titles.
+DEVANAGARI_RE = re.compile(r"[ऀ-ॿ]+")
+
+
+def english_only_title(title: str) -> str:
+    """IRDAI titles are often 'हिंदी शीर्षक / English Title'. Keep the English
+    half for Partner WhatsApp drafts (the digest keeps the full bilingual form
+    for the internal team)."""
+    if not DEVANAGARI_RE.search(title):
+        return title.strip()
+    # Try common split markers, longest first.
+    for sep in [" / ", "/", " | ", "|", " - ", " – "]:
+        if sep in title:
+            parts = [p.strip() for p in title.split(sep)]
+            english = [p for p in parts if p and not DEVANAGARI_RE.search(p)]
+            if english:
+                return english[0]
+    # No separator — strip Hindi runs and collapse whitespace.
+    cleaned = DEVANAGARI_RE.sub(" ", title)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip(" /-|")
+    return cleaned or title.strip()
+
 
 # Plain-English explainers per category. These are the "what it means for you"
 # lines that translate well to Hindi/Gujarati/Kannada/Tamil.
@@ -70,8 +94,8 @@ def draft_message(s: ScoredItem) -> str:
     tag = _primary_tag(s)
     hook = CATEGORY_HOOK[tag]
     explainer = CATEGORY_EXPLAINER[tag]
-    # Keep the title human — strip surrounding quotes etc.
-    title = s.item.title.strip().strip("\"'")
+    # Keep the title human — English-only, stripped of surrounding quotes.
+    title = english_only_title(s.item.title).strip().strip("\"'")
     return (
         "Namaste,\n"
         "\n"
