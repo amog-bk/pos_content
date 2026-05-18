@@ -18,6 +18,27 @@ class FetchResult:
     error: str | None = None
 
 
+def resolve_redirect(url: str, user_agent: str, timeout: int = 10) -> str:
+    """Follow redirects and return the final URL. Used to unwrap Google News
+    RSS redirect URLs (news.google.com/rss/articles/CBMi...) into the actual
+    publication URL so WhatsApp drafts don't carry 500-char base64 links.
+
+    Returns the original URL on failure or if redirection stays on
+    news.google.com (which can happen when GN serves a JS interstitial)."""
+    headers = {"User-Agent": user_agent}
+    try:
+        # GET with stream=True so we don't download the body; close immediately.
+        r = requests.get(url, headers=headers, timeout=timeout,
+                         allow_redirects=True, stream=True)
+        final = r.url
+        r.close()
+        if final and "news.google.com" not in final:
+            return final
+    except requests.RequestException as e:
+        log.debug("resolve_redirect failed for %s: %s", url, e)
+    return url
+
+
 def fetch(url: str, user_agent: str, timeout: int = 20, retries: int = 2) -> FetchResult:
     headers = {
         "User-Agent": user_agent,

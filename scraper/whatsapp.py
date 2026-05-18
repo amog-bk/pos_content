@@ -17,9 +17,23 @@ from datetime import datetime
 from pathlib import Path
 
 from .classifier import ScoredItem
+from .config import Config
+from .fetcher import resolve_redirect
 
 # Devanagari (Hindi) Unicode block — used to detect and strip bilingual titles.
 DEVANAGARI_RE = re.compile(r"[ऀ-ॿ]+")
+
+
+def clean_title(title: str) -> str:
+    """Trim Google News' trailing '..' truncation marker and surrounding
+    whitespace. Doesn't restore the lost text but stops drafts from reading
+    like cut-off thoughts."""
+    t = title.strip()
+    # GN uses ".." or "..." — trim either.
+    t = re.sub(r"\s*\.{2,}\s*$", "", t)
+    # Stray ellipsis char too.
+    t = re.sub(r"\s*…\s*$", "", t)
+    return t.strip()
 
 
 def english_only_title(title: str) -> str:
@@ -90,12 +104,14 @@ def _primary_tag(s: ScoredItem) -> str:
     return "general"
 
 
-def draft_message(s: ScoredItem) -> str:
+def draft_message(s: ScoredItem, url: str | None = None) -> str:
     tag = _primary_tag(s)
     hook = CATEGORY_HOOK[tag]
     explainer = CATEGORY_EXPLAINER[tag]
-    # Keep the title human — English-only, stripped of surrounding quotes.
-    title = english_only_title(s.item.title).strip().strip("\"'")
+    # Keep the title human — English-only, stripped of surrounding quotes
+    # and trailing truncation markers.
+    title = clean_title(english_only_title(s.item.title)).strip().strip("\"'")
+    link = url or s.item.url
     return (
         "Namaste,\n"
         "\n"
@@ -108,14 +124,15 @@ def draft_message(s: ScoredItem) -> str:
         "Please go through it when you have time.\n"
         "\n"
         f"Source: {s.item.source_name}\n"
-        f"Link: {s.item.url}\n"
+        f"Link: {link}\n"
         "\n"
         "We are here to support you.\n"
         "Team BimaKavach"
     )
 
 
-def write_messages(scored: list[ScoredItem], out_path: Path, week_label: str, top_n: int = 5) -> None:
+def write_messages(scored: list[ScoredItem], out_path: Path, week_label: str,
+                   top_n: int = 5, config: Config | None = None) -> None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     lines: list[str] = []
     lines.append(f"# Partner WhatsApp Drafts — {week_label}")
@@ -140,13 +157,18 @@ def write_messages(scored: list[ScoredItem], out_path: Path, week_label: str, to
         if len(chosen) == top_n:
             break
 
+    ua = config.user_agent if config else "Mozilla/5.0"
     for i, s in enumerate(chosen, 1):
+        # Resolve Google News redirect URLs to the actual article URL.
+        link = s.item.url
+        if "news.google.com" in link:
+            link = resolve_redirect(link, ua, timeout=10)
         lines.append(f"---")
         lines.append("")
         lines.append(f"## Message {i} — _{_primary_tag(s)}_ (score {s.score})")
         lines.append("")
         lines.append("```")
-        lines.append(draft_message(s))
+        lines.append(draft_message(s, url=link))
         lines.append("```")
         lines.append("")
 

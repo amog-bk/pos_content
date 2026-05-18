@@ -66,7 +66,7 @@ def run(week: str, out_root: Path, min_score: int) -> int:
 
     week_dir = out_root / week
     write_digest(scored, errors, week_dir / "digest.md", week)
-    write_messages(scored, week_dir / "partner-messages.md", week, top_n=5)
+    write_messages(scored, week_dir / "partner-messages.md", week, top_n=5, config=cfg)
 
     log.info("wrote %s/", week_dir)
     return 0
