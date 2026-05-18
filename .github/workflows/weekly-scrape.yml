@@ -36,6 +36,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run scraper
+        env:
+          GOOGLE_SHEETS_SA_JSON: ${{ secrets.GOOGLE_SHEETS_SA_JSON }}
+          ROUNDUP_SHEET_ID: ${{ vars.ROUNDUP_SHEET_ID }}
         run: |
           WEEK_ARG=""
           if [ -n "${{ github.event.inputs.week }}" ]; then

@@ -131,8 +131,37 @@ def draft_message(s: ScoredItem, url: str | None = None) -> str:
     )
 
 
+def select_top_messages(scored: list[ScoredItem], top_n: int = 5) -> list[ScoredItem]:
+    """Pick top_n items, deduplicating by primary tag so we don't send 5
+    commercial_property messages in the same week."""
+    chosen: list[ScoredItem] = []
+    seen_tags: set[str] = set()
+    for s in scored:
+        tag = _primary_tag(s)
+        if tag in seen_tags:
+            continue
+        seen_tags.add(tag)
+        chosen.append(s)
+        if len(chosen) == top_n:
+            break
+    return chosen
+
+
+def resolve_links_for(items: list[ScoredItem], user_agent: str) -> dict[str, str]:
+    """Return {original_url: resolved_url} for items whose URL points at
+    news.google.com. Resolution is best-effort; on failure the original is
+    kept."""
+    out: dict[str, str] = {}
+    for s in items:
+        url = s.item.url
+        if "news.google.com" in url:
+            out[url] = resolve_redirect(url, user_agent, timeout=10)
+    return out
+
+
 def write_messages(scored: list[ScoredItem], out_path: Path, week_label: str,
-                   top_n: int = 5, config: Config | None = None) -> None:
+                   top_n: int = 5, config: Config | None = None,
+                   resolved_links: dict[str, str] | None = None) -> list[ScoredItem]:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     lines: list[str] = []
     lines.append(f"# Partner WhatsApp Drafts — {week_label}")
@@ -144,25 +173,13 @@ def write_messages(scored: list[ScoredItem], out_path: Path, week_label: str,
                  "translate to Gujarati/Hindi/Kannada/Tamil for the relevant Partner groups.")
     lines.append("")
 
-    # De-duplicate by primary tag so we don't send 5 commercial_property
-    # messages in the same week.
-    chosen: list[ScoredItem] = []
-    seen_tags: set[str] = set()
-    for s in scored:
-        tag = _primary_tag(s)
-        if tag in seen_tags:
-            continue
-        seen_tags.add(tag)
-        chosen.append(s)
-        if len(chosen) == top_n:
-            break
+    chosen = select_top_messages(scored, top_n=top_n)
+    if resolved_links is None:
+        ua = config.user_agent if config else "Mozilla/5.0"
+        resolved_links = resolve_links_for(chosen, ua)
 
-    ua = config.user_agent if config else "Mozilla/5.0"
     for i, s in enumerate(chosen, 1):
-        # Resolve Google News redirect URLs to the actual article URL.
-        link = s.item.url
-        if "news.google.com" in link:
-            link = resolve_redirect(link, ua, timeout=10)
+        link = resolved_links.get(s.item.url, s.item.url)
         lines.append(f"---")
         lines.append("")
         lines.append(f"## Message {i} — _{_primary_tag(s)}_ (score {s.score})")
@@ -178,3 +195,4 @@ def write_messages(scored: list[ScoredItem], out_path: Path, week_label: str,
         lines.append("")
 
     out_path.write_text("\n".join(lines))
+    return chosen

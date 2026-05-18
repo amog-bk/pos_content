@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import os
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -24,7 +25,8 @@ from .fetcher import fetch
 from .parsers import get_parser
 from .parsers.base import Item
 from .roundup import write_digest
-from .whatsapp import write_messages
+from .sheets import upload as upload_to_sheet
+from .whatsapp import resolve_links_for, select_top_messages, write_messages
 
 log = logging.getLogger("scraper")
 
@@ -35,7 +37,7 @@ def week_label(now: datetime | None = None) -> str:
     return f"{iso_year}-W{iso_week:02d}"
 
 
-def run(week: str, out_root: Path, min_score: int) -> int:
+def run(week: str, out_root: Path, min_score: int, sheet_id: str = "") -> int:
     cfg = load_config()
     all_items: list[Item] = []
     errors: list[tuple[str, str]] = []
@@ -64,11 +66,22 @@ def run(week: str, out_root: Path, min_score: int) -> int:
     scored = rank(all_items, min_score=min_score)
     log.info("ranked: %d items above min_score=%d", len(scored), min_score)
 
+    # Resolve Google News redirects once; reuse for markdown + sheet outputs.
+    top = select_top_messages(scored, top_n=5)
+    resolved_links = resolve_links_for(top, cfg.user_agent)
+
     week_dir = out_root / week
     write_digest(scored, errors, week_dir / "digest.md", week)
-    write_messages(scored, week_dir / "partner-messages.md", week, top_n=5, config=cfg)
-
+    write_messages(scored, week_dir / "partner-messages.md", week,
+                   top_n=5, config=cfg, resolved_links=resolved_links)
     log.info("wrote %s/", week_dir)
+
+    if sheet_id:
+        try:
+            upload_to_sheet(sheet_id, scored, errors, week,
+                            resolved_links=resolved_links)
+        except Exception:
+            log.exception("sheet upload failed (continuing)")
     return 0
 
 
@@ -77,6 +90,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--week", default=None, help="ISO week label (default: current week)")
     parser.add_argument("--out", default="roundups", help="Output root directory")
     parser.add_argument("--min-score", type=int, default=8, help="Minimum classifier score")
+    parser.add_argument("--sheet-id", default=os.environ.get("ROUNDUP_SHEET_ID", ""),
+                        help="Google Sheets ID to append results to. Also reads "
+                             "ROUNDUP_SHEET_ID env var. Requires GOOGLE_SHEETS_SA_JSON.")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
 
@@ -86,7 +102,8 @@ def main(argv: list[str] | None = None) -> int:
     )
 
     week = args.week or week_label()
-    return run(week=week, out_root=Path(args.out), min_score=args.min_score)
+    return run(week=week, out_root=Path(args.out), min_score=args.min_score,
+               sheet_id=args.sheet_id)
 
 
 if __name__ == "__main__":
