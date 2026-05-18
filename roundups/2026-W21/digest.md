@@ -1,7 +1,7 @@
 # India Business Insurance — Weekly Roundup (2026-W21)
 
-_Generated: 2026-05-18 13:16 UTC_  
-_Total items after filtering: 45_  
+_Generated: 2026-05-18 13:25 UTC_  
+_Total items after filtering: 40_  
 
 This is the internal digest. Pick 3–5 items below and hand them to `whatsapp.py` (or the content team) to turn into Partner messages.
 
@@ -13,72 +13,59 @@ This is the internal digest. Pick 3–5 items below and hand them to `whatsapp.p
   · _IRDAI Exposure Drafts_ · — · score 17 · tags: regulation, fraud
 - **[Exposure Draft Guidelines on Collateralized reinsurance transactions for placement of reinsurance business with Cross Border Reinsurers](https://irdai.gov.in/document-detail?documentId=4432973)**
   · _IRDAI Exposure Drafts_ · — · score 14 · tags: regulation, reinsurance
-- **[परिपत्र / Circular](https://irdai.gov.in/document-detail?documentId=9196320)**
-  · _IRDAI Circulars_ · — · score 12 · tags: regulation
-- **[परिपत्र / Circular](https://irdai.gov.in/document-detail?documentId=9122615)**
-  · _IRDAI Circulars_ · — · score 12 · tags: regulation
-- **[परिपत्र / CIRCULAR](https://irdai.gov.in/document-detail?documentId=9027284)**
-  · _IRDAI Circulars_ · — · score 12 · tags: regulation
-- **[Circular](https://irdai.gov.in/document-detail?documentId=8971093)**
-  · _IRDAI Circulars_ · — · score 12 · tags: regulation
-- **[परिपत्र / Circular](https://irdai.gov.in/document-detail?documentId=7935471)**
-  · _IRDAI Circulars_ · — · score 12 · tags: regulation
 - **[Master Circular on Rural, Social Sector and Motor Third Party Obligations](https://irdai.gov.in/document-detail?documentId=7643594)**
   · _IRDAI Circulars_ · — · score 12 · tags: regulation
 - **[Clarification on IRDAI (Maintenance of Information by the Regulated Entities and Sharing of information by the Authority) Reg, 2025](https://irdai.gov.in/document-detail?documentId=7628074)**
   · _IRDAI Circulars_ · — · score 12 · tags: regulation
+- **[Exposure draft on Ind AS Implementation](https://irdai.gov.in/document-detail?documentId=8885226)**
+  · _IRDAI Exposure Drafts_ · — · score 12 · tags: regulation
+- **[IRDAI(Meetings) Amendment REGULATIONS, 2024](https://irdai.gov.in/document-detail?documentId=6096228)**
+  · _IRDAI Exposure Drafts_ · — · score 12 · tags: regulation
+- **[IRDAI (IAC)(Amendment) Regulations, 2024](https://irdai.gov.in/document-detail?documentId=6098056)**
+  · _IRDAI Exposure Drafts_ · — · score 12 · tags: regulation
+- **[Exposure draft IRDAI (RAC)(Amendment) Regulations, 2024](https://irdai.gov.in/document-detail?documentId=6099932)**
+  · _IRDAI Exposure Drafts_ · — · score 12 · tags: regulation
+- **[Draft IRDAI (Regulatory Sandbox) (Amendment) Regulations](https://irdai.gov.in/document-detail?documentId=6094821)**
+  · _IRDAI Exposure Drafts_ · — · score 12 · tags: regulation
 
 ## Distribution
 
+- **[Insurance leaders warn sharp commission cuts could trigger agent exits, consolidation and slower rural growt..](https://news.google.com/rss/articles/CBMi9gFBVV95cUxPeE8tM0xCcHFYd0ZWSnNsZ3kzUnp0T1Z6QkVKMmJrYXFma3htUVZnakZIbkh0NTBwM2FUOEw5V29VSnQ5TldQTHoxYlY0WUN0M1pXV1JYaXJWOGxSckJsSnpqUjFmVUJzS1gzMWl4R2RSa3lWMzBDYkhSempnUk5iTDhoZEtCNGNNWUdMNk05OHhOcjJSS20tNjZRSHB6MlFwWmJQMFliNVNpb1BCUm5rUkphczBfTnFoNFA0MEtLeTdvby1qZVZkMURQdmI0LTNiYXlBRVRfSVBURmZTSUlpbjFFTFJuTGFVZHR2YnJpOWU1MHVtbkHSAfsBQVVfeXFMUEF5Y2o4MGJFZkhOeUpVTzhJSURoZ3dBMXZHZWgxb1RTZzRSNExiczVNMndtOVNRbVBzN3VUSmJsUWxJWXpXWnJoRW5ITDl6bXRaX0h6Q3dQMVpNTEZraklWU3paUTJSZTVQMGFoeEdldXByM012b1I3a0RUR1ZjdDhRS2ctRlh1WkNaVTE5LWZaSl9yVGhQZVQ3SVJlUlRKUFNhQnFCOXo3dUtlOC1TUS1BQVZNRlBTVTlDV0xQcnBwb0VId1hHMUs2ZFVaRXZkZ2tLc281cG85VDlnY3BoaW9ab2E0ZEZxSUpPOHFsUEJmbTVtQzYwLWQ5djA?oc=5)**
+  · _BFSI News_ · 2026-05-14 · score 11 · tags: distribution
 - **[SC’s big ruling: Insurers cannot deny payout over vehicle’s route deviation](https://www.livemint.com/insurance/news/insurers-cannot-deny-payout-over-vehicle-s-route-deviation-sc-s-big-ruling-on-motor-accident-claims-explained-11761839424094.html)**
   · _Mint Insurance_ · — · score 10 · tags: distribution
 
-## Markets
+## Claims
 
-- **[Tata Motors share price](https://www.financialexpress.com/market/tata-motors-ltd-share-price/)**
-  · _Financial Express Insurance_ · — · score 5 · tags: markets
-- **[Tata Steel share price](https://www.financialexpress.com/market/tata-steel-ltd-share-price/)**
-  · _Financial Express Insurance_ · — · score 5 · tags: markets
-- **[State Bank Of India share price](https://www.financialexpress.com/market/state-bank-of-india-share-price/)**
-  · _Financial Express Insurance_ · — · score 5 · tags: markets
-- **[HDFC Bank share price](https://www.financialexpress.com/market/hdfc-bank-ltd-share-price/)**
-  · _Financial Express Insurance_ · — · score 5 · tags: markets
-- **[Adani Enterprises share price](https://www.financialexpress.com/market/adani-enterprises-ltd-share-price/)**
-  · _Financial Express Insurance_ · — · score 5 · tags: markets
-- **[Adani Ports and Special Economic Zone share price](https://www.financialexpress.com/market/adani-ports-and-special-economic-zone-ltd-share-price/)**
-  · _Financial Express Insurance_ · — · score 5 · tags: markets
-- **[Bharat Petroleum Corporation share price](https://www.financialexpress.com/market/bharat-petroleum-corporation-ltd-share-price/)**
-  · _Financial Express Insurance_ · — · score 5 · tags: markets
-- **[Coal India share price](https://www.financialexpress.com/market/coal-india-ltd-share-price/)**
-  · _Financial Express Insurance_ · — · score 5 · tags: markets
-- **[Bajaj Finance share price](https://www.financialexpress.com/market/bajaj-finance-ltd-share-price/)**
-  · _Financial Express Insurance_ · — · score 5 · tags: markets
-- **[ICICI Bank share price](https://www.financialexpress.com/market/icici-bank-ltd-share-price/)**
-  · _Financial Express Insurance_ · — · score 5 · tags: markets
+- **[SBI must pay Rs 5 lakh to woman despite 6-yr delay in claim: Nagpur consumer panel](https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcjJIanM5SVQ1ZDM2NkphZTE3ekp3MXhRdG1LYngyVzBUUThOSlQ2ODFrbjcxSi1zaTJKX3JoaWU1X3BXOVFlSUNPSUktb09mUXg0WEtqWFoyYVFKTmt6Unhhd0wweTFoSWdKVmJNeEVNcm1iNWtaYUQzT2dWck1iVHN5TzYwNFNIOGdhYjR3cVBETXdYU3FtWGtsSXpFT21Ubk5uU0VUTFQzd1ZNTXQtRnRBWENDZ3JwZVBwQWhDN2hGQ1k4c2FxSDVNOHpubnNicmdIZEl0NE42QdIB3wFBVV95cUxQdFF0VW1GS3pfOFBtdkpXejZ4bzkxdF9aZFFxaVFrZlgweXk4RDVaS0FNenZVQ1ZfdGJHNnpiY0IxVF9ZU2Zsc28zT29tNnpOWTQ5c3dSaW11RkJJNnJnMm0xM2ZXeTBjQUxRRjFuYUFFRHhDOXVkbUl4SHAySW1wcFlIT2g5dFJBak5iZlhReF9GdGVucmdDXzZFUXFaMHNQeFdjXzUzNkJDZHZTQWRLOXJVNzFmT3hrdnFQX3FuNnlONXlOOEtDbERGVTRTUEQta3VBcVdaeGxFUmw4Qzdj?oc=5)**
+  · _BFSI News_ · 2026-05-18 · score 9 · tags: claims
+- **[Insurance claim repudiated for lack of link between insured risk and loss](https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYmh4Q29UU29MNS1xem5fOXpqOVUyc3dMWEkyUHpPSXpLMEthb2tQNzgyNFdYVTNEaFNuTWs5X25CQ0dTczBkRTZFN3R2OGR4bUtETFhUekRNVGkzTUJ1aEtEMWFCLUtrZUx4ajRlX1dqLXpUSHduamdabWl2Nkc5NWRmc01xVU03MDE3cnZTaEVkMWl4LTFReDBTUnVQVmU5MzRFWkJWbU1GQ19oc3RGUkZ3eVVhLWZQdThXMW80U2hiYlp6bDk2NFQyY3lLa3lhTnlxSDFBZ29kcHPSAeABQVVfeXFMTTZySVlORGN6bE0yVG1CM3hubFVheEZobUpFMk90MlRxYmF2UlFpS3ZjNFdkTDFXdC1iTURtUVdmUzVsMzVfSHBWcmxKQkZmQkFCc1BHSXl4Y1FpajB1UmxONFZDcERCSmlIdU1KVkluQVBIQTR0aEl6ODQtcktNS0pSdUx6MHVWdWs4eEc4bXRGMHl2bmtZYUpPcDhwXzRIZXUwZmlGWWUtOVgxdGVRZ1paQVRBYk0wNmZEOXA5bDJCdmN4M0Nzd2puUmVSXzVyZ1JUTGJmWmlubzdNSlFiY3c?oc=5)**
+  · _Business Standard_ · 2026-05-17 · score 9 · tags: claims
 
-## General
+## Cyber
 
-- **[Short Description](https://irdai.gov.in/circulars?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByCol=VisibleText_sortable&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByType=asc)**
-  · _IRDAI Circulars_ · — · score 7 · tags: general
-- **[Clarifications on provisions with respect to investment in Alternative Investment Funds(AIFs)](https://irdai.gov.in/document-detail?documentId=8760558)**
-  · _IRDAI Circulars_ · — · score 7 · tags: general
-- **[1600-शृंखला के अनिवार्य अंगीकरण संबंधी ट्राई (भारतीय दूरसंचार विनियामक प्राधिकरण) के निदेश का कार्यान्वयन / Implementation of 1600 Series TRAI directions](https://irdai.gov.in/document-detail?documentId=8446575)**
-  · _IRDAI Circulars_ · — · score 7 · tags: general
-- **[Cessation of the practice of allowing additional line of business/department to surveyor and loss assessors based on categorization letter issued in 2001-02](https://irdai.gov.in/document-detail?documentId=7957321)**
-  · _IRDAI Circulars_ · — · score 7 · tags: general
-- **[सभी बीमाकर्ताओं, पुनर्बीमाकर्ताओं, जीवन बीमा परिषद और साधारण बीमा परिषद के लिए परामर्शक / Advisory to All Insurers, Reinsurers, Life Insurance Council and General Insurance Council](https://irdai.gov.in/document-detail?documentId=7461953)**
-  · _IRDAI Circulars_ · — · score 7 · tags: general
-- **[Corporate Agency Matters Concerning RRBs Amalgamated from 1st May 2025 and Beyond](https://irdai.gov.in/document-detail?documentId=7269046)**
-  · _IRDAI Circulars_ · — · score 7 · tags: general
-- **[Short Description](https://irdai.gov.in/exposure-drafts?p_p_id=com_irdai_document_media_IRDAIDocumentMediaPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur=1&_com_irdai_document_media_IRDAIDocumentMediaPortlet_delta=20&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByCol=VisibleText_sortable&_com_irdai_document_media_IRDAIDocumentMediaPortlet_orderByType=asc)**
-  · _IRDAI Exposure Drafts_ · — · score 7 · tags: general
-- **[बुनियादी संरचना विशेष प्रयोजन माध्यमों (एसपीवीएस) में  बीमाकर्ताओं के निवेश के संबंध में परामर्श / Consultation on Insurers’ Investment in Infrastructure SPVs](https://irdai.gov.in/document-detail?documentId=8292873)**
-  · _IRDAI Exposure Drafts_ · — · score 7 · tags: general
+- **[Does Your Company Require Cyber Insurance to Comply with India’s DPDP Law?](https://news.google.com/rss/articles/CBMikgFBVV95cUxQUUtsNllraEdabWNhZWcyMHlCcXUxR3BGSTdoZFF2UFJubUM0TEwwblRFSjI2OS1saHR2RGFuMTEyVmh0V1ZoLTd3MS0xREgySnJOQnRocXhyT2tZQTh3OENkcGZNOWlFR1FSU3JfZ1J2c1BoVnZYbzRNUGgxRlMtNjVZeXVoS3RGMHpMeEZBcmdidw?oc=5)**
+  · _India Briefing_ · 2026-05-07 · score 10 · tags: cyber
+- **[Cyber insurance in India: From breach recovery to business resilience](https://news.google.com/rss/articles/CBMitwFBVV95cUxQbUN2Sy1KQ3ZTZnJWVXlKXzQ2OTkzXzhWZUFSZW53RDVtQUUxYTR4aEQtSG9lTkI5SnJabjh3bkxHVE5rOURPSFR5dzlqVi1oZ0JYMzBVeVg0eTVrVzNrTm1nc2daWktEcDV2Njk2akFWQi05b21Mei1qYi0zQ0E4aTlxVnNVVWdZOE93VmhUZVpCd2JuYlVXMHBXQ01ZUWhmcUpyMm1IY1U2TFhGZGpyU0l3bmticzQ?oc=5)**
+  · _EY_ · 2025-08-13 · score 10 · tags: cyber
+- **[Uber's India data centre bet; Cyber cover meets AI risk](https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYTVLYk5XTGxZcXJBMUwxZnBLZUQyYkN3dlh4LXBnRndNS3g0bDNIZEROODZHVDk2Q0tjOXVtX0Nxck9GNnRVei1jOEZ3dFdTcnZiTWxzYWIxeGdCRVYtOWsyZ3l0Zm9QUFUzOTBQQjJ5M3UzRmk4eXl5bjdyc2JFZ1oxR0JYcV9sbkNVbHpZNzEzUmh1TzBWYUNkVEJET0JhNVFPUVhWaXFQMUtRUUU0UlY4cHJLM09xV3AzbXI5Vm1kVHhSRTRPRVFTSjV0QnQ0M1lxMG5n0gHWAUFVX3lxTE9hNUtiTldMbFlxckExTDFmcEtlRDJiQ3d2WHgtcGdGd01LeDRsM0hkRE44NkdUOTZDS2M5dW1fQ3FyT0Y2dFV6LWM4Rnd0V1NydmJNbHNhYjF4Z0JFVi05azJneXRmb1BQVTM5MFBCMnkzdTNGaTh5eXluN3JzYkVnWjFHQlhxX2xuQ1Vselk3MTNSaHVPMFZhQ2RUQkRPQmE1UU9RWFZpcVAxS1FRRTRSVjhwckszT3FXcDNtcjlWbWRUeFJFNE9FUVNKNXRCdDQzWXEwbmc?oc=5)**
+  · _The Economic Times_ · 2026-05-13 · score 10 · tags: cyber
+- **[Why cyber insurance has become a must-have for corporates in India](https://news.google.com/rss/articles/CBMivgFBVV95cUxOZHZ6ci1iQ2kwUjh6TEo2MjFPWFMyWFNwTGxDak5IQmtCakhrcHZZdU1ESWppdWRxV2pld2FRME12V0hndWh4R2xyUWZqNDJoemhTdzVqcDNyMmpKQ3MxQUx2dDNjdGZZQ2tacUFTalVCTGI1Y0F0QXVIMkQyM3oyOUVIbUZQWU9sZWNaYWwwY1dnYXY1THBtTFV1RnF4dF9hb3p0dzdqUzVVc3NRaDRsYi1TZHRaR3ZBUnMyRWNB?oc=5)**
+  · _ET Edge Insights_ · 2025-11-17 · score 10 · tags: cyber
+- **[India’s cyber insurance demand grows as DPDP Act reshapes underwriting focus](https://news.google.com/rss/articles/CBMingFBVV95cUxNSndFNWlXQTdBallLalhoRXlTNGQtbmxVTTFTUF83LU5mcG81WmQtYTJhcGV4NHRaOGQ5VUNuT1p4VmxZYzI2LV9Bc0xLV0I0RkIxN1d3NTNJQmF0SGhGSEdmbTRtLXppTTFVS1otMUJUbHltSFhBbzJhRUluV2ZiOEtjN3dWMk1WTUxfVkprTHItbWkxSDJpNXAxZXBQQQ?oc=5)**
+  · _(Re)in Asia_ · 2026-05-05 · score 10 · tags: cyber
+- **[The rising APT risk reshaping cyber insurance for critical infrastructure](https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWDhJaVhVWmUtdFdGbm42aGRiQ09hTHpmM3NnOHctRW5rQmdObnlMLWx1VTVScDZQYkVtcW1OOHdITGp6S2wtcTZZeXRGeDlIcGVrb1BwbGU0SUh3VkRDVXNYbE9LSUw0MmxOajJhWUZQQ3U1WDQ0V2lqXzVmX1ZNM2FaVGF2UkhlbGV2U3A4NEhfR2lkUy16OXBEMVl4TlBINlMzYmZxVzNGMGU2WHprUjNReUR6XzVEVkVwM3hQQzN5amhzN0ZFbEpLaTJkNmJ5WWhnVTJ2UXBsc0UwbWRvSll0djlXUdIB6wFBVV95cUxQYloyVjhHTmVGV2VqWDdqVWZyTFRLdk9QdkJrWVV0aW5pRFl0RnZ3b0dabi10anE5RjdrM3RNSXRFcmhGbkU5ZmlrQ2F0U2R5NWJKcWFQMHd0Y0c0YkJCdC1HcU9JRV9pYkI5ZXk1cm1vZ1U3SUU3QmgxTDQtck1jSldqWnBWNFpwSFEtck1IdzNzWWhtQU92RG9mQWlGWjRaRF96QlNwajBMME1WN3Bhd0ZqQzhkelM4cjZ0RWRRelA2aUhnRUJvVDBiUGJ2Qi10a1BNVGFMb3Rnc2ZLNzBOTXVTdFVDU2ROaFVr?oc=5)**
+  · _Forbes India_ · 2026-03-17 · score 10 · tags: cyber
+- **[Why cyber insurance is a must for Indian households?](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcUd5M3hhNlVSRHZQbzNFcV9UQ19VUDRYRnBfZ3ZxTlNqVzdjVHAxTFB1U0ptRGQtU0VONG5ndTl0Uzg1a0lKaW5LczNGVkdSbF83aWhteFhnVHhRUU1udWFiWU1raC1tYkVHRlJsYkhwbHJneWFzVTl6SzB6RlI0VERkSm9IdnBo?oc=5)**
+  · _Elets BFSI_ · 2025-11-11 · score 10 · tags: cyber
+- **[Why cyber insurance has become a must-have for individuals in India](https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeWFUOGZTN1A4NktJTnA5LVdoS3VDSWl3bno0eDlYaWpheXc0VjJ4WlFiLVBZSXFmZDUta2lXYWc0VmhVZ0lVcGk1X010T3RYU3dialVVbVRGb3VIT3VCVnAwUm9qbHd6WjFMT1JNZnhDLS1iUHllNTV5VnhtUWFRcGZXVU13clk5UkhpV3pBNDZJSjR5MnlyY1d6cXhlam9oQ1B2TkpLS2VSR3pjdnN4ZlpKQkZmTzVzRWlZUWVId3VKNjV5VFNaYXN5eDNRS1ozemh4QldKN3d3Qm1M0gHiAUFVX3lxTE5QVmdhVHg2OE9QdEFMSHdsV1JkR29oc1ZpanMyekJMVFYyektfYWhaNFJBRmltbDBJdjM0N2RSVWt0ZUJsWGllbXJkSmFvbEdlUFo0NjhJSDhpOFM5WGU2Z0tfTmNyNmZXUWhoRDhwQU5CNUN4Y3Z1bW12dFRTUUFfRy1xbzV2X3ExSDhKbEJGQ2VfdkNmRFJYSmpsQ2tELW95UUJmSk9tQVBIM05ZVDVmMnBEbWRtNlYxd2ZkTlA1Y1ZFTkRHQ1RMNkZFQjZzbHpOM2RsQlZDemFKakVNQXNFQ0E?oc=5)**
+  · _India Today_ · 2025-10-06 · score 10 · tags: cyber
+- **[Cyber insurance and rising digital threats: How businesses can manage risk](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMFoyZmRFVzFkbnlqZGlCNmNQUThrMWkyejlIOU9FQVp2a29nQWthT29oUlBsT3FPcmJXcV83bExGb0R1d1I3S1hMXy1JUzBBTjBCalBwMF9zd205eVFuY21RLU1EM1ZxekVkT0RnU2Z4Q3p6UDBvZGZOWnRKZVM1Nk5uOEZIcG1PWDFJN1d0eDRXVXN4cm0wV2VZNTZrQ3hfS0ZDYjctNDc1SlRmdENaX015VjBBUWtqakRVRUpnWVFRbmlRV1o2btIBzgFBVV95cUxNQmpMYkpnenZCYmxRNUtIRm1iNVh6T1cwTkMwMmZXc3dZVWdpTlFiTGFsOTJzQWw3TndCTG5VUVVCeHBCRVBIQ0poQ09FUDY5dTBhOFVsR2FHbFNkNWhTRVFldjEtei1TelNxYkdIVzVpLWVQSjNhMHVkU0tWdVljdUxrbWJQQWZPeUY1dTFYZzFsVVRFNXRod3VQV2FzWEdnLVEwamt0TU9sb0IzZnRUT05ZU1BmaWVYWUowR3I1NUp2RWQtQXZfRmpmVkdSdw?oc=5)**
+  · _CNBC TV18_ · 2026-02-07 · score 10 · tags: cyber
+- **[Digital India Needs Digital Protection: The Case For Cyber Insurance In Union Budget 2026](https://news.google.com/rss/articles/CBMisAFBVV95cUxQcGtURFNHMkNSRGdLNVJLZnE3cUZ2dlhoNWgzVWtqaUludUphLUo4dEJ1M2JIVUs3a3ZnSkdmWTJmN0NMXzFQbTY1TGktV0ZSTzBqMFRzYnRvTktTYnlSQ0RpYU9iSzB6WjVlWUdVblMzbFF5bE5fU0hwZDJFVFJRc05iTHE4RVBIel9OOS1xRUkxeVZvdzlHbklxaFF3TnJWRmRZcVVET2kxYWxFdTU3YQ?oc=5)**
+  · _BW Businessworld_ · 2026-01-23 · score 10 · tags: cyber
 
-## Sources that failed this week
+## Health Group
 
-- `gic_council` — HTTP 403
-- `iib` — HTTPSConnectionPool(host='iib.gov.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='iib.gov.in', port=443) at 0x7fac7c2ec150>, 'Connection to iib.gov.in timed out. (connect timeout=20)'))
-- `et_insurance` — HTTP 404
-- `business_standard_insurance` — HTTP 403
-- `moneycontrol_insurance` — HTTP 403
+- **[Motor vehicle accident mediclaim amount cannot be deducted from compensation awarded by the claims...](https://news.google.com/rss/articles/CBMimAJBVV95cUxPdW8wWkI0YXJvYVFxN09QUWpfTExIWlJ1Z3Vwb2FEMHdmWDlOMWJUTklrb09NZ3o1eWZMZks5VnZVTnJocXVPd2J2NUw3X0xSZGRmZEthbUJ1OHN6U3paVFlzeEkzY2JyaGs0ckFjcHZPM2N5dzIxd0RSOExyNVM4SHk2c3RBT0NhQmh0cHgwRlBld1pGZm53cU1keHgzOTZSRURlRU1sTV9NakszWlVtcXJ1ekt3d0RzSGlkS0JRQVFPQy1Zd0JGZ3JZVkROZGZSTGxTSGEtSDRsWEdPeVZIZzlPbGJGVHRLRDVLYUwzN0MwcjQ5N0Zxd1prcjBNTTRIclVqaHl0bE1VS3NEWHYzY0wwVHgwNTVa0gGeAkFVX3lxTE1qaDdKSk1RYlc1amxoZTVGT0cza3RwbWMxR3VRZXpOMDNXcU5vb3d6Mi1fcDVhbE1DMG5vSmpJSm9FbWJtRGY1cjJTOHRoOWFnQUZlR09GeGFDbWRKbHZMWDNjVEh3cXpPR1RReWoxNjM1cHY5R3cyVWR3aEQxTVBlOXR5NUVqeVFsWHZsVHRyQnc0anhaSWFMNXNlZExBaHBfNTh1bHVEejhLR291X3VaZ3ZlQi1jQlhQcmoyX2YzM2VRWWhLQTZZMkgtTFdpR2NrbXI0QjdhX1QtN29IOFlwcUpKTENWeFJadWJrRkVKazlIaU1mY3FGUFRJMVZPdUhxY191SUcxcWM3WXRIcHBGVUxrMDc2ZUZoRDF0UXc?oc=5)**
+  · _Moneycontrol.com_ · 2026-05-18 · score 8 · tags: health_group
