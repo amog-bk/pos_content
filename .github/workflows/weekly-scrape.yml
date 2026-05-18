@@ -1,5 +1,8 @@
 name: Weekly insurance roundup
 
+# Scrapes India business-insurance sources weekly and writes a digest +
+# Partner-ready WhatsApp drafts into roundups/<YYYY-Www>/.
+
 on:
   schedule:
     # Every Monday 03:00 UTC = 08:30 IST. Adjust as needed.
