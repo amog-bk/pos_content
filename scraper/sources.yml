@@ -1,0 +1,161 @@
+# Source map for the weekly India business-insurance scraper.
+# Edit `enabled: true|false` to add/remove sources from the next run.
+# `parser` picks the scraping strategy; `tier` controls priority in the digest;
+# `partner_relevance` (1-5) is a hint to the classifier — 5 = always include if matched.
+
+defaults:
+  user_agent: "Mozilla/5.0 (compatible; BimaKavachWeeklyBot/1.0; +https://bimakavach.in)"
+  request_timeout_seconds: 20
+  max_items_per_source: 15
+  lookback_days: 7
+
+sources:
+
+  # -------- Tier 1: Regulatory --------
+  - id: irdai_circulars
+    name: IRDAI Circulars
+    url: https://irdai.gov.in/circulars
+    parser: irdai_listing
+    tier: 1
+    enabled: true
+    partner_relevance: 5
+    categories: [regulation]
+
+  - id: irdai_industry_trends
+    name: IRDAI Industry Trends
+    url: https://irdai.gov.in/industry-trends
+    parser: irdai_listing
+    tier: 1
+    enabled: true
+    partner_relevance: 4
+    categories: [stats, regulation]
+
+  - id: irdai_exposure_drafts
+    name: IRDAI Exposure Drafts
+    url: https://irdai.gov.in/exposure-drafts
+    parser: irdai_listing
+    tier: 1
+    enabled: true
+    partner_relevance: 5
+    categories: [regulation]
+
+  # -------- Tier 1: Industry data --------
+  - id: gic_council
+    name: General Insurance Council
+    url: https://www.gicouncil.in
+    parser: generic_html
+    tier: 1
+    enabled: true
+    partner_relevance: 4
+    categories: [stats, commercial]
+
+  - id: iib
+    name: Insurance Information Bureau
+    url: https://iib.gov.in
+    parser: generic_html
+    tier: 1
+    enabled: true
+    partner_relevance: 3
+    categories: [stats, claims, fraud]
+
+  # -------- Tier 2: News --------
+  - id: the_cession
+    name: The Cession
+    url: https://thecession.com
+    parser: generic_html
+    tier: 2
+    enabled: true
+    partner_relevance: 5
+    categories: [regulation, commercial, reinsurance, insurtech]
+
+  - id: et_insurance
+    name: Economic Times Insurance
+    url: https://economictimes.indiatimes.com/industry/banking/finance/insure
+    parser: generic_html
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [regulation, commercial, health]
+
+  - id: business_standard_insurance
+    name: Business Standard Insurance
+    url: https://www.business-standard.com/topic/insurance
+    parser: generic_html
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [regulation, commercial, financials]
+
+  - id: mint_insurance
+    name: Mint Insurance
+    url: https://www.livemint.com/insurance
+    parser: generic_html
+    tier: 2
+    enabled: true
+    partner_relevance: 3
+    categories: [health, regulation]
+
+  - id: financial_express_insurance
+    name: Financial Express Insurance
+    url: https://www.financialexpress.com/about/insurance/
+    parser: generic_html
+    tier: 2
+    enabled: true
+    partner_relevance: 3
+    categories: [regulation, reform]
+
+  - id: moneycontrol_insurance
+    name: Moneycontrol Insurance
+    url: https://www.moneycontrol.com/news/business/insurance/
+    parser: generic_html
+    tier: 2
+    enabled: true
+    partner_relevance: 3
+    categories: [financials, commercial]
+
+  # -------- Tier 3: Reinsurance & global --------
+  - id: gic_re
+    name: GIC Re
+    url: https://www.gicre.in
+    parser: generic_html
+    tier: 3
+    enabled: true
+    partner_relevance: 2
+    categories: [reinsurance, commercial]
+
+  - id: swiss_re_institute
+    name: Swiss Re Institute
+    url: https://www.swissre.com/institute.html
+    parser: generic_html
+    tier: 3
+    enabled: false   # global focus, low Partner relevance — opt-in
+    partner_relevance: 2
+    categories: [reinsurance, stats]
+
+  - id: lloyds_insights
+    name: Lloyd's Insights
+    url: https://www.lloyds.com/about-lloyds/media-centre/insight
+    parser: generic_html
+    tier: 3
+    enabled: false   # opt-in
+    partner_relevance: 1
+    categories: [reinsurance, commercial]
+
+  # -------- Tier 3: Claims & consumer --------
+  - id: bima_bharosa
+    name: Bima Bharosa
+    url: https://bimabharosa.irdai.gov.in
+    parser: generic_html
+    tier: 3
+    enabled: true
+    partner_relevance: 4
+    categories: [claims, consumer]
+
+  - id: ombudsman
+    name: Insurance Ombudsman
+    url: https://www.cioins.co.in
+    parser: generic_html
+    tier: 3
+    enabled: true
+    partner_relevance: 3
+    categories: [claims, consumer]

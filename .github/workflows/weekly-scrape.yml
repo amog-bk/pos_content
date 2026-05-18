@@ -1,0 +1,55 @@
+name: Weekly insurance roundup
+
+on:
+  schedule:
+    # Every Monday 03:00 UTC = 08:30 IST. Adjust as needed.
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+    inputs:
+      week:
+        description: "ISO week label (e.g. 2026-W20). Leave blank for current week."
+        required: false
+        default: ""
+      min_score:
+        description: "Minimum classifier score for inclusion"
+        required: false
+        default: "5"
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: |
+          WEEK_ARG=""
+          if [ -n "${{ github.event.inputs.week }}" ]; then
+            WEEK_ARG="--week ${{ github.event.inputs.week }}"
+          fi
+          MIN_SCORE="${{ github.event.inputs.min_score || '5' }}"
+          python -m scraper.main $WEEK_ARG --min-score "$MIN_SCORE" -v
+
+      - name: Commit roundup
+        run: |
+          git config user.name "bimakavach-bot"
+          git config user.email "bot@bimakavach.in"
+          git add roundups/
+          if git diff --cached --quiet; then
+            echo "No new roundup to commit."
+            exit 0
+          fi
+          WEEK=$(python -c "from scraper.main import week_label; print(week_label())")
+          git commit -m "roundup: weekly digest $WEEK"
+          git push
