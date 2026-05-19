@@ -141,6 +141,119 @@ sources:
     partner_relevance: 4
     categories: [cyber]
 
+  # -------- Tier 2: Line-of-business topic feeds (Google News) --------
+  # These give the roundup per-section coverage. Each is a free-text Google
+  # News search restricted to India region. Disable any that produce noise
+  # in the digest.
+
+  - id: liability_gnews
+    name: Liability Insurance India (via Google News)
+    url: https://news.google.com/rss/search?q=%22liability+insurance%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [commercial_liability]
+
+  - id: do_insurance_gnews
+    name: D&O Insurance India (via Google News)
+    url: https://news.google.com/rss/search?q=%22directors+and+officers%22+insurance+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [commercial_liability]
+
+  - id: fire_insurance_gnews
+    name: Fire Insurance India (via Google News)
+    url: https://news.google.com/rss/search?q=%22fire+insurance%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [commercial_property]
+
+  - id: marine_insurance_gnews
+    name: Marine Insurance India (via Google News)
+    url: https://news.google.com/rss/search?q=%22marine+insurance%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [commercial_marine]
+
+  - id: engineering_insurance_gnews
+    name: Engineering Insurance India (via Google News)
+    url: https://news.google.com/rss/search?q=%22engineering+insurance%22+India+OR+%22CAR+policy%22+contractors&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [commercial_engineering]
+
+  - id: workmen_comp_gnews
+    name: Workmen Compensation India (via Google News)
+    url: https://news.google.com/rss/search?q=%22workmen+compensation%22+OR+%22workers+compensation%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [employee_benefits]
+
+  - id: group_health_gnews
+    name: Group Health Insurance India (via Google News)
+    url: https://news.google.com/rss/search?q=%22group+health+insurance%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [health_group]
+
+  - id: sme_insurance_gnews
+    name: SME / MSME Insurance India (via Google News)
+    url: https://news.google.com/rss/search?q=%22SME+insurance%22+OR+%22MSME+insurance%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [commercial, stats]
+
+  - id: insurance_fraud_gnews
+    name: Insurance Fraud India (via Google News)
+    url: https://news.google.com/rss/search?q=%22insurance+fraud%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [fraud, consumer]
+
+  - id: insurance_claims_consumer_gnews
+    name: Insurance Claims India (via Google News)
+    url: https://news.google.com/rss/search?q=%22insurance+claim%22+India+%22consumer+commission%22+OR+%22ombudsman%22&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [claims, consumer]
+
+  - id: irdai_news_gnews
+    name: IRDAI in the News (via Google News)
+    url: https://news.google.com/rss/search?q=IRDAI+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 5
+    categories: [regulation]
+
+  - id: businessline_insurance_gnews
+    name: BusinessLine Insurance (via Google News)
+    url: https://news.google.com/rss/search?q=site%3Athehindubusinessline.com+insurance&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 3
+    categories: [regulation, commercial, financials]
+
   # -------- Tier 3: Reinsurance & global --------
   - id: gic_re
     name: GIC Re

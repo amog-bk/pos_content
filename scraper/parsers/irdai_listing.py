@@ -15,7 +15,13 @@ from dateutil import parser as dateparser
 
 from .base import Item
 
-DATE_RE = re.compile(r"\b(\d{1,2}[-/ ][A-Za-z]{3,9}[-/ ]\d{2,4}|\d{4}-\d{2}-\d{2})\b")
+DATE_RE = re.compile(
+    r"\b("
+    r"\d{1,2}[-/ ][A-Za-z]{3,9}[-/ ]\d{2,4}"   # 15-May-2026, 15/May/2026, 15 May 2026
+    r"|\d{4}-\d{2}-\d{2}"                       # 2026-05-15
+    r"|\d{1,2}[-/]\d{1,2}[-/]\d{2,4}"           # 15-05-2026, 15/05/2026
+    r")\b"
+)
 
 
 def _parse_date(text: str) -> datetime | None:

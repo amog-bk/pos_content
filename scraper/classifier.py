@@ -21,13 +21,13 @@ SIGNALS: list[tuple[str, str, int]] = [
     (r"\b(kyc|aml|grievance|complaint|repudiation|ombudsman|bima bharosa)\b", "consumer", 5),
 
     # Commercial lines — Partners' bread and butter.
-    (r"\b(fire insurance|burglary|industrial all risk|iar|property insurance)\b", "commercial_property", 5),
-    (r"\b(marine|cargo|hull|transit)\b", "commercial_marine", 5),
-    (r"\b(engineering|car|ear|machinery breakdown|contractors plant|cpm)\b", "commercial_engineering", 5),
-    (r"\b(liability|professional indemnity|d&o|public liability|product liability|cgl)\b", "commercial_liability", 5),
-    (r"\b(cyber insurance|ransomware|data breach|cyber cover)\b", "cyber", 5),
+    (r"\b(fire insurance|fire claims?|burglary|industrial all risk|iar|property insurance|factory fire|warehouse fire)\b", "commercial_property", 5),
+    (r"\b(marine insurance|marine cargo|cargo insurance|hull insurance|cargo claim|transit insurance)\b", "commercial_marine", 5),
+    (r"\b(engineering insurance|car policy|car insurance.{0,30}contractor|ear policy|machinery breakdown|contractors plant|cpm|construction insurance)\b", "commercial_engineering", 5),
+    (r"\b(liability insurance|professional indemnity|directors and officers|d&o|public liability|product liability|cgl|errors and omissions)\b", "commercial_liability", 5),
+    (r"\b(cyber insurance|ransomware|data breach|cyber cover|dpdp)\b", "cyber", 5),
     (r"\b(workmen[ -]?comp\w*|workers? compensation|gpa|group personal accident|epli)\b", "employee_benefits", 5),
-    (r"\b(group health|gmc|mediclaim|tpa|claims inflation)\b", "health_group", 4),
+    (r"\b(group health|gmc|group mediclaim|mediclaim|tpa|claims inflation|employee health)\b", "health_group", 4),
 
     # Claims, fraud, consumer experience.
     (r"\b(claim|claims ratio|loss ratio|combined ratio|repudiation|settlement)\b", "claims", 4),
