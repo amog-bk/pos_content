@@ -16,9 +16,15 @@ from .parsers.base import Item
 SIGNALS: list[tuple[str, str, int]] = [
     # Regulation & commissions — top priority.
     (r"\b(irdai|circular|notification|regulation|exposure draft|gazette)\b", "regulation", 5),
-    (r"\b(commission|payout|remuneration|posp|broker|agent|bancassurance)\b", "distribution", 6),
+    # Distribution: specifically about how Partners get paid or who can sell.
+    # Avoids matching unrelated "consumer commission", "competition commission",
+    # "judicial commission" etc.
+    (r"\b(commission cap|commission cut|commission hike|commission revision|"
+     r"commission structure|broker remuneration|agent (payout|commission|network)|"
+     r"bancassurance|posp|insurance broker|insurance agent)\b", "distribution", 6),
     (r"\b(solvency|capital|fdi|composite licen[cs]e|open architecture)\b", "regulation", 4),
-    (r"\b(kyc|aml|grievance|complaint|repudiation|ombudsman|bima bharosa)\b", "consumer", 5),
+    (r"\b(kyc|aml|grievance|complaint|repudiat\w+|ombudsman|bima bharosa|"
+     r"consumer commission|consumer forum|consumer court)\b", "consumer", 5),
 
     # Commercial lines — Partners' bread and butter.
     (r"\b(fire insurance|fire claims?|burglary|industrial all risk|iar|property insurance|factory fire|warehouse fire)\b", "commercial_property", 5),

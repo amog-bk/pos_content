@@ -5,6 +5,7 @@ import time
 from dataclasses import dataclass
 
 import requests
+from bs4 import BeautifulSoup
 
 log = logging.getLogger(__name__)
 
@@ -21,13 +22,12 @@ class FetchResult:
 def resolve_redirect(url: str, user_agent: str, timeout: int = 10) -> str:
     """Follow redirects and return the final URL. Used to unwrap Google News
     RSS redirect URLs (news.google.com/rss/articles/CBMi...) into the actual
-    publication URL so WhatsApp drafts don't carry 500-char base64 links.
+    publication URL so the roundup doesn't carry 500-char base64 links.
 
     Returns the original URL on failure or if redirection stays on
     news.google.com (which can happen when GN serves a JS interstitial)."""
     headers = {"User-Agent": user_agent}
     try:
-        # GET with stream=True so we don't download the body; close immediately.
         r = requests.get(url, headers=headers, timeout=timeout,
                          allow_redirects=True, stream=True)
         final = r.url
@@ -37,6 +37,36 @@ def resolve_redirect(url: str, user_agent: str, timeout: int = 10) -> str:
     except requests.RequestException as e:
         log.debug("resolve_redirect failed for %s: %s", url, e)
     return url
+
+
+def fetch_og_summary(url: str, user_agent: str, timeout: int = 10) -> str:
+    """Fetch an article page and extract a short description from its meta
+    tags (og:description, name=description, twitter:description). Returns
+    empty string on failure. Used to enrich top roundup items with real
+    article context — Google News RSS descriptions are unusable (they list
+    related articles instead of summarising the story)."""
+    if not url or "news.google.com" in url:
+        return ""
+    headers = {
+        "User-Agent": user_agent,
+        "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
+    }
+    try:
+        r = requests.get(url, headers=headers, timeout=timeout)
+        if not r.ok or "html" not in r.headers.get("Content-Type", "").lower():
+            return ""
+        soup = BeautifulSoup(r.text, "lxml")
+        for kwargs in (
+            {"property": "og:description"},
+            {"name": "description"},
+            {"name": "twitter:description"},
+        ):
+            el = soup.find("meta", attrs=kwargs)
+            if el and el.get("content"):
+                return el["content"].strip()
+    except requests.RequestException as e:
+        log.debug("og fetch failed for %s: %s", url, e)
+    return ""
 
 
 def fetch(url: str, user_agent: str, timeout: int = 20, retries: int = 2) -> FetchResult:

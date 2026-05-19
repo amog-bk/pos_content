@@ -25,11 +25,11 @@ from pathlib import Path
 
 from .classifier import rank
 from .config import load_config
-from .fetcher import fetch
+from .fetcher import fetch, fetch_og_summary
 from .parsers import get_parser
 from .parsers.base import Item
 from .roundup import write_digest
-from .roundup_message import dedup, pick_sections, write_roundup_file
+from .roundup_message import dedup, pick_sections, pick_top_for_message, write_roundup_file
 from .sheets import upload as upload_to_sheet
 from .whatsapp import resolve_links_for
 
@@ -78,19 +78,34 @@ def run(week: str, out_root: Path, min_score: int, sheet_id: str = "") -> int:
     sections_with_items = sum(1 for p in picks if p.items)
     log.info("roundup sections with items: %d/%d", sections_with_items, len(picks))
 
-    # Resolve Google News redirects once. We resolve URLs for items that will
-    # appear in the roundup (one per section) plus the items shown in each
-    # section's sheet column. Worst case ~5 extra HTTP calls per section.
-    urls_to_resolve = []
+    # Top items that will actually appear in the "Full Roundup" column. We
+    # need their URLs resolved AND their og:description fetched for context.
+    top_for_message = pick_top_for_message(scored)
+    log.info("top picks for full roundup: %d items", len(top_for_message))
+
+    # Resolve Google News redirects once across everything we'll display.
+    items_to_resolve = list(top_for_message)
     for p in picks:
         for s in p.items[:5]:
-            urls_to_resolve.append(s)
-    resolved_links = resolve_links_for(urls_to_resolve, cfg.user_agent)
+            items_to_resolve.append(s)
+    resolved_links = resolve_links_for(items_to_resolve, cfg.user_agent)
+
+    # Enrich the top message picks with a real article summary from the
+    # resolved page. Only the items that will appear in the message — keeps
+    # extra HTTP calls to <=5 per run.
+    for s in top_for_message:
+        if s.item.summary:
+            continue
+        url = resolved_links.get(s.item.url, s.item.url)
+        s.item.summary = fetch_og_summary(url, cfg.user_agent)
 
     week_dir = out_root / week
     write_digest(scored, errors, week_dir / "digest.md", week)
-    roundup_text = write_roundup_file(picks, week_dir / "roundup.md", week)
-    log.info("wrote %s/", week_dir)
+    roundup_text, items_used = write_roundup_file(
+        picks, scored, week_dir / "roundup.md", week,
+        resolved_links=resolved_links,
+    )
+    log.info("wrote %s/  (roundup used %d items)", week_dir, len(items_used))
 
     if sheet_id:
         try:
