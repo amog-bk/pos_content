@@ -1,6 +1,6 @@
 # Partner WhatsApp Drafts — 2026-W21
 
-_Drafts only — please review for voice and accuracy before sending. Generated 2026-05-18 13:25 UTC._
+_Drafts only — please review for voice and accuracy before sending. Generated 2026-05-19 05:14 UTC._
 
 Each block below is one WhatsApp message. Send as-is, or translate to Gujarati/Hindi/Kannada/Tamil for the relevant Partner groups.
 
@@ -35,7 +35,7 @@ Namaste,
 
 There is a change in our industry that affects Partners directly.
 
-Insurance leaders warn sharp commission cuts could trigger agent exits, consolidation and slower rural growt..
+Insurance leaders warn sharp commission cuts could trigger agent exits, consolidation and slower rural growt
 
 This change can affect how Partners earn or work with insurers, so it is worth knowing.
 
@@ -101,7 +101,7 @@ Namaste,
 
 We have an update on group health insurance to share with you.
 
-Motor vehicle accident mediclaim amount cannot be deducted from compensation awarded by the claims...
+Motor vehicle accident mediclaim amount cannot be deducted from compensation awarded by the claims
 
 This will help you support clients who provide health cover to their employees.
 
