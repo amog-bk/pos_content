@@ -23,13 +23,13 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from .briefing import build_sections, dedup, write_material_file
 from .classifier import rank
 from .config import load_config
 from .fetcher import fetch, fetch_og_summary
 from .parsers import get_parser
 from .parsers.base import Item
 from .roundup import write_digest
-from .roundup_message import dedup, pick_sections, pick_top_for_message, write_roundup_file
 from .sheets import upload as upload_to_sheet
 from .whatsapp import resolve_links_for
 
@@ -74,26 +74,29 @@ def run(week: str, out_root: Path, min_score: int, sheet_id: str = "") -> int:
     scored = dedup(scored)
     log.info("after dedup: %d unique items", len(scored))
 
-    picks = pick_sections(scored)
-    sections_with_items = sum(1 for p in picks if p.items)
-    log.info("roundup sections with items: %d/%d", sections_with_items, len(picks))
+    buckets, headlines = build_sections(scored)
+    for b in buckets:
+        log.info("section %-10s: %d items%s", b.section_id, len(b.items),
+                 " (extended)" if b.extended else "")
 
-    # Top items that will actually appear in the "Full Roundup" column. We
-    # need their URLs resolved AND their og:description fetched for context.
-    top_for_message = pick_top_for_message(scored)
-    log.info("top picks for full roundup: %d items", len(top_for_message))
+    # Items we will display: headlines + every section item. Resolve their
+    # Google News URLs and fetch og:summaries for context.
+    display: list = list(headlines)
+    for b in buckets:
+        display.extend(b.items)
+    # De-dup the display list by item identity to avoid double work.
+    seen_ids = set()
+    unique_display = []
+    for s in display:
+        if id(s) in seen_ids:
+            continue
+        seen_ids.add(id(s))
+        unique_display.append(s)
 
-    # Resolve Google News redirects once across everything we'll display.
-    items_to_resolve = list(top_for_message)
-    for p in picks:
-        for s in p.items[:5]:
-            items_to_resolve.append(s)
-    resolved_links = resolve_links_for(items_to_resolve, cfg.user_agent)
+    resolved_links = resolve_links_for(unique_display, cfg.user_agent)
 
-    # Enrich the top message picks with a real article summary from the
-    # resolved page. Only the items that will appear in the message — keeps
-    # extra HTTP calls to <=5 per run.
-    for s in top_for_message:
+    # Enrich with article summaries (cap to keep HTTP calls bounded).
+    for s in unique_display[:20]:
         if s.item.summary:
             continue
         url = resolved_links.get(s.item.url, s.item.url)
@@ -101,16 +104,14 @@ def run(week: str, out_root: Path, min_score: int, sheet_id: str = "") -> int:
 
     week_dir = out_root / week
     write_digest(scored, errors, week_dir / "digest.md", week)
-    roundup_text, items_used = write_roundup_file(
-        picks, scored, week_dir / "roundup.md", week,
-        resolved_links=resolved_links,
-    )
-    log.info("wrote %s/  (roundup used %d items)", week_dir, len(items_used))
+    write_material_file(buckets, headlines, week_dir / "briefing-material.md",
+                        week, resolved_links=resolved_links)
+    log.info("wrote %s/", week_dir)
 
     if sheet_id:
         try:
             upload_to_sheet(sheet_id, scored, errors, week,
-                            picks=picks, roundup_text=roundup_text,
+                            buckets=buckets, headlines=headlines,
                             resolved_links=resolved_links)
         except Exception:
             log.exception("sheet upload failed (continuing)")
@@ -121,7 +122,7 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Weekly India business-insurance scraper")
     parser.add_argument("--week", default=None, help="ISO week label (default: current week)")
     parser.add_argument("--out", default="roundups", help="Output root directory")
-    parser.add_argument("--min-score", type=int, default=8, help="Minimum classifier score")
+    parser.add_argument("--min-score", type=int, default=6, help="Minimum classifier score")
     parser.add_argument("--sheet-id", default=os.environ.get("ROUNDUP_SHEET_ID", ""),
                         help="Google Sheets ID to append results to. Also reads "
                              "ROUNDUP_SHEET_ID env var. Requires GOOGLE_SHEETS_SA_JSON.")

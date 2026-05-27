@@ -1,22 +1,17 @@
-"""Google Sheets uploader.
+"""Google Sheets uploader for the weekly industry briefing.
 
 Appends each weekly run to three tabs in a single sheet:
-  - "Digest"          — every scored item that passed the classifier
-  - "Weekly Roundup"  — one row per week with per-section items + the full
-                         consolidated <300-word roundup message in the last
-                         column
-  - "Errors"          — sources that 403'd or timed out, per week
+  - "Digest"    — every scored item (Week, Section, Title, Source, Date,
+                  URL, Score, Tags)
+  - "Briefing"  — one row per week: a Headlines column, one column per
+                  section (Deals / Regulatory & Governance / Industry &
+                  Premium Trends) listing the ranked stories, and a final
+                  "Final Briefing" column that is filled in-session with the
+                  BimaKavach-voice writeup.
+  - "Errors"    — sources that 403'd or timed out, per week
 
-Tabs and headers are created on first use, so the user doesn't have to
-pre-format the spreadsheet.
-
-Auth: a service account JSON, supplied via env var `GOOGLE_SHEETS_SA_JSON`
-(the JSON text itself, not a file path — easier to ship from GitHub
-Secrets to a workflow).
-
-If the env var is missing/blank, upload is a no-op and the scraper keeps
-working without the sheet — useful while the user is still wiring up
-credentials.
+Auth: service account JSON via env var GOOGLE_SHEETS_SA_JSON. No-op if the
+env var is missing, so the scraper still runs without credentials.
 """
 from __future__ import annotations
 
@@ -27,9 +22,8 @@ import os
 import gspread
 from google.oauth2.service_account import Credentials
 
-from .classifier import ScoredItem
-from .roundup import CATEGORY_ORDER
-from .roundup_message import SECTIONS, SectionPick
+from .briefing import SECTIONS, SectionBucket
+from .classifier import ScoredItem, TAG_SECTION
 from .whatsapp import clean_title, english_only_title
 
 log = logging.getLogger(__name__)
@@ -38,8 +32,11 @@ SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
 DIGEST_HEADERS = ["Week", "Section", "Title", "Source", "Date", "URL", "Score", "Tags"]
 ERRORS_HEADERS = ["Week", "Source ID", "Error"]
-# Roundup headers: Week, one column per section, then the full message.
-ROUNDUP_HEADERS = ["Week"] + [heading for _, heading, _ in SECTIONS] + ["Full Roundup (≤300 words)"]
+BRIEFING_HEADERS = (
+    ["Week", "Headlines"]
+    + [heading for _, heading in SECTIONS]
+    + ["Final Briefing (written in-session)"]
+)
 
 
 def _open_sheet(sheet_id: str, sa_json: str) -> gspread.Spreadsheet:
@@ -60,23 +57,29 @@ def _get_or_create_tab(book: gspread.Spreadsheet, name: str, headers: list[str])
     return ws
 
 
-def _primary_section(s: ScoredItem) -> str:
-    return next((t for t in CATEGORY_ORDER if t in s.tags), "general")
+def _digest_section(s: ScoredItem) -> str:
+    for tag in s.tags:
+        if tag in TAG_SECTION:
+            return TAG_SECTION[tag]
+    return "trends"
 
 
-def _format_section_items(pick: SectionPick, resolved_links: dict[str, str] | None) -> str:
-    """Multi-line cell content listing the items that informed a section."""
-    if not pick.items:
+def _format_items_cell(items: list[ScoredItem], resolved_links: dict[str, str] | None,
+                       extended: bool = False) -> str:
+    if not items:
         return ""
     lines: list[str] = []
-    if pick.extended:
+    if extended:
         lines.append("(no fresh items this week — extended window)")
-    for s in pick.items:
+    for s in items:
         url = (resolved_links or {}).get(s.item.url, s.item.url)
         date = s.item.publish_date.strftime("%Y-%m-%d") if s.item.publish_date else "no date"
         title = clean_title(english_only_title(s.item.title))
         lines.append(f"• {title}")
-        lines.append(f"  {s.item.source_name} · {date}")
+        meta = f"  {s.item.source_name} · {date}"
+        lines.append(meta)
+        if s.item.summary:
+            lines.append(f"  {s.item.summary.strip()}")
         lines.append(f"  {url}")
     return "\n".join(lines)
 
@@ -86,8 +89,9 @@ def upload(
     scored: list[ScoredItem],
     errors: list[tuple[str, str]],
     week_label: str,
-    picks: list[SectionPick] | None = None,
-    roundup_text: str = "",
+    buckets: list[SectionBucket] | None = None,
+    headlines: list[ScoredItem] | None = None,
+    final_briefing: str = "",
     resolved_links: dict[str, str] | None = None,
 ) -> None:
     sa_json = os.environ.get("GOOGLE_SHEETS_SA_JSON", "").strip()
@@ -102,17 +106,16 @@ def upload(
     book = _open_sheet(sheet_id, sa_json)
 
     digest_ws = _get_or_create_tab(book, "Digest", DIGEST_HEADERS)
-    roundup_ws = _get_or_create_tab(book, "Weekly Roundup", ROUNDUP_HEADERS)
+    briefing_ws = _get_or_create_tab(book, "Briefing", BRIEFING_HEADERS)
     err_ws = _get_or_create_tab(book, "Errors", ERRORS_HEADERS)
 
-    # Digest rows: one per scored item, ordered by score desc.
     digest_rows: list[list] = []
     for s in scored:
         date = s.item.publish_date.strftime("%Y-%m-%d") if s.item.publish_date else ""
         url = (resolved_links or {}).get(s.item.url, s.item.url)
         digest_rows.append([
             week_label,
-            _primary_section(s),
+            _digest_section(s),
             clean_title(english_only_title(s.item.title)),
             s.item.source_name,
             date,
@@ -121,22 +124,25 @@ def upload(
             ", ".join(s.tags),
         ])
 
-    # Roundup row: one row, one column per section + final roundup column.
-    roundup_row: list = [week_label]
-    if picks:
-        for pick in picks:
-            roundup_row.append(_format_section_items(pick, resolved_links))
-    else:
-        roundup_row.extend([""] * len(SECTIONS))
-    roundup_row.append(roundup_text)
+    # Briefing row: Week | Headlines | <section cells...> | Final Briefing
+    briefing_row: list = [week_label]
+    briefing_row.append(_format_items_cell(headlines or [], resolved_links))
+    bucket_by_id = {b.section_id: b for b in (buckets or [])}
+    for sid, _heading in SECTIONS:
+        b = bucket_by_id.get(sid)
+        if b:
+            briefing_row.append(_format_items_cell(b.items, resolved_links, b.extended))
+        else:
+            briefing_row.append("")
+    briefing_row.append(final_briefing)
 
     err_rows = [[week_label, src_id, err] for src_id, err in errors]
 
     if digest_rows:
         digest_ws.append_rows(digest_rows, value_input_option="USER_ENTERED")
-    roundup_ws.append_rows([roundup_row], value_input_option="USER_ENTERED")
+    briefing_ws.append_rows([briefing_row], value_input_option="USER_ENTERED")
     if err_rows:
         err_ws.append_rows(err_rows, value_input_option="USER_ENTERED")
 
-    log.info("sheet upload complete: %d digest rows, 1 roundup row, %d error rows",
+    log.info("sheet upload complete: %d digest rows, 1 briefing row, %d error rows",
              len(digest_rows), len(err_rows))

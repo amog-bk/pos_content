@@ -1,7 +1,7 @@
 """Internal long-form digest writer.
 
-Produces a single markdown file the BimaKavach content team can scan to pick
-the 3-5 items worth turning into Partner WhatsApp messages.
+Produces a single markdown file listing every scored item, grouped by tag —
+the full set the team can scan behind the curated briefing.
 """
 from __future__ import annotations
 
@@ -11,21 +11,12 @@ from pathlib import Path
 from .classifier import ScoredItem
 
 CATEGORY_ORDER = [
-    "regulation",
-    "distribution",
-    "consumer",
-    "claims",
-    "fraud",
-    "commercial_property",
-    "commercial_marine",
-    "commercial_engineering",
-    "commercial_liability",
-    "cyber",
-    "employee_benefits",
-    "health_group",
-    "stats",
-    "reinsurance",
-    "markets",
+    "deals",
+    "results",
+    "regulatory",
+    "governance",
+    "trends",
+    "player",
     "general",
 ]
 

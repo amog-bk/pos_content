@@ -1,0 +1,127 @@
+---
+name: BimaKavach Weekly Industry Briefing
+description: Write the weekly "Insurance this week" industry briefing for BimaKavach team members, from the ranked material the scraper produces each Friday. Covers tone, structure, and formatting. This is a SEPARATE voice from the POS Partner WhatsApp skill — the audience here is internal, industry-savvy team members, not agents.
+version: 0.1.0
+---
+
+# BimaKavach Weekly Industry Briefing
+
+Write the weekly insurance industry briefing for BimaKavach **team members**.
+The input is the ranked material in `roundups/<week>/briefing-material.md`
+(and the "Briefing" tab in the sheet). The output is one briefing per Friday.
+
+> This is a DRAFT voice guide seeded from one example. Add more past
+> briefings to `briefing-voice/examples/` to sharpen the voice match.
+
+## Audience
+
+- Internal BimaKavach team members who follow the insurance market.
+- Comfortable with industry terms, but they value clarity and speed.
+- They read this to stay current in 2 minutes — not to study.
+
+## Voice
+
+Blend two things:
+- **BimaKavach clarity** (from the POS Engagement Skill): simple words,
+  short sentences, one idea per sentence, no hype, no fluff. If a technical
+  term is unavoidable (combined ratio, REIT, expense of management), use it
+  but keep the sentence plain.
+- **Briefing precision**: name the companies, the numbers, and the amounts.
+  Be specific and factual. This is intelligence, not marketing.
+
+Avoid:
+- Marketing hype ("game-changing", "revolutionary", "exciting").
+- Long, clause-heavy sentences.
+- Vague summaries ("there were some developments in regulation").
+
+## Structure
+
+Follow the structure of the example below.
+
+1. **Opening headline paragraph** — titled *Insurance this week*. In 2–3
+   sentences, name the single biggest story, then 1–2 other notable threads.
+   This is a synthesis, not a list.
+2. **Major Business & Market Deals** — M&A, stake sales, IPOs, fundraises,
+   company results, bonuses, expansion plans.
+3. **Regulatory Actions & Corporate Governance** — IRDAI actions,
+   governance, executive pay/KPIs, investment norms.
+4. **Industry & Premium Trends** — premium growth, pricing, segment trends,
+   distribution economics, claims/consumer themes.
+
+Within each section:
+- Use an *italic-bold sub-headline* naming the specific development
+  (e.g. *Prudential's Strategic Acquisition:*).
+- Follow with 1–2 plain sentences: what happened + the key number/amount.
+- Include the source link for each item.
+
+## Selection rules
+
+- Pick only the most relevant stories for the team — not everything in the
+  material file. 3–5 items per section is plenty; fewer is fine.
+- Lead each section with its biggest story.
+- Skip a section entirely if nothing this week is worth it.
+- Prefer this week's news; the material file already applies a recency
+  window, but double-check dates before including older items.
+
+## Length
+
+- Keep the whole briefing scannable — roughly 250–400 words.
+- The opening paragraph: 2–3 sentences.
+- Each item: 1–2 sentences plus its link.
+
+## Format
+
+Plain text suitable for WhatsApp / email. Use the same markers as the
+example: a bold/italic section label, italic-bold sub-headlines, short
+explanation lines. Always include the source link.
+
+## The reference example (the team's current format)
+
+```
+Insurance this week
+The headline in the insurance sector this week is Prudential's massive
+₹3,500 crore acquisition of a 75% stake in Bharti Life Insurance. In
+parallel, India's non-life sector is seeing surging retail health
+premiums, up 31% year-on-year. Meanwhile, IRDAI is cracking down on
+corporate governance by withholding the variable pay of multiple insurance
+CEOs.
+
+Major Business & Market Deals
+Prudential's Strategic Acquisition: Global giant Prudential agreed to buy a
+75% stake in Bharti Life Insurance for ₹3,500 crore, with an additional
+₹700 crore contingent on milestones.
+ICICI Pru Rebalancing: To comply with rules, Prudential will pare its 12%
+stake in ICICI Prudential Life over the next 12 to 18 months.
+Tata AIA Bonus Growth: Tata AIA Life raised its bonus payout to
+participating policyholders by 18%, totaling $217 million.
+IndusInd Nippon Profit Jump: IndusInd Nippon Life posted a 15% profit surge
+for FY2026 and announced plans to open 200 new sales units across India.
+
+Regulatory Actions & Corporate Governance
+CEO Pay Withheld: IRDAI withheld variable pay for certain insurance CEOs
+due to a failure to meet 'expense of management' targets.
+Tightening Performance Metrics: Life insurers are resisting a push to tie
+executive pay to strict KPIs involving claims settlement and customer
+service.
+Investment Easing: IRDAI is considering easing norms to allow insurers to
+invest more in REITs and InvITs.
+
+Industry & Premium Trends
+Health Insurance Booms: Retail health remains the engine of growth for the
+non-life segment, up 31% YoY per Kotak Institutional Securities.
+Tier-2 & Tier-3 Discounts: Star Health rolled out products 20% cheaper for
+smaller cities.
+High Operational Costs: A Praxis Global Alliance report highlighted that
+general insurance costs remain elevated due to heavy intermediary
+commissions on renewal business.
+```
+
+## Friday workflow
+
+1. The scraper (GitHub Actions, Friday ~08:00 IST) writes
+   `roundups/<week>/briefing-material.md` and fills the sheet's "Briefing"
+   tab with ranked stories per section.
+2. In a chat session, read the material file, pick the best stories, and
+   write the briefing following this guide.
+3. Paste the final briefing into the sheet's "Final Briefing" column for
+   that week (or hand it back for the team to send).

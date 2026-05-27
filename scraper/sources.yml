@@ -6,7 +6,7 @@
 defaults:
   user_agent: "Mozilla/5.0 (compatible; BimaKavachWeeklyBot/1.0; +https://bimakavach.in)"
   request_timeout_seconds: 20
-  max_items_per_source: 15
+  max_items_per_source: 25
   lookback_days: 7
 
 sources:
@@ -253,6 +253,73 @@ sources:
     enabled: true
     partner_relevance: 3
     categories: [regulation, commercial, financials]
+
+  # -------- Whole-market feeds (deals, results, governance, life) --------
+  # Added for the industry briefing — these capture M&A, company results,
+  # executive-pay/governance, IPOs, and life-insurance corporate news.
+
+  - id: insurance_ma_gnews
+    name: Insurance M&A India (via Google News)
+    url: https://news.google.com/rss/search?q=insurance+India+(acquisition+OR+merger+OR+%22stake+sale%22+OR+takeover)&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 1
+    enabled: true
+    partner_relevance: 5
+    categories: [deals]
+
+  - id: life_insurance_gnews
+    name: Life Insurance India (via Google News)
+    url: https://news.google.com/rss/search?q=%22life+insurance%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [deals, trends]
+
+  - id: insurer_results_gnews
+    name: Insurer Results India (via Google News)
+    url: https://news.google.com/rss/search?q=insurance+India+(%22net+profit%22+OR+results+OR+%22new+business+premium%22+OR+bonus)&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [results, deals]
+
+  - id: irdai_governance_gnews
+    name: IRDAI Governance & Norms (via Google News)
+    url: https://news.google.com/rss/search?q=IRDAI+(governance+OR+%22variable+pay%22+OR+penalty+OR+norms+OR+REIT+OR+InvIT+OR+%22expense+of+management%22)&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 1
+    enabled: true
+    partner_relevance: 5
+    categories: [regulatory, governance]
+
+  - id: insurance_ipo_gnews
+    name: Insurance IPO / Listing India (via Google News)
+    url: https://news.google.com/rss/search?q=insurance+India+(IPO+OR+listing+OR+DRHP)&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [deals]
+
+  - id: health_premium_gnews
+    name: Health Insurance Premium Trends (via Google News)
+    url: https://news.google.com/rss/search?q=%22health+insurance%22+India+(premium+OR+growth+OR+%22year-on-year%22)&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [trends]
+
+  - id: insurance_industry_gnews
+    name: Insurance Industry India (via Google News)
+    url: https://news.google.com/rss/search?q=%22insurance+industry%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 3
+    categories: [trends]
 
   # -------- Tier 3: Reinsurance & global --------
   - id: gic_re

@@ -1,22 +1,25 @@
-name: Weekly insurance roundup
+name: Weekly insurance briefing
 
-# Scrapes India business-insurance sources weekly and writes a digest +
-# Partner-ready WhatsApp drafts into roundups/<YYYY-Www>/.
+# Scrapes the Indian insurance market weekly and writes ranked briefing
+# material (digest + per-section material) into roundups/<YYYY-Www>/.
+# The final briefing is written in-session in BimaKavach voice from this
+# material.
 
 on:
   schedule:
-    # Every Monday 03:00 UTC = 08:30 IST. Adjust as needed.
-    - cron: "0 3 * * 1"
+    # Every Friday 02:30 UTC = 08:00 IST, so material is fresh for the
+    # Friday briefing.
+    - cron: "30 2 * * 5"
   workflow_dispatch:
     inputs:
       week:
-        description: "ISO week label (e.g. 2026-W20). Leave blank for current week."
+        description: "ISO week label (e.g. 2026-W22). Leave blank for current week."
         required: false
         default: ""
       min_score:
         description: "Minimum classifier score for inclusion"
         required: false
-        default: "8"
+        default: "6"
 
 permissions:
   contents: write
@@ -44,18 +47,18 @@ jobs:
           if [ -n "${{ github.event.inputs.week }}" ]; then
             WEEK_ARG="--week ${{ github.event.inputs.week }}"
           fi
-          MIN_SCORE="${{ github.event.inputs.min_score || '8' }}"
+          MIN_SCORE="${{ github.event.inputs.min_score || '6' }}"
           python -m scraper.main $WEEK_ARG --min-score "$MIN_SCORE" -v
 
-      - name: Commit roundup
+      - name: Commit briefing material
         run: |
           git config user.name "bimakavach-bot"
           git config user.email "bot@bimakavach.in"
           git add roundups/
           if git diff --cached --quiet; then
-            echo "No new roundup to commit."
+            echo "No new material to commit."
             exit 0
           fi
           WEEK=$(python -c "from scraper.main import week_label; print(week_label())")
-          git commit -m "roundup: weekly digest $WEEK"
+          git commit -m "briefing: weekly material $WEEK"
           git push

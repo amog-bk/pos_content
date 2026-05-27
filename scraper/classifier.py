@@ -1,9 +1,16 @@
-"""Score and bucket items by relevance to Partners selling business insurance.
+"""Score and bucket items for the weekly BimaKavach industry briefing.
 
-Partners are 40-60 year old POSP/agents who mostly sell COMMERCIAL lines to
-SMEs (fire, marine, engineering, liability, cyber, workmen comp, group health).
-Reinsurance treaty pricing and global cat losses are interesting but rarely
-actionable for them — they get downweighted.
+Audience: BimaKavach team members who track the whole Indian insurance
+market (life + non-life + health + reinsurance). The briefing covers
+M&A and deals, company results, regulatory and corporate-governance
+actions, and premium/industry trends.
+
+Each item gets a primary "section" tag aligned to the briefing structure:
+  - deals       → Major Business & Market Deals
+  - regulatory  → Regulatory Actions & Corporate Governance
+  - trends      → Industry & Premium Trends
+plus finer tags (m&a, results, governance, health, life, commercial, etc.)
+kept for reference/filtering.
 """
 from __future__ import annotations
 
@@ -12,50 +19,73 @@ from dataclasses import dataclass
 
 from .parsers.base import Item
 
-# (regex, category, weight). Higher weight = more directly useful to Partners.
+# (regex, tag, weight). Higher weight = bigger story for the briefing.
 SIGNALS: list[tuple[str, str, int]] = [
-    # Regulation & commissions — top priority.
-    (r"\b(irdai|circular|notification|regulation|exposure draft|gazette)\b", "regulation", 5),
-    # Distribution: specifically about how Partners get paid or who can sell.
-    # Avoids matching unrelated "consumer commission", "competition commission",
-    # "judicial commission" etc.
-    (r"\b(commission cap|commission cut|commission hike|commission revision|"
-     r"commission structure|broker remuneration|agent (payout|commission|network)|"
-     r"bancassurance|posp|insurance broker|insurance agent)\b", "distribution", 6),
-    (r"\b(solvency|capital|fdi|composite licen[cs]e|open architecture)\b", "regulation", 4),
-    (r"\b(kyc|aml|grievance|complaint|repudiat\w+|ombudsman|bima bharosa|"
-     r"consumer commission|consumer forum|consumer court)\b", "consumer", 5),
+    # ---- Major business & market deals ----
+    (r"\b(acquir\w+|acquisition|to buy|buyout|merger|amalgamat\w+|"
+     r"stake (sale|buy|purchase)|sells? .* stake|divest\w*|takeover|"
+     r"open offer|controlling stake)\b", "deals", 8),
+    (r"\b(ipo|initial public offering|drhp|files? (for )?ipo|gets? listed|"
+     r"lists? on|fund ?rais\w+|raises? (rs|₹|\$)|valuation|pre-?ipo|anchor investor)\b", "deals", 6),
+    (r"\b(net profit|profit (jump|surg\w+|ris\w+|up|down|fall|decline)|"
+     r"q[1-4] ?fy\d*|quarterly results|annual results|posts? .* profit|"
+     r"bonus (to|payout|of)|policyholder bonus|new business premium|"
+     r"\bape\b|\bvnb\b|embedded value)\b", "results", 5),
+    (r"\b(expansion|new (branch\w*|sales units?|offices?)|enters? .* market|"
+     r"partnership|tie-?up|joint venture|distribution pact)\b", "deals", 4),
 
-    # Commercial lines — Partners' bread and butter.
-    (r"\b(fire insurance|fire claims?|burglary|industrial all risk|iar|property insurance|factory fire|warehouse fire)\b", "commercial_property", 5),
-    (r"\b(marine insurance|marine cargo|cargo insurance|hull insurance|cargo claim|transit insurance)\b", "commercial_marine", 5),
-    (r"\b(engineering insurance|car policy|car insurance.{0,30}contractor|ear policy|machinery breakdown|contractors plant|cpm|construction insurance)\b", "commercial_engineering", 5),
-    (r"\b(liability insurance|professional indemnity|directors and officers|d&o|public liability|product liability|cgl|errors and omissions)\b", "commercial_liability", 5),
-    (r"\b(cyber insurance|ransomware|data breach|cyber cover|dpdp)\b", "cyber", 5),
-    (r"\b(workmen[ -]?comp\w*|workers? compensation|gpa|group personal accident|epli)\b", "employee_benefits", 5),
-    (r"\b(group health|gmc|group mediclaim|mediclaim|tpa|claims inflation|employee health)\b", "health_group", 4),
+    # ---- Regulatory & corporate governance ----
+    (r"\b(irdai|regulator|circular|notification|regulation|exposure draft|gazette|master circular)\b", "regulatory", 6),
+    (r"\b(governance|\bboard\b|ceo pay|executive (pay|compensation)|variable pay|"
+     r"remuneration|\bkpi\b|key performance|expense of management|\beom\b)\b", "governance", 6),
+    (r"\b(solvency|capital infusion|\bfdi\b|composite licen[cs]e|"
+     r"\breit\b|\binvit\b|investment norm\w*|listing norm\w*)\b", "regulatory", 5),
+    (r"\b(penalt\w+|fine[ds]?|show ?cause|crack ?down|withh(eld|olding)|"
+     r"directive|warning|disgorg\w+|cancel\w* licen[cs]e)\b", "regulatory", 5),
 
-    # Claims, fraud, consumer experience.
-    (r"\b(claim|claims ratio|loss ratio|combined ratio|repudiation|settlement)\b", "claims", 4),
-    (r"\b(fraud|fake polic|mis-?selling|scam|ghost)\b", "fraud", 5),
+    # ---- Industry & premium trends ----
+    (r"\b(premium (growth|income|surg\w+|ris\w+)|gross written premium|gwp|gdpi|"
+     r"year-?on-?year|yoy growth|retail health|group health|health premium)\b", "trends", 5),
+    (r"\b(penetration|insurance density|combined ratio|loss ratio|claims ratio|"
+     r"underwriting (profit|loss)|incurred claims)\b", "trends", 5),
+    (r"\b(commission|intermediary|bancassurance|agency channel|distribution cost|"
+     r"renewal business)\b", "trends", 4),
+    (r"\b(price (cut|hike|ris\w+)|cheaper|discount\w*|tariff|repric\w+|premium (cut|hike))\b", "trends", 4),
 
-    # Stats relevant to selling business insurance.
-    (r"\b(premium growth|gwp|sme|msme|industry data|penetration|density)\b", "stats", 3),
+    # ---- Claims / consumer / fraud (fold into trends) ----
+    (r"\b(claim|repudiat\w+|settlement ratio|grievance|ombudsman|"
+     r"consumer commission|consumer forum|consumer court)\b", "trends", 4),
+    (r"\b(fraud|fake polic\w+|mis-?selling|scam|ghost polic\w+)\b", "trends", 5),
 
-    # Lower-priority noise.
-    (r"\b(reinsurance|treaty|retrocession|catastrophe|nat[- ]?cat)\b", "reinsurance", 2),
-    (r"\b(ipo|listing|share price|stock|q[1-4] results|quarterly)\b", "markets", 1),
+    # ---- Lines of business (supporting context) ----
+    (r"\b(cyber insurance|fire insurance|marine insurance|liability insurance|"
+     r"engineering insurance|workmen comp\w*|d&o|directors and officers|"
+     r"professional indemnity|crop insurance|motor insurance)\b", "trends", 3),
+    (r"\b(life insurance|term (plan|insurance)|ulip|annuit\w+|pension plan|"
+     r"endowment|par product|non-?par)\b", "trends", 3),
 ]
 
+# Major Indian insurers / groups — a small recognition boost so company-
+# specific stories rank above generic explainers.
+PLAYERS = re.compile(
+    r"\b(lic|hdfc life|hdfc ergo|sbi (life|general)|icici (pru|prudential|lombard)|"
+    r"max life|tata aia|bajaj allianz|star health|new india|gic re|go ?digit|"
+    r"niva bupa|kotak (life|general)|aditya birla (health|sun life)|bharti (axa|life)|"
+    r"prudential|reliance (general|nippon)|future generali|cholamandalam|"
+    r"royal sundaram|liberty general|acko|navi|care health|manipal cigna|"
+    r"indusind|nippon life|zurich kotak)\b",
+    re.IGNORECASE,
+)
+
+# Spam / non-news only (life-insurance product news is now allowed).
 NOISE = re.compile(
-    r"\b(life insurance plan|term plan|ulip|endowment|child plan|retirement plan|"
-    r"best.*plan|top 10|sponsored|advertorial|astrolog|horoscope|"
+    r"\b(best .{0,30}plan to buy|top \d+ .{0,30}plans?|"
+    r"sponsored|advertorial|astrolog\w+|horoscope|"
     r"share price|stock price|mutual fund nav|ipo gmp|"
     r"short description)\b",
     re.IGNORECASE,
 )
 
-# Whole-title strings that are obvious placeholders / template leakage.
 PLACEHOLDER_TITLES = {
     "circular",
     "परिपत्र",
@@ -64,6 +94,15 @@ PLACEHOLDER_TITLES = {
     "news",
     "press release",
     "notification",
+}
+
+# Maps each tag to its briefing section (used by briefing.py and the digest).
+TAG_SECTION = {
+    "deals": "deals",
+    "results": "deals",
+    "regulatory": "regulatory",
+    "governance": "regulatory",
+    "trends": "trends",
 }
 
 
@@ -86,14 +125,18 @@ def score(item: Item) -> ScoredItem:
     for pattern, tag, weight in SIGNALS:
         if re.search(pattern, text, flags=re.IGNORECASE):
             total += weight
-            tags.append(tag)
+            if tag not in tags:
+                tags.append(tag)
 
-    # Tier bonus: tier 1 sources start with a slight edge.
+    if PLAYERS.search(text):
+        total += 2
+        tags.append("player")
+
     total += {1: 2, 2: 1, 3: 0}.get(item.tier, 0)
     return ScoredItem(item=item, score=total, tags=tags or ["general"])
 
 
-def rank(items: list[Item], min_score: int = 5) -> list[ScoredItem]:
+def rank(items: list[Item], min_score: int = 6) -> list[ScoredItem]:
     scored = [score(i) for i in items]
     scored = [s for s in scored if s.score >= min_score]
     scored.sort(key=lambda s: s.score, reverse=True)
