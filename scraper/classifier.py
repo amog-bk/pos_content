@@ -78,11 +78,22 @@ PLAYERS = re.compile(
 )
 
 # Spam / non-news only (life-insurance product news is now allowed).
+# We also filter US-political headlines that mention "insurance" tangentially
+# (e.g. SPLC / Obamacare / Senate hearings) — these leaked into Trends in
+# W22. We stay narrow to US-political signatures; Indian-political coverage
+# of insurance (BJP, Modi government, etc.) remains in scope and must NOT be
+# matched here.
 NOISE = re.compile(
     r"\b(best .{0,30}plan to buy|top \d+ .{0,30}plans?|"
     r"sponsored|advertorial|astrolog\w+|horoscope|"
     r"share price|stock price|mutual fund nav|ipo gmp|"
-    r"short description)\b",
+    r"short description|"
+    # --- US politics noise ---
+    r"splc|kkk|obamacare|"
+    r"house republicans|house democrats|house hearing|"
+    r"gop|dems|"
+    r"senator [a-z]+(?: [a-z]+)? \(?[rd]-|"
+    r"biden administration|trump administration)\b",
     re.IGNORECASE,
 )
 

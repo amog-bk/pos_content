@@ -71,15 +71,71 @@ sources:
     partner_relevance: 5
     categories: [regulation, commercial, reinsurance, insurtech]
 
-  # ET / Business Standard / Moneycontrol block direct scraping. We use
-  # Google News RSS as a reliable proxy — same domain, just discovered via
-  # Google's index. Titles include " - Publication" suffix which our parser
-  # strips and uses as the displayed source name.
+  # Direct publisher RSS feeds (preferred — clean URLs, real og:descriptions).
+  # Google News URL unwrapping is unreliable (GN returns 403 to all
+  # server-side fetches), so the news.google.com/rss/articles/CBMi... URLs
+  # from the *_gnews variants below cannot be resolved offline and the
+  # roundup keeps the opaque base64 redirect. Direct feeds dodge that.
+  #
+  # The corresponding *_gnews entries are kept enabled at tier 3 as a
+  # safety net: if a publisher feed 403s from the runner, gnews still
+  # produces items (dedup collapses any overlap on signature). When the
+  # direct feeds prove reliable for a few weeks, drop the gnews backups.
+
+  - id: moneycontrol_business_rss
+    name: Moneycontrol Business
+    url: https://www.moneycontrol.com/rss/business.xml
+    parser: rss_xml
+    tier: 2
+    enabled: true
+    partner_relevance: 3
+    categories: [financials, commercial]
+
+  - id: mint_money_rss
+    name: Mint Money
+    url: https://www.livemint.com/rss/money
+    parser: rss_xml
+    tier: 2
+    enabled: true
+    partner_relevance: 3
+    categories: [health, regulation, financials]
+
+  - id: business_standard_finance_rss
+    name: Business Standard Finance
+    url: https://www.business-standard.com/rss/finance-103.rss
+    parser: rss_xml
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [regulation, commercial, financials]
+
+  - id: et_banking_finance_rss
+    name: Economic Times Banking & Finance
+    url: https://economictimes.indiatimes.com/industry/banking/finance/rssfeeds/13352306.cms
+    parser: rss_xml
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [regulation, commercial, health, financials]
+
+  - id: businessline_rss
+    name: BusinessLine
+    url: https://www.thehindubusinessline.com/feeder/default.rss
+    parser: rss_xml
+    tier: 2
+    enabled: true
+    partner_relevance: 3
+    categories: [regulation, commercial, financials]
+
+  # ET / Business Standard / Moneycontrol Google News proxies — kept at
+  # tier 3 as backups in case the direct RSS feeds above 403 from the
+  # GitHub Actions runner. Titles include " - Publication" suffix which
+  # the google_news_rss parser strips and uses as the displayed source.
   - id: et_insurance_gnews
     name: Economic Times (via Google News)
     url: https://news.google.com/rss/search?q=site%3Aeconomictimes.indiatimes.com+insurance&hl=en-IN&gl=IN&ceid=IN%3Aen
     parser: google_news_rss
-    tier: 2
+    tier: 3
     enabled: true
     partner_relevance: 4
     categories: [regulation, commercial, health]
@@ -88,7 +144,7 @@ sources:
     name: Business Standard (via Google News)
     url: https://news.google.com/rss/search?q=site%3Abusiness-standard.com+insurance&hl=en-IN&gl=IN&ceid=IN%3Aen
     parser: google_news_rss
-    tier: 2
+    tier: 3
     enabled: true
     partner_relevance: 4
     categories: [regulation, commercial, financials]
@@ -97,7 +153,7 @@ sources:
     name: Moneycontrol (via Google News)
     url: https://news.google.com/rss/search?q=site%3Amoneycontrol.com+insurance&hl=en-IN&gl=IN&ceid=IN%3Aen
     parser: google_news_rss
-    tier: 2
+    tier: 3
     enabled: true
     partner_relevance: 3
     categories: [financials, commercial]
@@ -245,11 +301,13 @@ sources:
     partner_relevance: 5
     categories: [regulation]
 
+  # Demoted to tier 3 — businessline_rss above is the direct feed. Keep as
+  # backup; remove once the direct feed proves reliable.
   - id: businessline_insurance_gnews
     name: BusinessLine Insurance (via Google News)
     url: https://news.google.com/rss/search?q=site%3Athehindubusinessline.com+insurance&hl=en-IN&gl=IN&ceid=IN%3Aen
     parser: google_news_rss
-    tier: 2
+    tier: 3
     enabled: true
     partner_relevance: 3
     categories: [regulation, commercial, financials]
