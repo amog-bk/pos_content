@@ -1,6 +1,6 @@
 # Industry Briefing Material — 2026-W22
 
-_Generated 2026-05-29 12:29 UTC. Raw ranked material._
+_Generated 2026-05-29 14:15 UTC. Raw ranked material._
 
 This is the input for the Friday briefing. The final briefing is written in-session in BimaKavach voice from the stories below.
 
@@ -32,13 +32,14 @@ This is the input for the Friday briefing. The final briefing is written in-sess
 - **Coal India OFS Expected Soon; Up To Rs 5,000-Crore Stake Sale Likely**  
   _NDTV Profit_ · 2026-05-26 · score 15
   https://news.google.com/rss/articles/CBMisAFBVV95cUxNVFZwTzBsX0RYQlE3Rkc0U0l3WFN4OWx2YVVNa0g5X1FHc2owQ3RVWERnUGxGalBCUWhaZm5uUjduOXY0QlBLT0E3dVJmRFhGZGlkSi13SnBUN0Y1RlRnZXhPSUxOV2s0RmFZd3d0Y0VGX2xHY2Y5M19EdTdJSDFhZzVaLUZPTXpUd2RuSFV3RDRjVGFSZXZOdU9XZjB3N0Vua0RQS0N5YzRLQ2hiWE5NTNIBuAFBVV95cUxOSHE1MTJmVjZhTU9GX2hMbG4yajR2LXV1RWdvMmNCNnBRUWlibDlyU3NDZU1kU0RsaWNkdEVhYnFxU05SMVV1Zi1MZHdaS2JkRF9WbzlhSlUwN3o5TlFyTUlUN2NBel8wOURPTG12YVhYYllkY1ZUX3BYVllrWlZBdnc1ZEVReHVHdmkwXzBaMFo3SHVWV3llM20xeXpMRlhqY0M1a0xIanBiaXJUWkpoRFEwYjBTeFhf?oc=5
+- **IndiGo  approves $450 million plan to acquire aircraft, engines**  
+  _Economic Times Banking & Finance_ · 2026-05-29 · score 13
+  IndiGo's parent company, InterGlobe Aviation, has approved a significant plan. Up to $450 million will be deployed to acquire aircraft, engines, and other aviation assets. This move aims to increase the airline's ownership of its expanding fleet. The funds will be channeled through a wholly owned subsidiary.
+  https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-parent-approves-450-million-plan-to-acquire-aircraft-engines/articleshow/131392406.cms
 - **Indian Oil Corp buys 5 million barrels of crude from West Africa, Middle East, sources say**  
   _Economic Times Banking & Finance_ · 2026-05-29 · score 13
   Indian Oil Corporation has secured a significant crude oil purchase. The state refiner bought five million barrels from West Africa and the Middle East. This acquisition includes Angolan Kissanje and Nemba crude for its Paradip refinery. Nigerian Usan crude and Abu Dhabi's Murban crude were also purchased for delivery to Vadinar and Chennai refineries.
   https://economictimes.indiatimes.com/industry/energy/oil-gas/indian-oil-corp-buys-5-million-barrels-of-crude-from-west-africa-middle-east-sources-say/articleshow/131386631.cms
-- **Bain Capital and other PE’s exploring stake buy in IIHL-promoted IndusInd General Insurance**  
-  _Moneycontrol.com_ · 2026-05-29 · score 13
-  https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSUY4d1MxbkktQ2NJNDFrMkQyTng5NlZRZXEyTmNNLURUWEJmdGxFVzNOV0JTenFxb0NRREs3MlRQb3M2S0w5OGZxSTZPd1pPb01tSEZFMGJjVWdCWVpCNF93VzJHQ2hIVDV6OWlXaUxYTUFxMkxOOFhheWdiTFBrMXdBcUVDVlo3Y0dxTFFGdWlQWWlyRk9uNkpicGNJNzVMdnNwV3IwWDVic0VmVko2OFp6dDBPTmlTLU9WQUd0T1d3cDdoOW1PcnJNY2JvdTdiUC1ydVpneTdxVHNManRaZE5n0gHnAUFVX3lxTE5pMW5EVHRBeEJacjBHeXZ4YVVXS2Rla24wdlI1azJucUl3dzBPS3V5Wjdhalk3b3lsN01rYVdHSTlKOVRCa0dYN0xvNXY3YXhKTENGWHZpaWloY3hFQ2dRU3RDYldDR3p4TEN2NDR4bVZsUHZ2bmxITHhLenpEV2VwaWtJQTNzU2dSYW5VNXQ5S3BKU2QwdmNzUTM4MjF4RlV4clF3QkhuNDY5dWJlamF3ekJETXN1YkhwRVJESmROQnBIVFBRN2pxc1VqSVk1c2ZfQXZCQk5SMEVEVk9RX2ZlcFRMMlhUQQ?oc=5
 
 ## Regulatory Actions & Corporate Governance
 
@@ -64,22 +65,24 @@ This is the input for the Friday briefing. The final briefing is written in-sess
 
 ## Industry & Premium Trends
 
-- **Delhi man held in Rs 61L insurance fraud in Navi Mumbai; kingpin flees to Dubai**  
-  _The Times of India_ · 2026-05-26 · score 12
-  https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNkwtV1FlVGpXbkwzM1lmX1c2LUFaZnc4TlJpTUFTcTRPclVlRlRJeGs5TmxYMzBfbjlFUmszNUMwODNFd2lUbDJkbnJSOHQ0Vl9uYXNOd1RQRm02WEJBSFoxd0ZSdDdkLTJtQV9hVDlvZk1iVTRiaXgzbGxva09EbGt1UnRhVDEzcEJKd2pKWkhVcHhNZWI5ZVM2aExWN3NoTUlBZGlMdDdZbWNlallFOWxIWGNZRVJwVHpuU0VfM3prbm9pR2JGQjBSN2hBbWlmTndmb2JDQUpSSWtuOWUzR19vYkVaRmPSAewBQVVfeXFMUEx0VGpzcGRScG04YmQ3NUpFcDVxbERVam5LVEVHc21YRUY0eV94bXE3enV2RkxpUmVpUVR6V2Z4Z2NYeFZJWjZjVzRoOHNYWmxOSVhIUVRKRGE2NDVrdGdzWHRrX1VNNzBKd0dYZXI1b25lbjNXaEo0d2VyV3JuNHc3QklvV052ckkxYS1rYVh4aF9jWGo4d3Q5azhPcC01dTg1U2h5akpycS1RNUF0dlJDaV9QSXAxNzlNc0prdU13dU81YXp0OVFMaUpFbG50c3pWdlJpRUxaU1JTMzJtWTduT2JIQXhsbW0tcFY?oc=5
 - **Wish to claim LIC bonus share, dividend payout? Here's all you need to know**  
   _Business Standard_ · 2026-05-27 · score 10
   https://news.google.com/rss/articles/CBMiywFBVV95cUxQZlVwVWRJVVNKX0VzNXhudE94RmV1TXhyY3A0aVdwRERTd2ZBejlWM2lWQ01KRVowYTBwTW94UXdWQjJ3MzFFZ2FFLUFZczUwbXdFcFp1TUFleWF0bFYzXzROUEV1Sm05cmNBNzhGOHpqeHpEdXFCOTVOOEVjcVBGUlJHRktOSUZOcWtISGxlUDhHNDJQSkZpZ3NKQlF4aFdYXzhmdV93bEVFOVNVb0ZOUkhsdzJrZC1uYzdOWmdyRFBOU3JXWlA0d1Vta9IB0AFBVV95cUxPR051Ynh4U0htNWRPd2NsQjZCeWctUmxOX3FMalRIc3AzZkZHZjFtRV9rMldmbnQzaGQ0ek5Vc0UxSnduOS1FOWllc0QyY2pZcE1ZLVE1NW0xRFRhblZKNHF5bEFvM2taRm9SU0pqeElvTFVPc0hpWG5mZUdlaU9ZTDJjMXpJWmowR2kxOTRYNlNMd1FzLUhqcndtQTZEODZmbzAycmpOLVBIM3pjbVQyRmppN2xILUFZVzBmSm5wam1wM0xJRGJmcUlnSnZmSk9k?oc=5
-- **Former Insurance Executive Sentenced for Multi-Crore Fraud Scheme**  
-  _Devdiscourse_ · 2026-05-27 · score 10
-  https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVGc2OVYxSEE3LTZmLUVQM2FUTVA4NzZjT0RNS1FFcEJSYkxsUGRBbGU5V0JNeXEyd1ZHbW12cWNmdHE4X2VwVno5SVV1LWM3NWRKbEFrMFYwV3d4Zll1aGp2ODRqSWJYZGh3b29NWThxeFdpUTZEcndMZEhuS0N0YnZDVW5jQUwyblE2TEZMclotNEpCdlNiR2VXN2prSmh0cXEyMkhQaHozT2ZEVkdrcW9tNjZWX3lLMXhKM3ZUblpsQdIBwgFBVV95cUxQVGc2OVYxSEE3LTZmLUVQM2FUTVA4NzZjT0RNS1FFcEJSYkxsUGRBbGU5V0JNeXEyd1ZHbW12cWNmdHE4X2VwVno5SVV1LWM3NWRKbEFrMFYwV3d4Zll1aGp2ODRqSWJYZGh3b29NWThxeFdpUTZEcndMZEhuS0N0YnZDVW5jQUwyblE2TEZMclotNEpCdlNiR2VXN2prSmh0cXEyMkhQaHozT2ZEVkdrcW9tNjZWX3lLMXhKM3ZUblpsQQ?oc=5
 - **Niva Bupa eyes top-two spot in retail health insurance within 3 yrs**  
   _BusinessLine_ · 2026-05-26 · score 10
   https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZjFCSTNxUDdOUnAzX1NabWktaVFCTXRTUndSNmF5SUpOaVBTY3ZSaFF6LXhhek92OENzaW54VFJ5Y3MtcXU0bFdnQzRsWGVGZWZEd0RuOWYwNkpHLW5FNThXMkNMOGhBX2JET0l0eEwtRkRLekFZdVhMNzhfWktUNWJwTmlJQVlRemE4eGFKQUFSbFQ0aEM0cWtHOVFLN3ZTLW82TFpwZ2JJMWhHY3JWVXlJRVVLWE9weENFR0JOeHlDQWdBblNLZFZtalV6end5V2xLanlsdVA1NlNzNDRUbG95UVN4bG9hUlJNbmxockNuOXEzN3fSAfwBQVVfeXFMUEdKQUFLX29MZzRQMElPSXBUYk50NHNLRDdTYVBNbUlrNlZRUXktTDc3azhsRGJfMTNnNmxTaWlYM1RRZnRTWDh4aEN3UlNUSTZBVjlHcmttbTh6Q0l6a25CZlZ6SDlXNWVPTlctWktMdDdza0l3QlQxOENhWTgzLVJQdnU1LUtfdVhZdWhNMENJYkZFZFdTZU5tS2hEZU1od3pUVEJ4cDlGT2EzOWlZT0hUc3YwajQ1YVAydmZ2RDRFQW5heXN2QUFERFQtWkU0d09VZ3B3YzlNWFVNb3RyWkV0M0JpbWJ0MVlTLV9xb3pod2VtVmc0TGtERmtu?oc=5
 - **Prudential plc (PUK) Sets Sights on India’s Life Insurance Opportunities with Bharti Life Insurance Deal**  
   _Insider Monkey_ · 2026-05-28 · score 10
   https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT21pS0UxSERiVXBPNEhCRzhwWXgyUFhCUlpEMGxWQllYQ2c1UmtjTWhoblJWVS02R0xrd0FOdFdxSEhDY1BmaDJ0Zm54UDNsY3JOSFAtaDVJOExEVklrRlVORjNFZHdmTEkwT0dzbHViamp2SS1OMG1lbWZFZVl5Z2Q5NWtLdEh2RWd5ajVOY0FWcHNkNWFIN1dSRDBYQS1VekFOQXJuVHJHSmJjS296T3hqUTBGbElGOVY3cHZtV3lZR3VBRWppR0p5RldMeVdGOHdramNjZjVxWnhxcXfSAeYBQVVfeXFMTXF2TWFZNVdISFVJTUNvUHk3ZjNMZmJWVEJQRXhaMTNESFBnU1Rjc0ctNVpER3FxQ2kzNHpoeUV5aFVpdFRqSjdIbm11blFMVVFWcEJUeTljaTk1NVllbnVpR2VqeGRCRnlCWTNyRkxuYWxWdExkSlZmMGYxY2lYR013SHJFRmgwTUpZWi00czlRVWdpSjZyV0Z2aldIcGdWSXNQcWJxVzBqU0tWTU5JMjFJYWN4bWFoSUpWLUhvbVhMc2trZDBNbXlNbXhNWDE3R2ZDbFhTX2Fnb093c3hsTXRpcy0xbmc?oc=5
-- **Myntra announces End of Reason Sale starting May 29**  
-  _Economic Times Banking & Finance_ · 2026-05-29 · score 9
-  Myntra's 24th End of Reason Sale begins May 29.  Millions of customers can shop over 6 million styles.  Emerging brands will debut new collections.  Expect deals on apparel, footwear, accessories, and beauty.  VIP access offers extra discounts.  Hyper-speed delivery is available in select cities.  Social commerce will drive discovery and styling inspiration.
-  https://economictimes.indiatimes.com/industry/services/retail/myntra-announces-end-of-reason-sale-starting-may-29/articleshow/131384248.cms
+- **I asked ChatGPT whether DIY travel booking beats packages for Ladakh and Spiti — here’s what it said**  
+  _Mint Money_ · 2026-05-29 · score 8
+  Travel packages and DIY bookings for Ladakh and Spiti Valley trips suit families of four, depending on preferences. Travel packages to Ladakh are often cost-effective and convenient, while Spiti Valley may be cheaper when booked separately.
+  https://www.livemint.com/money/personal-finance/i-asked-chatgpt-whether-to-book-a-package-or-plan-ladakh-separately-here-s-what-it-said-11780031352507.html
+- **8th Pay Commission: Not just DA or fitment factor, this formula can push minimum basic pay to  ₹69,000**  
+  _Mint Money_ · 2026-05-29 · score 8
+  The 8th Pay Commission is considering changes to the family unit formula, suggesting it should reflect modern family structures.&amp;nbsp;
+  https://www.livemint.com/money/personal-finance/8th-pay-commission-not-just-da-or-fitment-factor-this-formula-can-push-minimum-basic-pay-to-rs-69000-11780018470003.html
+- **Pension: Here's how EPFO members can initiate their EPS claim online, scheme certificate using Form 10C — Stepwise guide**  
+  _Mint Money_ · 2026-05-28 · score 8
+  Employees Provident Fund: Want to withdraw your pension or obtain a scheme certificate from the EPFO? Here's how EPF members can initiate their claims online using Form 10C. Check the stepwise guide…
+  https://www.livemint.com/money/personal-finance/pension-withdrawal-how-epf-account-members-initiate-eps-claims-online-obtain-scheme-certificate-form-10c-stepwise-guide-11779980149648.html
