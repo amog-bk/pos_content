@@ -65,9 +65,18 @@ Within each section:
 
 ## Length
 
-- Keep the whole briefing scannable — roughly 250–400 words.
-- The opening paragraph: 2–3 sentences.
-- Each item: 1–2 sentences plus its link.
+**Hard rule — each piece in the brief is 30 to 50 words.**
+This applies to:
+- The opening "*Insurance this week*" paragraph
+- Every section item (the text after the `_Sub-headline:_`)
+
+Count words in the body only — the `_Sub-headline:_` label itself does
+not count toward the budget. Under 30 = pad with a relevant fact, figure,
+or implication. Over 50 = cut filler, drop a secondary clause, or split
+into two items.
+
+The whole brief is roughly 350–450 words — short enough to read in 2
+minutes, long enough to carry the week's substance.
 
 ## Format
 
