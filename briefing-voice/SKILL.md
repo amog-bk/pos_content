@@ -71,48 +71,69 @@ Within each section:
 
 ## Format
 
-Plain text suitable for WhatsApp / email. Use the same markers as the
-example: a bold/italic section label, italic-bold sub-headlines, short
-explanation lines. Always include the source link.
+The briefing is delivered as a chat/WhatsApp message — use WhatsApp text
+formatting, NOT Markdown:
+
+- `*Section Title*` — single asterisks for bold (section headings and the
+  opener "*Insurance this week*")
+- `_Story sub-headline:_` — underscores for italics on each item's
+  sub-headline, with a trailing colon
+- Plain text for the body sentence(s) after the sub-headline
+- One blank line between items
+- **No inline source URLs in the message body.** Sources stay in the
+  `briefing-material.md` file and the sheet's section columns for
+  internal traceability — they do not appear in the shareable message.
+  This keeps the body clean and readable.
 
 ## The reference example (the team's current format)
 
 ```
-Insurance this week
-The headline in the insurance sector this week is Prudential's massive
-₹3,500 crore acquisition of a 75% stake in Bharti Life Insurance. In
-parallel, India's non-life sector is seeing surging retail health
-premiums, up 31% year-on-year. Meanwhile, IRDAI is cracking down on
-corporate governance by withholding the variable pay of multiple insurance
-CEOs.
+*Insurance this week*
 
-Major Business & Market Deals
-Prudential's Strategic Acquisition: Global giant Prudential agreed to buy a
-75% stake in Bharti Life Insurance for ₹3,500 crore, with an additional
-₹700 crore contingent on milestones.
-ICICI Pru Rebalancing: To comply with rules, Prudential will pare its 12%
-stake in ICICI Prudential Life over the next 12 to 18 months.
-Tata AIA Bonus Growth: Tata AIA Life raised its bonus payout to
+The headline in the insurance sector this week is Prudential's ₹3,500
+crore acquisition of a 75% stake in Bharti Life Insurance. In parallel,
+India's non-life sector is seeing surging retail health premiums, up
+31% year-on-year. Meanwhile, IRDAI is cracking down on corporate
+governance by withholding the variable pay of multiple insurance CEOs.
+
+*Major Business & Market Deals*
+
+_Prudential's Strategic Acquisition:_ Global giant Prudential agreed to
+buy a 75% stake in Bharti Life Insurance for ₹3,500 crore, with an
+additional ₹700 crore contingent on milestones.
+
+_ICICI Pru Rebalancing:_ To comply with rules, Prudential will pare its
+12% stake in ICICI Prudential Life over the next 12 to 18 months.
+
+_Tata AIA Bonus Growth:_ Tata AIA Life raised its bonus payout to
 participating policyholders by 18%, totaling $217 million.
-IndusInd Nippon Profit Jump: IndusInd Nippon Life posted a 15% profit surge
-for FY2026 and announced plans to open 200 new sales units across India.
 
-Regulatory Actions & Corporate Governance
-CEO Pay Withheld: IRDAI withheld variable pay for certain insurance CEOs
-due to a failure to meet 'expense of management' targets.
-Tightening Performance Metrics: Life insurers are resisting a push to tie
-executive pay to strict KPIs involving claims settlement and customer
-service.
-Investment Easing: IRDAI is considering easing norms to allow insurers to
-invest more in REITs and InvITs.
+_IndusInd Nippon Profit Jump:_ IndusInd Nippon Life posted a 15% profit
+surge for FY2026 and announced plans to open 200 new sales units across
+India.
 
-Industry & Premium Trends
-Health Insurance Booms: Retail health remains the engine of growth for the
-non-life segment, up 31% YoY per Kotak Institutional Securities.
-Tier-2 & Tier-3 Discounts: Star Health rolled out products 20% cheaper for
-smaller cities.
-High Operational Costs: A Praxis Global Alliance report highlighted that
-general insurance costs remain elevated due to heavy intermediary
+*Regulatory Actions & Corporate Governance*
+
+_CEO Pay Withheld:_ IRDAI withheld variable pay for certain insurance
+CEOs due to a failure to meet 'expense of management' targets.
+
+_Tightening Performance Metrics:_ Life insurers are resisting a push to
+tie executive pay to strict KPIs involving claims settlement and
+customer service.
+
+_Investment Easing:_ IRDAI is considering easing norms to allow insurers
+to invest more in REITs and InvITs.
+
+*Industry & Premium Trends*
+
+_Health Insurance Booms:_ Retail health remains the engine of growth for
+the non-life segment, up 31% YoY per Kotak Institutional Securities.
+
+_Tier-2 & Tier-3 Discounts:_ Star Health rolled out products 20% cheaper
+for smaller cities.
+
+_High Operational Costs:_ A Praxis Global Alliance report highlighted
+that general insurance costs remain elevated due to heavy intermediary
 commissions on renewal business.
 ```
 
