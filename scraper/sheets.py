@@ -19,9 +19,6 @@ import json
 import logging
 import os
 
-import gspread
-from google.oauth2.service_account import Credentials
-
 from .briefing import SECTIONS, SectionBucket
 from .classifier import ScoredItem, TAG_SECTION
 from .whatsapp import clean_title, english_only_title
@@ -39,14 +36,20 @@ BRIEFING_HEADERS = (
 )
 
 
-def _open_sheet(sheet_id: str, sa_json: str) -> gspread.Spreadsheet:
+def _open_sheet(sheet_id: str, sa_json: str):
+    # Lazy-import gspread so the scraper can run without it when no sheet
+    # credentials are configured (e.g. local dry-runs).
+    import gspread
+    from google.oauth2.service_account import Credentials
+
     creds_info = json.loads(sa_json)
     creds = Credentials.from_service_account_info(creds_info, scopes=SCOPES)
     client = gspread.authorize(creds)
     return client.open_by_key(sheet_id)
 
 
-def _get_or_create_tab(book: gspread.Spreadsheet, name: str, headers: list[str]) -> gspread.Worksheet:
+def _get_or_create_tab(book, name: str, headers: list[str]):
+    import gspread
     try:
         ws = book.worksheet(name)
     except gspread.WorksheetNotFound:
