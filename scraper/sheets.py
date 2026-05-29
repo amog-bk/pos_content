@@ -5,9 +5,11 @@ Appends each weekly run to three tabs in a single sheet:
                   URL, Score, Tags)
   - "Briefing"  — one row per week: a Headlines column, one column per
                   section (Deals / Regulatory & Governance / Industry &
-                  Premium Trends) listing the ranked stories, and a final
-                  "Final Briefing" column that is filled in-session with the
-                  BimaKavach-voice writeup.
+                  Premium Trends) listing the ranked stories, a clean
+                  "Final Briefing" column with just the shareable
+                  WhatsApp-formatted writeup (no links), and a separate
+                  "Sources" column with the publisher links — both filled
+                  in-session.
   - "Errors"    — sources that 403'd or timed out, per week
 
 Auth: service account JSON via env var GOOGLE_SHEETS_SA_JSON. No-op if the
@@ -32,7 +34,7 @@ ERRORS_HEADERS = ["Week", "Source ID", "Error"]
 BRIEFING_HEADERS = (
     ["Week", "Headlines"]
     + [heading for _, heading in SECTIONS]
-    + ["Final Briefing (written in-session)"]
+    + ["Final Briefing (written in-session)", "Sources"]
 )
 
 
@@ -95,6 +97,7 @@ def upload(
     buckets: list[SectionBucket] | None = None,
     headlines: list[ScoredItem] | None = None,
     final_briefing: str = "",
+    final_sources: str = "",
     resolved_links: dict[str, str] | None = None,
 ) -> None:
     sa_json = os.environ.get("GOOGLE_SHEETS_SA_JSON", "").strip()
@@ -127,7 +130,7 @@ def upload(
             ", ".join(s.tags),
         ])
 
-    # Briefing row: Week | Headlines | <section cells...> | Final Briefing
+    # Briefing row: Week | Headlines | <section cells...> | Final Briefing | Sources
     briefing_row: list = [week_label]
     briefing_row.append(_format_items_cell(headlines or [], resolved_links))
     bucket_by_id = {b.section_id: b for b in (buckets or [])}
@@ -138,6 +141,7 @@ def upload(
         else:
             briefing_row.append("")
     briefing_row.append(final_briefing)
+    briefing_row.append(final_sources)
 
     err_rows = [[week_label, src_id, err] for src_id, err in errors]
 

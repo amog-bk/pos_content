@@ -143,6 +143,19 @@ commissions on renewal business.
    `roundups/<week>/briefing-material.md` and fills the sheet's "Briefing"
    tab with ranked stories per section.
 2. In a chat session, read the material file, pick the best stories, and
-   write the briefing following this guide.
-3. Paste the final briefing into the sheet's "Final Briefing" column for
-   that week (or hand it back for the team to send).
+   produce TWO outputs:
+   a. **The briefing** in WhatsApp format (asterisks + underscores, no
+      inline links) — goes in the sheet's "Final Briefing" column and is
+      what the team shares.
+   b. **The sources block** — one bullet per item with publisher name,
+      date, and link — goes in the separate "Sources" column for
+      internal traceability. Format example:
+      ```
+      • 100% FDI — BusinessToday, 2 May 2026
+        https://www.businesstoday.in/.../528574-2026-05-02
+      • LIC stake sale — Business Standard, 27 May 2026
+        https://www.business-standard.com/markets/news/...
+      ```
+3. Save both to `roundups/<week>/briefing.md` and
+   `roundups/<week>/sources.md` for the git record, and paste each into
+   its column in the sheet.
