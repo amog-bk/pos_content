@@ -10,7 +10,7 @@ _₹10,000-crore LIC Stake Sale:_ DIPAM begins formal marketing in late June or 
 
 _PE Interest in IndusInd General Insurance:_ Moneycontrol reports Bain Capital and other private-equity firms are exploring stake buys in IIHL-promoted IndusInd General Insurance — the rebranded Reliance General the Hinduja entity took over through its Reliance Capital acquisition. IIHL plans to list the insurance arm within two years.
 
-_LIC Bonus Record Date Today:_ LIC's first-ever 1:1 bonus share issue takes Friday, May 29 as its record date — shareholders on the books today receive one additional share for each held, marking the state insurer's maiden bonus issue since its 2022 listing.
+_LIC 1:1 Bonus Issue:_ LIC set Friday, May 29 as the record date for its 1:1 bonus share issue — shareholders on the register that day receive one additional share for each held. It is the state insurer's maiden bonus issue since its 2022 listing.
 
 *Regulatory Actions & Corporate Governance*
 
@@ -26,6 +26,6 @@ _Health Moratorium Cut to Five Years:_ The period after which health claims cann
 
 *Industry & Premium Trends*
 
-_Niva Bupa Eyes Top Two:_ India's third-largest standalone health insurer reported FY26 GWP of ₹9,432.9 crore — retail health ~70% (₹6,581.5 crore), up 35% YoY. It now targets a 22–24% retail CAGR over the next 3–4 years, with high single-digit premium hikes likely as the claims ratio crept to 64.9%.
+_Niva Bupa Targets Above-Market Growth:_ India's third-largest standalone health insurer reported FY26 GWP of ₹9,432.9 crore — retail health ~70% (₹6,581.5 crore), up 35% YoY. It now targets a 22–24% retail CAGR over the next 3–4 years, with high single-digit premium hikes likely as the claims ratio crept to 64.9%.
 
 _Insurance Cyber-Fraud Cases Rise:_ Insurance-themed cyber-fraud cases surfaced across Navi Mumbai this week, including a Vashi resident duped of ₹61.49 lakh in a fake insurance-refund scam and an IT manager taken for ₹7 lakh via a bogus life-policy pitch — with police tracking organised rings spanning multiple cities.

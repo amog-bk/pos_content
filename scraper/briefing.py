@@ -47,13 +47,33 @@ def _now() -> datetime:
     return datetime.now(timezone.utc)
 
 
-def _date_within(item, days: int) -> bool:
+def week_bounds(week_label: str) -> tuple[datetime, datetime] | None:
+    """Return (start, end) UTC datetimes for an ISO week label like
+    '2026-W22' — Monday 00:00:00 to Sunday 23:59:59. Returns None if the
+    label can't be parsed, so callers fall back to a 'now'-anchored window."""
+    m = re.match(r"\s*(\d{4})-W(\d{1,2})\s*$", week_label or "")
+    if not m:
+        return None
+    year, wk = int(m.group(1)), int(m.group(2))
+    try:
+        monday = datetime.fromisocalendar(year, wk, 1).replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+    end = monday + timedelta(days=7) - timedelta(seconds=1)
+    return monday, end
+
+
+def _date_within(item, days: int, as_of: datetime | None = None) -> bool:
+    """True if the item is dated within `days` before `as_of` (inclusive) and
+    not after `as_of`. `as_of` defaults to now. Undated items are excluded —
+    we will not pass off an item we can't place in time as 'recent'."""
     if not item.publish_date:
         return False
     dt = item.publish_date
     if dt.tzinfo is None:
         dt = dt.replace(tzinfo=timezone.utc)
-    return dt >= _now() - timedelta(days=days)
+    end = as_of or _now()
+    return end - timedelta(days=days) <= dt <= end
 
 
 # Words to ignore when building a dedup signature — articles, prepositions,
@@ -189,12 +209,19 @@ class SectionBucket:
     extended: bool = False
 
 
-def build_sections(scored: list[ScoredItem]) -> tuple[list[SectionBucket], list[ScoredItem]]:
+def build_sections(
+    scored: list[ScoredItem], as_of: datetime | None = None
+) -> tuple[list[SectionBucket], list[ScoredItem]]:
     """Returns (section buckets, headline picks).
 
     Each item lands in exactly one section (its primary). Within a section we
     keep the top MAX_ITEMS_PER_SECTION by score from the last RECENT_DAYS,
     falling back to EXTENDED_DAYS if nothing fresh.
+
+    `as_of` anchors the recency window to the end of the scrape's ISO week
+    (passed by main.py) rather than the wall clock, so a run pulls only the
+    week being scraped — re-running an old week, or a late Friday run, can't
+    drag in newer or staler items. Defaults to now when not supplied.
     """
     # Assign each item to one section.
     by_section: dict[str, list[ScoredItem]] = {sid: [] for sid, _ in SECTIONS}
@@ -204,29 +231,32 @@ def build_sections(scored: list[ScoredItem]) -> tuple[list[SectionBucket], list[
     buckets: list[SectionBucket] = []
     for sid, heading in SECTIONS:
         pool = by_section[sid]
-        recent = [s for s in pool if _date_within(s.item, RECENT_DAYS)]
+        recent = [s for s in pool if _date_within(s.item, RECENT_DAYS, as_of)]
         extended = False
         chosen = recent
         if not chosen:
-            chosen = [s for s in pool if _date_within(s.item, EXTENDED_DAYS)]
+            chosen = [s for s in pool if _date_within(s.item, EXTENDED_DAYS, as_of)]
             extended = bool(chosen)
         chosen = sorted(chosen, key=lambda s: s.score, reverse=True)[:MAX_ITEMS_PER_SECTION]
         buckets.append(SectionBucket(section_id=sid, heading=heading,
                                      items=chosen, extended=extended))
 
     # Headline set: the highest-scoring recent items across all sections.
-    recent_all = [s for s in scored if _date_within(s.item, RECENT_DAYS)]
+    recent_all = [s for s in scored if _date_within(s.item, RECENT_DAYS, as_of)]
     if len(recent_all) < HEADLINE_COUNT:
-        recent_all = [s for s in scored if _date_within(s.item, EXTENDED_DAYS)]
+        recent_all = [s for s in scored if _date_within(s.item, EXTENDED_DAYS, as_of)]
     headlines = sorted(recent_all, key=lambda s: s.score, reverse=True)[:HEADLINE_COUNT]
     return buckets, headlines
 
 
-def _fmt_item(s: ScoredItem, resolved_links: dict[str, str] | None) -> list[str]:
+def _fmt_item(
+    s: ScoredItem, resolved_links: dict[str, str] | None, rank: int | None = None
+) -> list[str]:
     url = (resolved_links or {}).get(s.item.url, s.item.url)
     date = s.item.publish_date.strftime("%Y-%m-%d") if s.item.publish_date else "—"
     title = clean_title(english_only_title(s.item.title))
-    lines = [f"- **{title}**  ", f"  _{s.item.source_name}_ · {date} · score {s.score}"]
+    bullet = f"{rank}. " if rank is not None else "- "
+    lines = [f"{bullet}**{title}**  ", f"  _{s.item.source_name}_ · {date} · score {s.score}"]
     if s.item.summary:
         lines.append(f"  {s.item.summary.strip()}")
     lines.append(f"  {url}")
@@ -249,23 +279,27 @@ def write_material_file(
         "This is the input for the Friday briefing. The final briefing is "
         "written in-session in BimaKavach voice from the stories below.",
         "",
+        "Items are listed most → least important (by score) within each "
+        "section. Use the numbering as the starting order for the briefing, "
+        "then apply editorial judgement.",
+        "",
         "## Headline candidates (top stories this week)",
         "",
     ]
-    for s in headlines:
-        lines += _fmt_item(s, resolved_links)
+    for i, s in enumerate(headlines, 1):
+        lines += _fmt_item(s, resolved_links, rank=i)
     lines.append("")
 
     for b in buckets:
-        suffix = " _(extended window — nothing in last 7 days)_" if b.extended else ""
+        suffix = " _(extended window — nothing in last 7 days; check dates before use)_" if b.extended else ""
         lines.append(f"## {b.heading}{suffix}")
         lines.append("")
         if not b.items:
             lines.append("_No items this week._")
             lines.append("")
             continue
-        for s in b.items:
-            lines += _fmt_item(s, resolved_links)
+        for i, s in enumerate(b.items, 1):
+            lines += _fmt_item(s, resolved_links, rank=i)
         lines.append("")
 
     out_path.write_text("\n".join(lines))

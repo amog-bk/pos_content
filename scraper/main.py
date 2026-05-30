@@ -23,7 +23,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-from .briefing import build_sections, dedup, write_material_file
+from .briefing import build_sections, dedup, week_bounds, write_material_file
 from .classifier import rank
 from .config import load_config
 from .fetcher import fetch, fetch_og_summary
@@ -74,7 +74,14 @@ def run(week: str, out_root: Path, min_score: int, sheet_id: str = "") -> int:
     scored = dedup(scored)
     log.info("after dedup: %d unique items", len(scored))
 
-    buckets, headlines = build_sections(scored)
+    # Anchor the recency window to the end of the scrape's ISO week so the run
+    # pulls only that week's news, not "the last 7 days from whenever this ran".
+    bounds = week_bounds(week)
+    as_of = bounds[1] if bounds else None
+    if bounds:
+        log.info("recency window: %s → %s (week %s)",
+                 bounds[0].date(), bounds[1].date(), week)
+    buckets, headlines = build_sections(scored, as_of=as_of)
     for b in buckets:
         log.info("section %-10s: %d items%s", b.section_id, len(b.items),
                  " (extended)" if b.extended else "")

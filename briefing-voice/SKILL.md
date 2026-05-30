@@ -58,10 +58,27 @@ Within each section:
 
 - Pick only the most relevant stories for the team — not everything in the
   material file. 3–5 items per section is plenty; fewer is fine.
-- Lead each section with its biggest story.
 - Skip a section entirely if nothing this week is worth it.
-- Prefer this week's news; the material file already applies a recency
-  window, but double-check dates before including older items.
+- Prefer this week's news; the material file applies a recency window
+  anchored to the scrape's ISO week, but double-check the date on every
+  item before including it (see "Timeline correctness" below).
+
+## Importance ranking (ordering)
+
+Order news from most to least important — both across the brief and within
+each section. This is the spine of the briefing, not an afterthought.
+
+- **The opener** names the single most important story of the week first,
+  then the next 1–2 threads in descending importance.
+- **Within each section**, the first item is the biggest story in that
+  section; the rest follow in descending importance.
+- The material file gives each item a score and a rank — use that as the
+  starting signal, then apply judgement. A high-score item that is stale,
+  niche, or off-audience can drop below a lower-scored item that genuinely
+  matters more to the team.
+- Rank on impact to the Indian insurance market and to BimaKavach's world
+  (commercial/SME distribution, regulation that moves the channel),
+  not on how dramatic the headline sounds.
 
 ## Length
 
@@ -145,6 +162,57 @@ _High Operational Costs:_ A Praxis Global Alliance report highlighted
 that general insurance costs remain elevated due to heavy intermediary
 commissions on renewal business.
 ```
+
+## Editorial standards — self-check before delivery
+
+Run this pass on the finished brief BEFORE it goes out. These are the
+mistakes that have slipped through before; catch them yourself.
+
+### Timeline correctness (it's a weekly roundup, not a daily)
+
+The brief is read across the week and archived, so relative-time words go
+stale the moment it's sent. Never use them. Rewrite to absolute references
+without changing the meaning.
+
+- Ban: "today", "yesterday", "tomorrow", "this morning", "now", "currently".
+- Ban as the *only* anchor: a bare "this week" tied to a dated event — be
+  specific instead.
+- Use: the actual date or weekday ("on Friday, May 29", "effective FY27",
+  "record date 29 May").
+- Example: "takes Friday, May 29 as its record date — shareholders on the
+  books today receive…" → "set Friday, May 29 as the record date —
+  shareholders on the register that day receive…".
+
+### No redundancy
+
+Don't say the same thing twice in one item. If two phrases carry the same
+fact, keep the stronger one and cut the other.
+
+- Example: "first-ever 1:1 bonus … marking its maiden bonus issue since its
+  2022 listing" — "first-ever" and "maiden … since 2022 listing" duplicate.
+  Keep one.
+
+### Headline ↔ body consistency
+
+Every `_Sub-headline:_` must be supported by its body sentences. The
+sub-headline is a claim; the body must back it up. If the body doesn't
+support the claim, either change the sub-headline to match the body or add
+the supporting fact to the body.
+
+- Example: "_Niva Bupa Eyes Top Two:_" with a body that never mentions a
+  top-two ambition → rename to "_Niva Bupa Targets Above-Market Growth:_".
+
+### Pre-flight checklist
+
+- [ ] Opener and every section ordered most → least important.
+- [ ] No relative-time words; all dates absolute.
+- [ ] No item repeats a fact within itself.
+- [ ] Every sub-headline is supported by its body.
+- [ ] Every item is from the scrape's week (or, if older, kept on purpose
+      and still the freshest version of that story).
+- [ ] Each piece is 30–50 words.
+- [ ] Every item in the brief has a matching entry in the Sources block
+      (sources stay in `sources.md` / the sheet — never in the brief body).
 
 ## Friday workflow
 

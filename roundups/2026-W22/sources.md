@@ -11,6 +11,9 @@ For the "Sources" column of the sheet's Briefing tab.
 • PE Interest in IndusInd General Insurance — Moneycontrol, 29 May 2026
   (Moneycontrol scoop via the W22 material file)
 
+• LIC 1:1 Bonus Issue — record date 29 May 2026
+  (source pending — hand-added in-session, not from the scraper material file)
+
 • Variable Pay Withheld — Business Standard, 20 May 2026
   https://www.business-standard.com/finance/insurance/irdai-withholds-ceos-variable-pay-over-eom-norm-breaches-by-insurers-126052001400_1.html
 
@@ -26,7 +29,7 @@ For the "Sources" column of the sheet's Briefing tab.
 • Health Moratorium Cut to Five Years — Mint Money, 29 May 2026
   https://www.livemint.com/money/personal-finance/can-your-health-claim-be-rejected-irdai-s-5-year-moratorium-explained-11780032980286.html
 
-• Niva Bupa Eyes Top Two — Business Standard, 11 May 2026
+• Niva Bupa Targets Above-Market Growth — Business Standard, 11 May 2026
   https://www.business-standard.com/companies/news/niva-bupa-targets-faster-than-industry-growth-in-retail-health-insurance-126051101265_1.html
 
 • Insurance Cyber-Fraud Cases Rise — Free Press Journal
