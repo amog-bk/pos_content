@@ -1,6 +1,6 @@
 *Insurance this week*
 
-IRDAI's consumer-protection push goes operational — public scorecards for insurers and hospitals roll out this month, alongside a standard-policy overhaul. Meanwhile, FY26 results landed strong across the board (LIC, ICICI Pru Life, New India, Go Digit), and the government's ₹10,000-crore LIC stake sale nears launch.
+New IRDAI chairman Ajay Seth has set aggressive reform timelines — Bima Sugam's digital marketplace within six months, a Public Insurance Registry, and a health overhaul. Alongside, FY26 results came in strong across LIC, ICICI Pru Life and New India, and the ₹10,000-crore LIC stake sale nears launch.
 
 *Major Business & Market Deals*
 
@@ -12,14 +12,16 @@ _₹10,000-crore LIC Stake Sale Nears:_ DIPAM is set to sell ~2% of LIC in late 
 
 *Regulatory Actions & Corporate Governance*
 
-_Public Scorecards for Insurers & Hospitals:_ From this month, IRDAI rolls out performance scorecards ranking insurers and hospitals on claim-settlement speed, billing accuracy and documentation. Developed with the CII, the framework may eventually link hospital reimbursements to these scores, pressuring laggards on turnaround.
+_Seth's Reform Roadmap:_ In a closed-door CEO meeting, IRDAI chief Ajay Seth set firm timelines for "insurance for all": Bima Sugam's digital marketplace live within six months (motor first, then health), a Kearney-designed Public Insurance Registry, and commission rationalisation — all inside 4–6 months.
 
-_Standard-Policy Overhaul:_ IRDAI's health overhaul mandates simpler, standardised products and requires insurers to publish three years of comparative data covering 90% of premium intake. The rules also bar "dark patterns" in digital journeys and enforce strict Indian Accounting Standards adherence.
+_Public Scorecards for Insurers & Hospitals:_ IRDAI is rolling out performance scorecards ranking insurers and hospitals on claim-settlement speed, billing accuracy and documentation. Developed with the CII, the framework may eventually link hospital reimbursements to these scores, pressuring laggards on turnaround.
 
-_Executive Pay on the Line:_ Tying 50% of top-management variable pay to customer-satisfaction metrics, IRDAI is responding to a roughly 20% spike in consumer grievances. Bonuses now hinge on claim-settlement and grievance-redressal efficiency — a clear signal that service quality is now a board-level KPI.
+_₹1-Crore Penalty for Nissan Renault:_ IRDAI fined Nissan Renault Financial Services ₹1 crore for motor-distribution breaches — 1,813 policies were sold by personnel not tagged to any authorised agent or service provider, alongside lapses in premium remittance and grievance redressal flagged in a 2024 inspection.
+
+_Executive Pay on the Line:_ IRDAI now ties 50% of top-management variable pay to customer-satisfaction metrics — claim-settlement and grievance-redressal efficiency — responding to a roughly 20% spike in consumer grievances. A clear signal that service quality is now a board-level KPI.
 
 *Industry & Premium Trends*
 
-_Non-Life Premiums Up 9.3%:_ The non-life industry grew premiums 9.3% YoY to ₹3.36 trillion in FY26, powered by health after the GST levy on retail policies was slashed to nil from 18%. Growth is expected to ease to ~5% in FY27 as the GST surge normalises.
+_Tier-II/III Cities Drive Growth:_ Smaller towns now generate 62% of new health-insurance policies, up from 54% in FY22, as Tier-1's share slid to 38%. Nearly half of these buyers opt for ₹10–15 lakh sum insured, signalling deeper penetration beyond the metros.
 
-_Health Now the Biggest GI Line:_ Personal accident & health is now the largest general-insurance line by premium, at 40.9% of non-life GWP in 2025 and projected to grow 8.8% in 2026. Standalone health premiums rose 13.2% quarter-on-quarter in Q4 2025.
+_Non-Life Premiums Up 9.3%:_ The non-life industry grew premiums 9.3% YoY to ₹3.36 trillion in FY26, powered by health after the GST levy on retail policies was cut to nil from 18%. Personal accident & health is now the largest GI line at 40.9% of GWP.
