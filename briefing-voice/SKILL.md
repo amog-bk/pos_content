@@ -33,6 +33,10 @@ Avoid:
 - Marketing hype ("game-changing", "revolutionary", "exciting").
 - Long, clause-heavy sentences.
 - Vague summaries ("there were some developments in regulation").
+- **Em dashes (`—`). Never use the em dash, in the briefing or the
+  sources block.** Use a comma, colon, semicolon, parentheses, or split
+  into two sentences instead. (Hyphens in compound words like
+  "life-insurance" are fine; the banned character is the em dash `—`.)
 
 ## Structure
 
