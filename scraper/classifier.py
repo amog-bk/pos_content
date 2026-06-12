@@ -57,6 +57,21 @@ SIGNALS: list[tuple[str, str, int]] = [
      r"consumer commission|consumer forum|consumer court)\b", "trends", 4),
     (r"\b(fraud|fake polic\w+|mis-?selling|scam|ghost polic\w+)\b", "trends", 5),
 
+    # ---- People moves (fold into deals section) ----
+    (r"\b(appoint\w+|takes? (over as|charge as|charge)|steps? down|resign\w+|"
+     r"named (as )?(new )?(ceo|md|cfo|chairman|chairperson)|"
+     r"new (ceo|md|cfo|chairman|chairperson)|elevat\w+ (to|as)|"
+     r"appointed actuary|succeed\w* .{0,30}as (ceo|md|chairman))\b", "people", 5),
+
+    # ---- Insurtech & startup funding (fold into deals section) ----
+    (r"\b(insurtech|insurance (startup|platform|aggregator)|embedded insurance|"
+     r"digital insurance|bima sugam)\b", "insurtech", 4),
+
+    # ---- Monthly industry data (fold into trends section) ----
+    (r"\b(life insurance council|general insurance council|gi council|"
+     r"first[- ]?year premium|monthly (business )?(figures|data|numbers)|"
+     r"flash figures)\b", "data", 5),
+
     # ---- Lines of business (supporting context) ----
     (r"\b(cyber insurance|fire insurance|marine insurance|liability insurance|"
      r"engineering insurance|workmen comp\w*|d&o|directors and officers|"
@@ -168,9 +183,12 @@ def _is_insurance_dedicated(source_id: str) -> bool:
 TAG_SECTION = {
     "deals": "deals",
     "results": "deals",
+    "people": "deals",
+    "insurtech": "deals",
     "regulatory": "regulatory",
     "governance": "regulatory",
     "trends": "trends",
+    "data": "trends",
 }
 
 

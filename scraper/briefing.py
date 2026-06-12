@@ -175,6 +175,11 @@ def dedup(scored: list[ScoredItem]) -> list[ScoredItem]:
 
 
 def _section_of(s: ScoredItem) -> str:
+    # Monthly industry data (Council NBP/GDPI releases) always belongs in
+    # Trends, even when the headline also matches results-style signals
+    # like "new business premium".
+    if "data" in s.tags:
+        return "trends"
     for tag in s.tags:
         if tag in TAG_SECTION:
             return TAG_SECTION[tag]

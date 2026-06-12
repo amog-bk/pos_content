@@ -13,9 +13,12 @@ from .classifier import ScoredItem
 CATEGORY_ORDER = [
     "deals",
     "results",
+    "people",
+    "insurtech",
     "regulatory",
     "governance",
     "trends",
+    "data",
     "player",
     "general",
 ]
@@ -34,6 +37,7 @@ def write_digest(
     fetch_errors: list[tuple[str, str]],
     out_path: Path,
     week_label: str,
+    chronic: list[tuple[str, int]] | None = None,
 ) -> None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     lines: list[str] = []
@@ -61,11 +65,24 @@ def write_digest(
                 lines.append(f"  · {s.item.summary[:280]}")
         lines.append("")
 
+    if chronic:
+        lines.append("## ⚠ Chronic feed failures (action needed)")
+        lines.append("")
+        lines.append("These sources have failed every weekly run for 3+ weeks. "
+                     "Fix the URL, swap to a backup feed, or disable them in "
+                     "sources.yml — their coverage is currently lost.")
+        lines.append("")
+        for src, n in chronic:
+            lines.append(f"- `{src}` — {n} consecutive weeks down")
+        lines.append("")
+
     if fetch_errors:
+        chronic_ids = {src for src, _ in (chronic or [])}
         lines.append("## Sources that failed this week")
         lines.append("")
         for src, err in fetch_errors:
-            lines.append(f"- `{src}` — {err}")
+            marker = " ⚠ chronic" if src in chronic_ids else ""
+            lines.append(f"- `{src}` — {err}{marker}")
         lines.append("")
 
     out_path.write_text("\n".join(lines))

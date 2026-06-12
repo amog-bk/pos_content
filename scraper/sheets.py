@@ -63,6 +63,8 @@ def _get_or_create_tab(book, name: str, headers: list[str]):
 
 
 def _digest_section(s: ScoredItem) -> str:
+    if "data" in s.tags:  # Council NBP/GDPI releases always sit in Trends
+        return "trends"
     for tag in s.tags:
         if tag in TAG_SECTION:
             return TAG_SECTION[tag]

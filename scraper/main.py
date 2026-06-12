@@ -23,6 +23,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from . import feed_health
 from .briefing import build_sections, dedup, write_material_file
 from .classifier import rank
 from .config import load_config
@@ -46,11 +47,13 @@ def run(week: str, out_root: Path, min_score: int, sheet_id: str = "") -> int:
     cfg = load_config()
     all_items: list[Item] = []
     errors: list[tuple[str, str]] = []
+    enabled_ids: list[str] = []
 
     for src in cfg.sources:
         if not src.enabled:
             log.info("skip (disabled): %s", src.id)
             continue
+        enabled_ids.append(src.id)
         log.info("fetching %s — %s", src.id, src.url)
         res = fetch(src.url, cfg.user_agent, cfg.request_timeout_seconds)
         if not res.ok:
@@ -102,8 +105,19 @@ def run(week: str, out_root: Path, min_score: int, sheet_id: str = "") -> int:
         url = resolved_links.get(s.item.url, s.item.url)
         s.item.summary = fetch_og_summary(url, cfg.user_agent)
 
+    # Feed-health ledger: persists across weeks (committed with roundups/),
+    # so chronically failing sources surface in the digest instead of
+    # silently dropping out of coverage.
+    health_path = out_root / "feed-health.json"
+    health = feed_health.load(health_path)
+    health = feed_health.update(health, enabled_ids, dict(errors), week)
+    feed_health.save(health, health_path)
+    chronic = feed_health.chronic(health)
+    for sid, n in chronic:
+        log.warning("chronic feed failure: %s (%d consecutive weeks)", sid, n)
+
     week_dir = out_root / week
-    write_digest(scored, errors, week_dir / "digest.md", week)
+    write_digest(scored, errors, week_dir / "digest.md", week, chronic=chronic)
     write_material_file(buckets, headlines, week_dir / "briefing-material.md",
                         week, resolved_links=resolved_links)
     log.info("wrote %s/", week_dir)

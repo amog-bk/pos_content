@@ -459,6 +459,39 @@ sources:
     partner_relevance: 3
     categories: [trends]
 
+  # -------- Phase 2: people moves, insurtech, monthly data --------
+  # Monthly NBP/GDPI numbers: the Council sites (lifeinscouncil.org NBP page,
+  # gicouncil.in segment report) are postback-driven aspx/table pages that
+  # can't be parsed reliably without runner-side testing, so we capture the
+  # press coverage of the monthly releases instead — every business daily
+  # writes them up within a day of release.
+  - id: premium_data_gnews
+    name: Monthly Premium Data (via Google News)
+    url: https://news.google.com/rss/search?q=%22Life+Insurance+Council%22+OR+%22General+Insurance+Council%22+OR+(%22new+business+premium%22+insurers+India)&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 1
+    enabled: true
+    partner_relevance: 5
+    categories: [data, trends]
+
+  - id: insurance_people_gnews
+    name: Insurance People Moves (via Google News)
+    url: https://news.google.com/rss/search?q=insurance+India+(appoints+OR+%22takes+charge%22+OR+resigns+OR+%22new+CEO%22+OR+%22new+MD%22+OR+%22appointed+actuary%22)&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [people, deals]
+
+  - id: insurtech_funding_gnews
+    name: Insurtech & Startup Funding (via Google News)
+    url: https://news.google.com/rss/search?q=(insurtech+OR+%22insurance+startup%22)+India+(funding+OR+raises+OR+IPO+OR+DRHP+OR+acquisition)&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [insurtech, deals]
+
   # -------- Tier 3: Reinsurance & global --------
   - id: gic_re
     name: GIC Re
