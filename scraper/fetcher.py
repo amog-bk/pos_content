@@ -69,7 +69,19 @@ def fetch_og_summary(url: str, user_agent: str, timeout: int = 10) -> str:
     return ""
 
 
+# Browser-like User-Agent used as a fallback when the bot-identified UA
+# gets 403. Many publisher feeds (Moneycontrol, Business Standard, some
+# corporate sites) reject obviously-bot UAs but accept a desktop Chrome UA.
+_BROWSER_UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+)
+
+
 def fetch(url: str, user_agent: str, timeout: int = 20, retries: int = 2) -> FetchResult:
+    """Fetch a URL, with a network-error retry loop and a one-shot
+    browser-UA fallback for HTTP 403 responses (publishers that reject
+    bot-identifying UAs)."""
     headers = {
         "User-Agent": user_agent,
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -79,6 +91,11 @@ def fetch(url: str, user_agent: str, timeout: int = 20, retries: int = 2) -> Fet
     for attempt in range(retries + 1):
         try:
             r = requests.get(url, headers=headers, timeout=timeout)
+            if r.status_code == 403 and headers["User-Agent"] != _BROWSER_UA:
+                log.info("fetch 403 with bot UA — retrying with browser UA: %s", url)
+                headers["User-Agent"] = _BROWSER_UA
+                r2 = requests.get(url, headers=headers, timeout=timeout)
+                return FetchResult(url=url, status=r2.status_code, text=r2.text, ok=r2.ok)
             return FetchResult(url=url, status=r.status_code, text=r.text, ok=r.ok)
         except requests.RequestException as e:
             last_err = str(e)

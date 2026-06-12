@@ -107,6 +107,63 @@ PLACEHOLDER_TITLES = {
     "notification",
 }
 
+# Insurance-context gate. Broad-finance feeds (et_banking_finance_rss,
+# mint_money_rss, business_standard_finance_rss) bring in real M&A and
+# results items but also unrelated noise (auto-stake sales, oil purchases,
+# food-delivery, weight-loss pills) that happen to match the M&A or "to buy"
+# signals. We require items from those broad feeds to contain at least one
+# insurance-context term. Items from dedicated insurance outlets bypass the
+# gate — their content is insurance-relevant by source construction.
+INSURANCE_CONTEXT = re.compile(
+    r"\b("
+    r"insur\w+|reinsur\w+|underwrit\w+|"
+    r"policyholder\w*|mediclaim|bima\w*|"
+    r"actuar\w+|annuit\w+|ulip|endowment|"
+    r"irdai|\blic\b|\bgic\b|"
+    # "X insurance/insurer/cover/policy/premium" for any line of business
+    r"(life|health|motor|fire|marine|cyber|crop|liability|term|group|retail|"
+    r"commercial|engineering|travel|home|property|workmen) "
+    r"(insurance|insurer|cover|polic\w+|premium)|"
+    # Domain-specific phrases
+    r"gross written premium|\bgwp\b|\bgdpi\b|new business premium|\bnbp\b|"
+    r"claim settlement|claims ratio|combined ratio|loss ratio|"
+    r"solvency ratio|expense of management|\beom\b"
+    r")\b",
+    re.IGNORECASE,
+)
+
+# Source-ID prefixes that are dedicated insurance outlets. Items from these
+# bypass the insurance-context gate. Match by startswith() so families like
+# "irdai_*" and all "_gnews" queries (which are insurance-restricted by
+# query construction) are covered without enumerating every id.
+INSURANCE_DEDICATED_PREFIXES: tuple[str, ...] = (
+    "irdai",
+    "the_cession",
+    "gic_re",
+    "gic_council",
+    "iib",
+    "bima_bharosa",
+    "ombudsman",
+    "mint_insurance",
+    "financial_express_insurance",
+    # Tier-1 dedicated insurance trade press (Phase 1 additions):
+    "asia_insurance_post",
+    "asia_insurance_review",
+    "bimabazaar",
+    "insurance_asia_news",
+    "etbfsi_insurance",
+)
+
+
+def _is_insurance_dedicated(source_id: str) -> bool:
+    """True if the source itself is an insurance outlet — exempt from the
+    insurance-context gate. GN topic feeds (any id ending '_gnews') are
+    queried with insurance-restricted terms, so they're also exempt."""
+    if source_id.endswith("_gnews"):
+        return True
+    return any(source_id.startswith(p) for p in INSURANCE_DEDICATED_PREFIXES)
+
+
 # Maps each tag to its briefing section (used by briefing.py and the digest).
 TAG_SECTION = {
     "deals": "deals",
@@ -130,6 +187,13 @@ def score(item: Item) -> ScoredItem:
         return ScoredItem(item=item, score=-5, tags=["noise"])
     if NOISE.search(text):
         return ScoredItem(item=item, score=-5, tags=["noise"])
+
+    # Insurance-context gate: items from broad-finance feeds must mention
+    # something insurance-related. Catches the ET-banking-feed leakage
+    # (Liqvd Asia, Voda Idea, Russian oil, etc.) without affecting items
+    # from dedicated insurance outlets.
+    if not _is_insurance_dedicated(item.source_id) and not INSURANCE_CONTEXT.search(text):
+        return ScoredItem(item=item, score=-5, tags=["noise_no_insurance"])
 
     total = item.partner_relevance  # base from source config
     tags: list[str] = []

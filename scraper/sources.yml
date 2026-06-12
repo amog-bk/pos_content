@@ -39,6 +39,17 @@ sources:
     partner_relevance: 5
     categories: [regulation]
 
+  # Press releases land here before they surface in news outlets — penalty
+  # orders, registrations, appointments, master-circular announcements.
+  - id: irdai_press_releases
+    name: IRDAI Press Releases
+    url: https://irdai.gov.in/press-releases
+    parser: irdai_listing
+    tier: 1
+    enabled: true
+    partner_relevance: 5
+    categories: [regulation, governance]
+
   # -------- Tier 1: Industry data --------
   # GIC Council and IIB both block automated traffic (403/timeout from
   # GitHub runners). Disabled until we find an alternative ingestion path
@@ -70,6 +81,75 @@ sources:
     enabled: true
     partner_relevance: 5
     categories: [regulation, commercial, reinsurance, insurtech]
+
+  # -------- Tier 1: Dedicated insurance trade press --------
+  # These are insurance-only outlets — their content bypasses the
+  # insurance-context gate in classifier.py. RSS endpoints are best-guess
+  # standard paths (most are WordPress, so /feed/ works). Disable any that
+  # 403 from the runner after a couple of weeks; GN-restricted backups
+  # provide overlapping coverage.
+  - id: asia_insurance_post
+    name: Asia Insurance Post
+    url: https://asiainsurancepost.com/feed/
+    parser: rss_xml
+    tier: 1
+    enabled: true
+    partner_relevance: 5
+    categories: [regulation, commercial, financials, deals, health, life]
+
+  - id: asia_insurance_post_gnews
+    name: Asia Insurance Post (via Google News)
+    url: https://news.google.com/rss/search?q=site%3Aasiainsurancepost.com&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 3
+    enabled: true
+    partner_relevance: 4
+    categories: [regulation, deals]
+
+  - id: bimabazaar
+    name: BimaBazaar
+    url: https://bimabazaar.com/feed/
+    parser: rss_xml
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [regulation, governance, life, health]
+
+  - id: insurance_asia_news_india
+    name: InsuranceAsia News (India)
+    url: https://insuranceasianews.com/country/india/feed/
+    parser: rss_xml
+    tier: 1
+    enabled: true
+    partner_relevance: 5
+    categories: [deals, regulation, reinsurance]
+
+  - id: insurance_asia_news_gnews
+    name: InsuranceAsia News (via Google News)
+    url: https://news.google.com/rss/search?q=site%3Ainsuranceasianews.com+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 3
+    enabled: true
+    partner_relevance: 4
+    categories: [deals, reinsurance]
+
+  - id: asia_insurance_review_gnews
+    name: Asia Insurance Review (via Google News)
+    url: https://news.google.com/rss/search?q=site%3Aasiainsurancereview.com+India&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [regulation, commercial, reinsurance]
+
+  - id: etbfsi_insurance_gnews
+    name: ET BFSI Insurance (via Google News)
+    url: https://news.google.com/rss/search?q=site%3Abfsi.economictimes.indiatimes.com+insurance&hl=en-IN&gl=IN&ceid=IN%3Aen
+    parser: google_news_rss
+    tier: 2
+    enabled: true
+    partner_relevance: 4
+    categories: [regulation, deals, commercial, financials]
 
   # Direct publisher RSS feeds (preferred — clean URLs, real og:descriptions).
   # Google News URL unwrapping is unreliable (GN returns 403 to all
