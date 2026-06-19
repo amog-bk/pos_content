@@ -2,289 +2,289 @@
   "asia_insurance_post": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "asia_insurance_post_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "asia_insurance_review_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "bima_bharosa": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "bimabazaar": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 1
   },
   "business_standard_finance_rss": {
-    "consecutive_failures": 2,
-    "last_error": "2026-W24: HTTP 403",
+    "consecutive_failures": 3,
+    "last_error": "2026-W25: HTTP 403",
     "last_ok_week": null,
-    "total_failures": 2
+    "total_failures": 3
   },
   "business_standard_insurance_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "businessline_insurance_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "businessline_rss": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "do_insurance_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "engineering_insurance_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "et_banking_finance_rss": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "et_insurance_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "etbfsi_insurance_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "fire_insurance_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "gic_re": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "group_health_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "health_premium_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "india_commercial_insurance_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "india_cyber_insurance_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "insurance_asia_news_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "insurance_asia_news_india": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "insurance_claims_consumer_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "insurance_fraud_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "insurance_industry_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "insurance_ipo_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "insurance_ma_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "insurance_people_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "insurer_results_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "insurtech_funding_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "irdai_circulars": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "irdai_exposure_drafts": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "irdai_governance_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "irdai_industry_trends": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "irdai_news_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "irdai_press_releases": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "liability_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "life_insurance_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "marine_insurance_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "mint_insurance": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "mint_money_rss": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "moneycontrol_business_rss": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "moneycontrol_insurance_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "ombudsman": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "premium_data_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "sme_insurance_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "the_cession": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   },
   "workmen_comp_gnews": {
     "consecutive_failures": 0,
     "last_error": null,
-    "last_ok_week": "2026-W24",
+    "last_ok_week": "2026-W25",
     "total_failures": 0
   }
 }
