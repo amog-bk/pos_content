@@ -1,12 +1,14 @@
 # India Business Insurance — Weekly Roundup (2026-W27)
 
-_Generated: 2026-07-03 06:08 UTC_  
-_Total items after filtering: 414_  
+_Generated: 2026-07-03 13:04 UTC_  
+_Total items after filtering: 425_  
 
 This is the internal digest. Pick 3–5 items below and hand them to `whatsapp.py` (or the content team) to turn into Partner messages.
 
 ## Deals
 
+- **[100% FDI In Insurance: Big Relief Or Foreign Takeover?](https://news.google.com/rss/articles/CBMigAFBVV95cUxNUnRxQk92T3FIUklxYW1zSko2N2NjVmxFYnNUWE5QLW5fQjBHNUpDemlaSGpzdEQxMVNhdW1ndlZGRW9EeXlCS3p2alh2SDBDYVdFQjM5TGllZ19Sajl0WWhOdVRwazJaZVhPWTN5NTNTMnU2cGx5WVlqVml4TlVlRw?oc=5)**
+  · _SME Futures_ · 2026-05-28 · score 20 · tags: deals, regulatory
 - **[Freshfields advises Prudential on its acquisition of a controlling stake in Bharti Life Insurance](https://news.google.com/rss/articles/CBMi8AFBVV95cUxOT2tOM3diVzMyNjVxNmVXTm5Pbk9LendacFBSeHBfUmRuTmlXX2NEVGFBOElFMEJiUWRnMlJXUkdKRkpTamhFUmJncFdrWXNaVkhZM0NvWmdTTzhBRVptVDN5dnpBNlYySm45eWkyTDB4aWlBeU5hWFlGMEw5YUxqT3h3MG5ndmlzaEpwcmFmNG5zYlN2QUpOSHFFc0lLRzBEanNtc3FvSmVwczJXcTFRd1dFVXI4VGRZaDNwbmI4THoxYjNfWUo4ekg1MEUwZ1lkOU1nOHNEMUxYVnAtYmNIUFVqYmRBM2dSM1FlZThmMmnSAfYBQVVfeXFMTW01UDR1MFBKem11eUdkNC0tMDg3eW9GMFlzZTNQVl9wSXUtYlNpUzZSVTRLZHRhbXU0eFhwMklNZ0k1VGZ2TjNoSVFvdm5nYnZZWVZRUFRfZW9XcWd0RW52V1lMRUZZYmd6SU5LQ2tUUDNvWHpqSURXdXI2dE1NX2g4R3YwQU5sdG03YVp5NzRSVWg4TmZFYW5wQkVwbEktUDhlQ24zaldZcUVlVTV6cmQ1WXBsSmJjMUxYeDA3T1V3bnQ2Umg5Z3FYcWlxNTV4Ykt1OExBUnVJYnVDS1RQNkN1ajRqYzd5R2d0VS0wekl4bWxiZjZ3?oc=5)**
   · _ETLegalWorld.com_ · 2026-06-08 · score 20 · tags: deals, trends, player
 - **[IRDAI issues license to Prudential HCL Health Insurance](https://asiainsurancepost.com/archives/81679)**
@@ -24,12 +26,10 @@ This is the internal digest. Pick 3–5 items below and hand them to `whatsapp.p
   · _livemint.com_ · 2023-04-05 · score 17 · tags: deals, insurtech
 - **[IndusInd Insurance stake sale, India Inc revenues grow, and inflation worries rise with monsoon— Editor’s Picks from Moneycontrol](https://news.google.com/rss/articles/CBMiogFBVV95cUxPNERiekNBS19ZM1N6ZjRJN2dHY1BmRWRsUldyS3V0dzY2QmFFeVBUczd1cnhYejg4dFpiR0o1ajA5MHhqaE5TX2hMS1FUR2VOam1CSGxWN0NWelNzMGFkQml2WFFfRGhwWWpTUXVvVk1FamZSYklwS01GUlZmRExFWm5LdG9rQkR4SzZBYnJ3UzNnWDh5YlNLbzVvNkVQYmRQeXc?oc=5)**
   · _LinkedIn_ · 2026-05-29 · score 17 · tags: deals, player
-- **[India Said to Prepare $1 Billion LIC Stake Sale Next Month](https://news.google.com/rss/articles/CBMirAFBVV95cUxQenY0MGo5T0RtZ1paQ1lsbGdLM29WUUE4NnYtUGtJN3N5amJCQ0E2NXFzZUp0eXAxWjNQMGtRR2VaREZSZHA3NXk2X3ZwMVBzdm1GMEgzYUVTX3dMNDNDclBoT29COTM5c2UwSUtRcUZPM1QxYmpFTmRxUmd3eXdlRldYMnk4czlubUJoRUMzU0xZRi1oM0U0VFFiX09XdUtiRlZqZThWc0VaU2Js?oc=5)**
-  · _Bloomberg_ · 2026-05-26 · score 17 · tags: deals, player
 - **[Government Hikes LIC Stake Sale to 5% with Retail Bidding Starting June 17](https://news.google.com/rss/articles/CBMisgFBVV95cUxQbE1wX29BM2w5MV9obUZlOFlkUWRIQnJBQmk5R1ZXV0h3VjBBTG5HRW4tbGdUS3l4ZldLZ191SlRTWGdNdHFEc1RHSGZld2djc00yMjFlWmZ0NnhPbzZYdDVHaXRndTU4WVBfN0hGNnZvRWtrSjdzTnNXSVV5MlBGSFNmQXR6QnFuSzJpSGxTQjBHb25UcVFIaUJleTMyd016TTBrUFlWZmRla1hKYy1xU1BB?oc=5)**
   · _Sahi_ · 2026-06-16 · score 17 · tags: deals, player
-- **[Acko Sets Its Sights on Major IPO as India’s Insurtech Trailblazer](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbHlCQU9qTWtFZkx1dWFUbmliUVd0THFNUkk4Q0FqR21tLTlUQlRrMXpRN0pENk1HRHdVeUl4d01kTm1nWVBMbWxqcWFUcjlkcWlNbWJ0X3NhNnFGZHRWOVNFZkhrN0dQc3RxUU5wRXNVS0pTLXlDM0NLNEdSYmJrMlNSTFJ0U2VpbkV0Yy1HbUhaSmpDYkRRaWhyaFI0aUVacUpHUWVmNEZ5VENoVjdHQVJnV3IzaHQyUFpJ0gHAAUFVX3lxTFAwYXREenNtbC1LTUNNbWd4QmdEZXpKT1h4R3dPekNTSlpkTFRaSjV6MnlMT2xMSTdSSnpKNm9wT3VVM3NaMmZOWmN2bGdkT3VJT3RJekZvOGdqOTFTWjB4ZmpnZmhjd2VMbVhERmd3dG5RMEU1Rm1ocXhVWGZlRWdXb0VvaGFRT3ZvUDd2eXltU0VYbDJjV1lPN3psQzBPYVdnX3VIdWJodHZIU2ZjdC1RaGZNYlc5OVptR0NxNUNjYg?oc=5)**
-  · _The Statesman_ · 2026-02-05 · score 17 · tags: deals, insurtech, player
+- **[India Said to Prepare $1 Billion LIC Stake Sale Next Month](https://news.google.com/rss/articles/CBMirAFBVV95cUxQenY0MGo5T0RtZ1paQ1lsbGdLM29WUUE4NnYtUGtJN3N5amJCQ0E2NXFzZUp0eXAxWjNQMGtRR2VaREZSZHA3NXk2X3ZwMVBzdm1GMEgzYUVTX3dMNDNDclBoT29COTM5c2UwSUtRcUZPM1QxYmpFTmRxUmd3eXdlRldYMnk4czlubUJoRUMzU0xZRi1oM0U0VFFiX09XdUtiRlZqZThWc0VaU2Js?oc=5)**
+  · _Bloomberg.com_ · 2026-05-26 · score 17 · tags: deals, player
 
 ## Results
 
@@ -61,14 +61,10 @@ This is the internal digest. Pick 3–5 items below and hand them to `whatsapp.p
   · _CNBC TV18_ · 2026-01-06 · score 17 · tags: people, data
 - **[IRDAI Appoints Girija Subramanian and Dinesh Pant as Whole-Time Members](https://news.google.com/rss/articles/CBMiowFBVV95cUxPQVBnemFXRjFfWjctUGRxSTB6M1NGRjZ1RFFJV1M4TkZXbWV1bzM5cExBUHpyRDI4VDUwNzM2SGFxZ0xIYWlBeVNiSG5ERVJGZnpGTGsyY1JVSG1pTW4wSlcwR3JlRHQ4OU5xTldLRS1CMzl3TXoxWEFBQzRJWGkxRkdVbkxFWVhDbkx1R3NudTJDYXNRZnpQbWViUGVFZmxlUWRv?oc=5)**
   · _Elets BFSI_ · 2026-06-16 · score 16 · tags: regulatory, people
-- **[Former finance secy Ajay Seth appointed as new IRDAI chairman for 3 yrs](https://news.google.com/rss/articles/CBMiV0FVX3lxTE8zV01vMjFVa3BsYUVfb2RiVmF5UjVRZmxZWEhYX3hNcC11aTYwX1MxelFVQ0xzanFqR3RGNzY4Rk1WWVFZaVpKMDh6dlhZdG1DdnRicTUwYw?oc=5)**
-  · _Asia Insurance Post_ · 2025-07-24 · score 15 · tags: regulatory, people
 - **[India’s GIC Re appoints Hitesh Joshi as chairman, MD](https://insuranceasianews.com/indias-gic-re-appoints-hitesh-joshi-as-chairman-md/)**
   · _InsuranceAsia News (India)_ · 2026-06-17 · score 14 · tags: people, player
   · <p>He most recently served as interim chairman and MD, following the retirement of Ramaswamy Narayanan. </p>
 <p>The post <a href="https://insuranceasianews.com/indias-gic-re-appoints-hitesh-joshi-as-chairman-md/">India’s GIC Re appoints Hitesh Joshi as chairman, MD</a> appeared f
-- **[Suresh Agarwal appointed as MD & CEO designate of life insurance JV between Mahindra and Manulife](https://news.google.com/rss/articles/CBMi5gFBVV95cUxQazZNMHFYU1pobEJMRzBMak5RYmhOQ28xRVMyNm5HLUl2cmJJcjRZMFdnWGw0b1d1dXRIT2F0YlAxUGgtRldVc0tfaVROQUw4Rl9rZ0swdmpTQkYtemt1c2NuaFdoc3gxeXlod2lWZEVLRGNYOFdYcGdna2s3VlZaRGxFYWNMU0o2YkZtdkxjeDVNTWhzSktOcXdwdDRRWWFmVjU0YXlkbWdLa01SV0o5MWRjdTRNNjhCZmdOYWduaU5QakpIQ2hibmtZekkxLXUyS0RBdkl0Zm5zeHRkRjhiNGI0dE52QQ?oc=5)**
-  · _Mahindra_ · 2026-02-23 · score 13 · tags: people, trends
 - **[Sunil Agrawal Resigns as CFO of Life Insurance Corporation of India, Effective July 14, 2026](https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdmo2TG1NQVFMRG5iOXJCSzVIQmZVY2prLW8tdFRrM0xEeXF0enpBb3ZHRTU3N0xzWGNzdTR5aE5JX0xrV2R3azVOclhFQTBiajRmaWp6bXd2MGlyLXdhOWlMRmxKY3hzTm9FTVRQOEMtNk5vS0htVHFfVks3cWZweDhRTmZ4U2c5TVlSWXJ0M0ZZMUFyaGRzejZhNHlKT1dNbEE0M2xMQzlSYTR0cF9CZTBXT2xLT0lCRmt5djF5UVFNczE3UktMU0Y2NlNJTEJabHlRLU5CTTlpbVJuS1ZqVw?oc=5)**
   · _scanx.trade_ · 2026-06-24 · score 13 · tags: people, trends
 - **[Gallagher Re confirms Minesh Jani’s appointment as India CEO](https://insuranceasianews.com/gallagher-re-confirms-minesh-janis-appointment-as-india-ceo/)**
@@ -83,6 +79,10 @@ This is the internal digest. Pick 3–5 items below and hand them to `whatsapp.p
   · _Insurance Asia_ · 2025-06-20 · score 12 · tags: people, player
 - **[Sunil Agrawal resigns as LIC Chief Financial Officer](https://news.google.com/rss/articles/CBMitwFBVV95cUxPZXdRcXZJQmJSb0F1ZmJfNXBrcFQzaDRfNk0wMEVuWDZmdlFpZ19oVk5JYWFYMUdtZkp0X0t1UEpBZ2pkdVBaUmRoSGctTWdYZVBnZ2N2SzFJNGNYTXVsVFJUMDc5UUtsNEFWYXB3Z0JMTmFhaGJaUFNvekN4VDFmZllTbnV2c193aGU2X2pMU1JXdklyU2tCYUQ0UkJnb282RjV5V0dSYkxTZHBSX0xNV0JOSGZDQ28?oc=5)**
   · _Exchange4Media_ · 2026-06-25 · score 12 · tags: people, player
+- **[India: Prudential appoints new Health leadership](https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ0p1LU02dlQzVFFBNHBvQzgydWpSeFdDMDd2WTJjUEVHVWlNWGRyVmpUVi04bkcyN0szbUdNT1J0RXVNSDE4Q212REJXT0RWclRXNEp3RzZhMG1fTndSLXpwU0lhZUVJS0FtaVRPLXFTR3BQTEVNQlNnb29uU21qMVRTSVNqV1dmejZqYUU2bXZLTzF1a0FlZFRqMWdELU9sQ0dBT0o5TThZdkxrVC1pdkNTek10cENRRlk2NVoxX2pBUlRseWYtaFBITUFzZw?oc=5)**
+  · _Asia Insurance Review_ · 2026-04-17 · score 12 · tags: people, player
+- **[India: Cholamandalam MS General Insurance appoints new Managing Director](https://news.google.com/rss/articles/CBMi7gFBVV95cUxNc1FkOF95WkluZW0xMUYzZENVVXFIRUdadkI0WGVFMHJKMzNtOE1LZHdwR1Y5YzgyZ2tlalNraDVuYi03UzNwN2x2WGtkSGhGODFsOHZMaWJtVS1sUjVsc2ZGMEpWNC15YmFONTJzTkNQcGdVNmw5V2lRRkpuVHhTNHZlZXJDcVNmOHF1UHAzM3hvVzhTYm5BT25EaUN1Mkh0VmtZbDNuUW9HQ3R1Yi1VSEdMMUtENVZPc1BlNnA4N3c0TTdGY3dud3dHX0gwd3BYbVkxemRXX3VkR1VnbnRoa080dkVYdGtKa1RRZGFB?oc=5)**
+  · _Asia Insurance Review_ · 2026-04-22 · score 12 · tags: people, player
 
 ## Insurtech
 
@@ -106,8 +106,8 @@ This is the internal digest. Pick 3–5 items below and hand them to `whatsapp.p
 <p>The post <a href="https://bimabazaar.com/insurance-news-and-information/insurance-news/digital-insurance-platforms-market-forecast-to-hit-432-billion-in-com
 - **[What is Iran’s ‘Hormuz Safe’, insurance platform for Strait of Hormuz shipping](https://news.google.com/rss/articles/CBMi7gFBVV95cUxPOWdJS2JiVDhYYU5WNkExOGZNX2U0ZEtBS01Zb3Qydk5YNGRvU2sxbGNWWmc3YjhUUi1VdHZtRkctcFJtRWZDMTZacmdTQ0xHNHJ0N09HaWlGREtZRDdkSEdGNEtqQllmY09UaVRrc0VHNE1oZk1UNWdkR0gydTZtcmFBVDZabm9neTFobkVlVzN0VzZONEdoNUF4LUk4cUQ4djhmZ1VnSzI0V3lPelFyVk1zRzlXLUdtOXZjWEtrblpFSWFFTk0zM0xreVUzMFU2NTAzVDJWUHNFdGFoSmdzb2lqT0pjamREajZuMVJn0gHzAUFVX3lxTFBxZVkwbzZjbW9xUkxqSW96VkQ2dUpZamxTUGlMVnZUaGRqSFJKcExSeXRWd1FZaVpvQW9SQ19nWnoxQlpRR044TElndlo1OUdSNWxYU0IwMnBNdml0d0x2VVJOUW8zY2NPVWRRUVpqQy1ic0xQZjZDT3pJcHFKUERTSGY0RnZVLXMyQjRzcWxJZVpvOVRLWFdSLXIxeG1IcnNEcTJnUHZ1aWhMZEpvczJJREpMT1BEbUlZZE03dUhTN1AtR05hQ3RWdUxYeFVaMnYwaGZVNnY3cXJFcXZGNmJocGJNV2RoR1d0dkVWMzc3TE5xcw?oc=5)**
   · _The Times of India_ · 2026-05-18 · score 9 · tags: insurtech
-- **[Onsurity Bags Four Wins at the 2025 India InsurTech Summit including the Best Insurtech of the Year](https://news.google.com/rss/articles/CBMi1AFBVV95cUxObTZDM2NqLU1Oa1Mxd1B4ekJ1QnNnTFpHeVhDR2lEckptSWpDSnNnOEtDcGkxLTg3cU9wRkNjTmROOEZHamt3d3NnR0tZeVVwRldKS3dOYWJxUEFHNlZ6aHVmVUdwY1l4SnM3dm95Qnh6cDMwNE9yMlRMeXpiZFNlaWF4VWo0a3BLUEtwRUJaNnpmZk84Uy1ycjJwQTNBTGk0Vkh6ZkNMaXg2OUxpazFMeEZ3cXhSeXJORnBlRVQ4NXdaYV91TE1MU2ZyMHNkV09ISFpQSw?oc=5)**
-  · _Passionate In Marketing_ · 2025-07-21 · score 9 · tags: insurtech
+- **[Top 10 InsurTech Platforms For SMEs In 2026](https://news.google.com/rss/articles/CBMigAFBVV95cUxNQkk3OENKTDB3V3NBV3ZTWUtpSGR1amNFT0RSZm9fQVpkcDAtcnAzMTZRbThrd3BmeExaNWFMOTEyRmRzY01xY2ZlSXpfdjlmWWZzeTdMWFpaNE9rQmZqNldxZ2h4MTQtMHBxUzdBZHRuSm1jaXlvdTFnVHFhQjdyaQ?oc=5)**
+  · _inventiva.co.in_ · 2026-02-24 · score 9 · tags: insurtech
 
 ## Regulatory
 
@@ -116,22 +116,22 @@ This is the internal digest. Pick 3–5 items below and hand them to `whatsapp.p
 - **[Australian consumer regulator sues Amazon over Prime Video advertising](https://asiainsurancepost.com/archives/81670)**
   · _Asia Insurance Post_ · 2026-06-30 · score 21 · tags: regulatory, trends
   · <p>The Australian Competition &#38; Consumer Commission said Tuesday it has commenced proceedings in the Federal Court alleging Amazon breached consumer law by including unfair contract terms in its Prime subscription contracts. It also alleges Amazon later relied on those terms 
+- **[India insurance regulator plans overhaul of commission rules to curb mis-selling, sources say](https://news.google.com/rss/articles/CBMitwFBVV95cUxQZGhhVWdERVExNVdENmhWOVV4aWFMX3VpQ1V5YW1zU2dOVjUxZVVQSkU3TldLd2FKOVVyQkIxWWhjY2RLOXVNOUhBQzBfdl9WSFBVYzAzWGVGd1MzY1IzYXJOVi1MRTBrbFUtZXo5NG9XQzh5LUp0LWVqT2dqeXlCd2Z4d25pWkIzVm9OZnYwOHFnSkJJa1JFZG56OUw0STR3ejI3Vm1nV2FtWFZiX2liNEZuc2NUSlk?oc=5)**
+  · _Reuters_ · 2026-07-03 · score 21 · tags: regulatory, trends
 - **[Reliance General Insurance: IRDAI imposes ₹1 crore penalty over regulatory violations - CNBC TV18](https://news.google.com/rss/articles/CBMitgFBVV95cUxOS1NtVHUtVlR1Q1BaYm9KRWRHOEtoZ2Vramo4N1gweUFRUEluN0NlMXlHdUtWYVRpaExETFU0VEU5UFQ2MnJfdFFrSVRUQ3FxZzlPdU5wVGw1SHJPXzFhWHE1bTUybmhNR2s5bGZXdmRpWnFHc0REN1NlNldXMWJfUTBTNXE0dDFrRWZvd3VZOUo5dWhKQlRrcVdXLWNJdVpyNno0N3Y0M3d1S0hjaUlpZU1sZlZYQQ?oc=5)**
   · _LinkedIn_ · 2025-12-28 · score 20 · tags: regulatory, player
+- **[Policybazaar fined Rs5 crore by IRDAI, 11 charges of regulatory lapses against the intermediary](https://news.google.com/rss/articles/CBMiV0FVX3lxTE92U1BnVmNnVWJpTHE0VTB3aUlGVFhmaGpmczJHWFJpNG5XWWNZSjNmbnFWd3ZSS0NSMUFoQzg4bEdqamsxZWIyTjgzX250a2lvY24yUEVxMA?oc=5)**
+  · _Asia Insurance Post_ · 2025-08-04 · score 19 · tags: regulatory, trends
+- **[IRDAI plans to phase out big upfront insurance commissions in mis-selling crackdown](https://news.google.com/rss/articles/CBMi1wFBVV95cUxPd1VDUmc0TXpjMkFabGp4eWFrMW1kcDFoTjVnSmE4eVJfNFozQVlGdFhNV0xZbTBadjJLcUpteC03UGxNYTFSOS1nWnFrY1IyVFlFRG5pRTk4X1hXVHEzNEZ3aEpMUVpiOURUV1k1S2pha3lSbGo3NlNySnJEdlVGUnVudUE1Tk8xUDhnZUlhQUxwQ0JzbERpUW1IMkNfM0xjMm1Xc01UMDBzYVVrd1k2bUtkY3owNzNIanR3Nlh0Y0hNUjhQOHhVNF91ZXRia2UzRFFZcTgyONIB3AFBVV95cUxPcldxUUloYXlkVWhNTnFVZ1BBSnVnZklyajl2XzViOUJMRUJTamNISHFBTUw2SGVOQVFwMTY4LUNBNGs1dnRHa2Uwc0lIaVl4RTJDMFJKWlhHeEpBS2dyZEtvVjNVMk1wT1NmdnRUVUhGMXlocHVIY09rN0VCamRoNi1VNk8zcUNpRkFuNndOLVhHVDVrTjFXNnlpZ05Zc1RvUnE2QmZyUTdWVXlONmpjWXlWYUlyWE01MUtzS1FKNDNlTjNwWU95enVuZ2NDRXBXU1U5bDByT1pSaUdr?oc=5)**
+  · _Moneycontrol.com_ · 2026-07-03 · score 19 · tags: regulatory, trends
+- **[Next Phase Of Insurance Growth To Make It Simpler: Aditya Gupta, Life Insurance Council At Launch Of Irdai Comic Book Series](https://news.google.com/rss/articles/CBMi_AFBVV95cUxNZ0IxSTZ0UlJSVFJpWFZBMjVXNUF3Wmg5YTBqSVA0WjR6NHJmUGI1eUk0YUIxQ0Zjbkx6YWpHVlJFWGE0MFd5eC03bTFwY09NVVJIZzU2QmFUVHlkTUhlX0VxYWpmS2Y0VDQwSjRYWFNvNlUwVGxIT1UwTThzaWJxY0l0Z01sM3JtUXdfSThYZXpBa3VuNHRQMzBVU3NOYVdFSWNJVlZhMEZ0ZUVNNVpieVNFTFBkZHRTT3o2LU00U1ZDV1ZGUnFHWmlSOGVLdmtWRmJLeF9mWnRuRGlid3hBenBvY3lxdGllUVQ1ZUdRM21aSnJFVGdBZXloUzLSAYoCQVVfeXFMTkkwbERSUFBKMGxCbU1fOVJub3hoUTlPcVZlckJYQW4wbTBjdGpibFJWbFpROHd5bjdyTnNvU0JfOTZkQW93TkJmMjF5RWc4cFRQLXZhTGV5TUdJOVBQUGxGWUN1LUhkV2dwbGE4QkNadGN6R202dVdhYnNGVVgyenpNYlBIWUl6dHI0dm9SS1hrVWpiQW1qZWYwRXRpZWdHZE9mYzZFUkJPWXpqV2hCS0RQTnBXR29RTUoxMm1Wc2dTZi1lYmVhU0VfVkNNeWhib3Ztam15U0hRWkM5VHhhUFhySktkNFBNcDh0dHU3VG5lcEU0QkNQSDU1aDVrWFNyM19vWk1YdW51Rnc?oc=5)**
+  · _Outlook Money_ · 2026-06-30 · score 19 · tags: regulatory, data, trends
 - **[IRDAI to develop AI governance framework through industry working group](https://news.google.com/rss/articles/CBMijAFBVV95cUxNN0hMR3RUcmNCazI4bzY3MU0tVW03bE9RaHZta1pyRVBITFNuekQzaGRPd1dNTHM5WDM2bXdwYi1WREdnOWtwM1JxOUx2SUtHWXRYS1h1bHF2WDNJZVJZMkNpYkdGYktDOGp3LW1HbkpVZVNNa01seFhsU1RDWERQQTZkZzI5aU9vYWVaNw?oc=5)**
   · _(Re)in Asia_ · 2026-06-22 · score 19 · tags: regulatory, governance
 - **[Irdai withholds variable pay of some insurers' CEOs over expense targets](https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWnYyOWRtME1GczdLMmN4V3hmYjFZU0VEZ3F0bW1mTWg4UTlhNGszQmhXUW5NVVV3YlZSWWQ3UThuS2RHYzQwZm1kV1ZOS0lYN3dYNTdWM2MtV3FqT3ZZdGpoNktxT3FHQTF3ZnEyTVFkTWxBeEFjbDFDLWFnTTZkOUVBa0pkOHg3V21UanlfNEJmOFdHc21JaFZkeTVOYmdhRkRRVnBadzZPYkNJNWR1Z3RMOTJmQmZlWmZDRkJreko0SEtGcUdaMzRjTlNaM25XeWdjZW9GSdIB3AFBVV95cUxPUFoxY2NVV2NHY3UzZmNjSFA3X29kWGxmNGwwSGg1MnpqYnAzN2YtNWZaUVVRM19yalU3SVI3Q2RpaXYzdEhlVVNBV1BqYXV1Mkp1dUlkX2VMMkNWZUllTi1FSGRJUk0wbHFTRzNJU0tFZEo0QVBOa1U3cHF5Rlh0Z0FtbmJQc2NobV8xNTh2R215VUQ3RG00WWZpeXIySlFRdmx3bmI2YUlRNlZKVGJNVHc0WFVGWnlMYVk4SVdkTlFQaktydGpBQW1ZQnNYZW5aYTYtejdoTGNOa0VB?oc=5)**
   · _Business Standard_ · 2026-05-20 · score 19 · tags: regulatory, governance
 - **[Insurers wary as Irdai tightens executive compensation framework](https://news.google.com/rss/articles/CBMi0gFBVV95cUxQX0NFZE5MV2xoM1pVYkxPd0VSWFdsT3dLc3BkV2VROTNnTGlCZnBHREQyZTBsckxNTWJJR3BOeGY5cS1tcWhrTG1nY2dLU2lGbTkzSEpwajY0cUVxc3RNa0pTVE1hMWJzTGpmdE01bFY0TmJCOVMzbzVEWXBibC13VXB4Q1NsU2ZkbEVILTFHOFVjc01oby1fM0VJS3pYS21XVXdRWm16SktlNzBQUktMQTV5XzR5WDZNajAzaXJTZ1pJUG0xQTV3WUwzWlVfRG9rYnfSAdcBQVVfeXFMTW9uT3RuaF9zbEJCWUViUUhwTGdVWW1FWUg4NE1SV05VWmR3bGgxM1B4UVFqWTdQRGZEMjRjbG93eWp2NFo1YzRTNWp0RDg2VS1DVFZGX3ZUVGZDbzBQaHI1d1ZySXdxdG9fUDNPZDJXVV9kcHlndkJ1RWFreV9QcTJJQXZJR1p0RW05a082NmtqZGllYkFiY21EY0R3YUUxQTZIc2hfQjJMNHNFR09lc2V2V0dka3JjTS1uLWlpR2x2Vm9Mc3hrX3J2bndnbVpfbm1LRlhmZFE?oc=5)**
   · _Business Standard_ · 2026-05-27 · score 19 · tags: regulatory, governance
-- **[IRDAI (Insurance Fraud Monitoring Framework) Guidelines, 2024](https://irdai.gov.in/document-detail?documentId=6023734)**
-  · _IRDAI Exposure Drafts_ · 2024-10-23 · score 18 · tags: regulatory, trends
-- **[Consumer commission fines insurance company for denying claim to textile shop owner](https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTjB6dnJPdExVRTdVWm15OXlKYk9xUDY4ZmNiSUpFQmJGZTZNV001THpYVW9kaDJwNlYyT3BMUzloVTd4LUo0R21WSzBmU3l6c0N2MDdKaFRqYW5oR25FVWY2MnR5WHlJOEtyX3Z5QTIwbGlBaFRfaktqcERieG1BOUgwb2ZEa3Q1TTZhVVZvbjBKYnpsYlVtOTJ6YThYbDlLQ2dsdW5JV1ZocUpkSjhkNE9YZThpOGh6Znk0MU9ldlNFWTdtQzhTNTg3MTJ0ZnJiR2lJVVRRdm5Td3lrOTk4WTlibFlUSnAteGhWbG1qeFLSAfYBQVVfeXFMTXlKU3NhNGRlVWczMl9xWTN2cXdMRlFiWTd2NkRHTHk5V21EYVBnTDltanB2dFQtc3padHNDLUR6RUVsR2dka3FqZ2dmTkNTZTZxQU51T01pNFNfV2lVYWxKd1FpUjF4OE5scnR2amR6MjY1bkdEdGR3bnlVTGQ2dkZndlFCRC1McEJOd2E3eEhnZzg4Ym8xU0U2THJoNnQ0aEJ5ekJGTDlhS1M4am84c3ZyUlRkdTNNQk93ZXZCNTk3dkdMNHk0UUtOU29tdFBIYkQyd1haSmI4VmRjeVI5elVuRVM2UHI2Q05ib2VTQ29sSlM5RExR?oc=5)**
-  · _The Times of India_ · 2026-02-02 · score 18 · tags: regulatory, trends
-- **[IRDAI slaps ₹1 crore penalty on Nissan Renault Financial Services](https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQXFZcHpsMTlNNS1WRHEwYk9ybVlvNlQ0ZTk1RERHY191ZmxfQ0hKN1U5MV9ha2RzYm5FNGhKUlVLbzEzTGttQ1BUNVBPOFBadTNqOUJfbDNVelBkYUM2b096WS1xcXUzYXJPcUhuM0dhYS0tSlFkVTRTTzRWbWd0dDJXWEVNaFNDUkJGa0paUDZuVkJNX2tiaVpjYzBSOXZjbmIyZmxFNlZydzRJLTRyX1l1VDFkeFhROEZDdHN0YnE0Ti05OVNXT0VJNDBrLWcyU2szYl9R0gHcAUFVX3lxTE1VcDZFZkwtS0VQeTNuS2pKRmU4ZTNoV2drbXJDT0t6X0FCSkoxelAxblo5NUZFNWhhS2xGTkZldlVhWVY0aUdjZ1A1Tm1KY0I1Rjk3cmZhM0psdWlxNF93NjlzTEpkZ1BPZDE5YjBCUmIya0ZaYm5nMEl1WU9nZHc1YXFOS2hBcnZLeFdHRlEzcm5EYXQxU0dEdjk4aVFWRGExNFZFX1hyLS1HbDdzSEpNaHpsWjVSUjUxN25kRUdTX3BjUVFseGtsSjNBMEtLWGpDUHBVUXVhZ3F3Tmc?oc=5)**
-  · _BusinessLine_ · 2026-06-01 · score 18 · tags: regulatory
-- **[एक्सपोज़र ड्राफ्ट आईआरडीएआई(आंतरिक बीमा लोकपाल)दिशानिर्देश, 2025 / Exposure Draft IRDAI (Internal Insurance Ombudsman) Guidelines, 2025](https://irdai.gov.in/document-detail?documentId=7629967)**
-  · _IRDAI Exposure Drafts_ · 2025-07-23 · score 17 · tags: regulatory, trends
 
 ## Governance
 
@@ -155,8 +155,6 @@ This is the internal digest. Pick 3–5 items below and hand them to `whatsapp.p
   · _IRDAI Circulars_ · 2025-06-13 · score 15 · tags: data, trends
 - **[ICICI Lombard, Niva Bupa lead May premium growth as retail health offsets weakness in fire insurance](https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbXBNT3lDMm1qb0t4OVozWnVjNVV0eUozcXJ5d0ZWbUYzQW8zM0xPMU93SldQckQxbTV5YmszaDJlUkVQcloyVmZPN3ZOdzV6ekxDb2hsME5aR2ZiZTVLMjREbXQ0YXZVOWRKdHdJRlBuV2VGT1R2QzV6aF96aW9ER0dOeHA4XzVzU2JRRDI0SE5JcDNleVk2QTUwU3UtMnVHNGRVY3NZRUw2VTlyX0s4R3lFT09lQWVEQl9odjlXUWxSNnVHM3B4VjRlVzJTTmFnMUZ3VUowUdIB3AFBVV95cUxQbVlMVUxwaEhNSkVJNFpNc2ctUWN2YnBuYkZYbjluOExsbDZoemEyQnpaUWoxclg5V1ZqLTFDRUFVblRZMzZjVUtWdFdRZzdkVWJDd0NnVVVfcmU1bTRSWl81XzdYOWY3TVVBcnY4S2x4Vnd1OGthb2ROWkUyRWRGaGJ5bUhjUlNrYkVNNTFjZnZIRmFyNlRnZDFUMkVCazZzNU9DaWpCQzJaWFhZcVZyNDBCRDRsOV95Qm5kdmFfdElDdlluZG9lRXdDSUFicmkwWENyRUJmRjlYUTZt?oc=5)**
   · _BFSI News_ · 2026-06-21 · score 15 · tags: trends, player
-- **[LIC flags 'rampant mis-selling' in life insurance, warns of fraud in pockets](https://news.google.com/rss/articles/CBMizgFBVV95cUxNeGtXTEpUQ1ZEcFVNZm9qOEMtd1J0WFdmaEFPZEFVd3J5Ui1iVXdjSDhXYzdLNW5wd1IwdjFRcHpoZ1lOeGNncW9RZ1Fxck9UczY5TnFETVMxQVVVazN1RlgzaUU5YjJKLWhZYVBxQmRMY2g5cWUzMlVNZUZXZ0tTRmJPYnpGSDEwM2NtYUpwS214VDhEZGx2c09kTzRHLUpKVG5ITmxPYWpYRTltREVtWUNmVXFRTXVSeWYwYXNoaXptUHhBdjY1THV5eUJNd9IB0wFBVV95cUxQUmVkazh0ZGRyUjBvQjA2eVJGbFVjT1hxeUtORGthMVpzakV1OE53Vkhpazg4el9KNS0yUVg1dGlHTHdIeWNtSDVaMVVBR1hVZnFEMW5RZ0FVVVNYUUl4WVZoR3UyVHJucEhlNEZidF9sUjF5aGdxdEhtQnJlMWZOU0NUWmFVQ0k5UmwyZkwxcTNoQ3c2YzhER2ctVnJGV3pPeEJLTFhDdUdDN0tzeTM0WkxWaVBmeGo5dzNTOW52WTE0c1RVU19IMnF0N3JCd05aUnNn?oc=5)**
-  · _livemint.com_ · 2026-06-30 · score 15 · tags: trends, player
 - **[Delhi Consumer Commission Holds LIC Liable For Wrongful Repudiation Of Insurance Claim](https://news.google.com/rss/articles/CBMisAFBVV95cUxPQzZ3Nzl5QnZ6anZMZEFOYW5SYmNfekdLVDBrUzNDVGdDYkVoNnFYSGMtZFBnSmdPX2ZxejJ3WjdpRXRzemFxNWN3YzhETU10enVkaUdydGtoWmNuS2RmQ2d6NDRBS3BFeGhhMGU3NVhJNG9qWEFUMWJlZEZJM3QtSTIzcTVPb1I0WmEzaEtUOUxKc2Jfb28xVUdZekM1NXBEMy1Xa21CVVNtS1p4ZlFoRNIBtgFBVV95cUxQTFZvcGlxYU1QNENYLURQM0c5anpNYk1fb1d3TEZVUTRmTlNVSS15bHl0MXRSUkdsNFEyUkhmQ0FEUlRnZU50N2FrT2lOMUo1TDNkR1pyZHVEVVdTVnYySFpKWF92bTdhYnJRWjZJR2h2OTBVV3JNd3JYNE50d3VCRzg1azhmQS1Nd0I3Z0JYamlTNkxlanVaODFLNWMzaHBWZXhSOW1EOW9rLWFVZmVqRm4tZEE3UQ?oc=5)**
   · _Live Law_ · 2025-11-17 · score 15 · tags: trends, player
 - **[Consumer commission orders LIC to pay Rs 12.5 lakh in insurance claim dispute in Karnataka](https://news.google.com/rss/articles/CBMi5gFBVV95cUxQaUJJTWtHUTBKenltOU5KalZ1RWJXZUppdFVKbmQ2UXM0aUNkYm84RW9xTU4tbWZJTzNzRWkwTGlaZjhRZGlaVTR6bFA0N3hkT3NtalJtNjJPZENocEZWUTFCQ0lBbVkzUXlMMzJOQXM3dWVnQ0MtLWp0cUZERUJidjZBdGxJM3Z1aWs1RkVfSGJlNG5KTUZqbDdDaldiOWpXWnI1ZEZZN3loRVJPaTdIZ2ZNYjJJOTVoSzJZWkVCNzRWOEZ6RGpRR1BwdkN1eEN0dHI0ZFBtaUdiZUVwRTVOWFc3SlUzUdIB8wFBVV95cUxNcE9FbXF6Q2k1MzNsM3NlajMwcENXS2ZIb1pMQmtXUG1DdFFZTnRCWnZkcElMTFNUMEhiVl9NSExELXltZy10dkVYYlYyTnVndDhwZ1hQZzlvZUQzcFB6dGZxazdNSHJzYV90MVB6ZW1xbGJubF9KUHFxM3BEWC04X2JxYnQtb3F0Vnk3SERUUFNfRnp3ZmxTUkdkbWN0QUpmbGQ2WmVLcGJrNGJWVU9EdlRKX3YzMFlCMGpoZF9FeEQ1a3pqbUFIOFloREdScF8ySXZaTzB5a0xCSVZ5b1NrSU5HOG1zRDJROGVMdExYMFRmQjQ?oc=5)**
@@ -165,6 +163,13 @@ This is the internal digest. Pick 3–5 items below and hand them to `whatsapp.p
   · _Business Standard_ · 2026-01-08 · score 15 · tags: data, trends
 - **[Misselling: RBI Directions are an additional grievance redressal forum](https://news.google.com/rss/articles/CBMif0FVX3lxTE1DNVdvcVM5czk4YThyU05XaGpFODE4RVhMZ3RFNW9ZcF9PWVBIWEhqTkh6R3lfdkstTUEyWHhMQmpsaEZDYU9kVFJaUUhnaGZVcW9DY0JOc1dhUkQtWFMtNld0TnVIYzNZb3FXVXJFZWp6MTZGNE5DWXk1RTJKLVU?oc=5)**
   · _Asia Insurance Review_ · 2026-06-26 · score 14 · tags: trends
+- **[Private life insurers' commission ratios nearly double since FY22, raising profitability and mis-selling ris..](https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWXBXUEdkVVpnVkw5UldiZHdwZFRTWU5NcFNCLTNUOWVoaUpYQVJvRjloSjhqaE4td0puUjBQRGZBc3ZlWF9tQW5OQW01dEZMNmx2aXJoLXR1cUMtVG5WZGo3LTBDV0ZCdWU4bjBaRzlvVlpNS1JGbTE2dFFrMEEwZTZ2a0hLRkdFY1hOLXJuM1h2bmtmU05kOS1WREkzalowbVpwOFFGOGRhOXduTlZmUnFqNC1fTGdhQWlGNG50RkRORHNYaHZtdS0zNUlPaTNTM0VVaHFGeGRxc0xNdVFtTnE2TUhvbmFwN3fSAe8BQVVfeXFMT3J1VXpOdHg1WTJpNmI2ckF3ejlwa09BSUozZVVla0pwQ0xaUV9TMXJ6MTRrSEluUXo3cGNSNkJqdmZNV1NwcUlVSEhSLTJHZnJjNXZnbW1wSEk0MGZBV0xySEFrRDYzaU5VUVctbjJHbC1aOF9mOWw1eF9zR0VoeTRRV2lpblFsZlZJSlJDVk1ueXhfdW1fVWE0ZF94X0tCX1ZJU2JkeDNEUnprSUVLb1NXbXNIM1hhZzc3d00xcFIzS2J3akN2Q0JoUWFaM1RnbjFIUUtaWTRGVUtQa0JSeTMzTDN6TGtvRmswYmEzR2M?oc=5)**
+  · _BFSI News_ · 2026-07-01 · score 14 · tags: trends
+
+## Data
+
+- **[AIIA signs MoU with GI Council to launch cashless ayurveda treatment across 32 insurance companies](https://news.google.com/rss/articles/CBMiV0FVX3lxTE9BNDZlanVSYXBCTzlYS3p2ci1JQVBJMEpIVElwQzBoUnB0Zl96YTU3UC1aX25JelAxWWVoN2w5VXQ3ZHZZdGtUNzNpSlNfc0U2MGM1ejZfWQ?oc=5)**
+  · _Asia Insurance Post_ · 2026-02-10 · score 9 · tags: data
 
 ## Player
 
@@ -176,6 +181,8 @@ This is the internal digest. Pick 3–5 items below and hand them to `whatsapp.p
   · _InsuranceAsia News (India)_ · 2026-06-21 · score 9 · tags: player
   · <p>Under the agreement, ICICI Lombard will issue local policies on behalf of Lloyd’s managing agents for selected lines of business. </p>
 <p>The post <a href="https://insuranceasianews.com/lloyds-partners-with-icici-lombard-to-expand-multinational-capabilities-in-india/">Lloyd&#8
+- **[LIC shares extend fall on stake-sale buzz; insurance stock down 6% in three sessions](https://news.google.com/rss/articles/CBMixAFBVV95cUxNOVlIbUhTM0w2cTdhZ2duOWhHMGZ5MDktRkFiS0NMd2l3dm81X1pzRzFIUXdBNm9ZcFl1WVgxcDEzZVVsbUpxQlpRbHduUWIxb2pUZDBDU05ENmRldDFwampXZEhuLTVMUU9CcXJFRURVYUdWMVduM3VKd3VSYUdpYTh6MTZJWFd3Z01hYVBpY1ZsbVdpUFEweFpJMGNiRW5aTnR2U0YwQkdjT3ZEcmw2X21ndjZsMURiS21BNVlodUd2ZE9h0gHSAUFVX3lxTE5XNnVGdW03OTJPUGQ1dWdiakhjWWZCcWp2U0Z0NFpWbm9YZDJQTmV2TW1qUnBpaG5YUXBxVjhhVERXandyOTYtUW5QQ0t0bDdoVGhQcjdaZzZJODY4VFBEdTJCV1lOdDZTUTJKd1VkY3JEbktkRmVFRHV2VTVhYUlocDdQcm1MRHozeG10cXU4RDdSTmxBZEVqOERVcjVKRkExSzNPT0tTb2xOeTFuX3FWNTFYZUlyQmZQSjFWcmVIWHdPbHk4TEtZb0RyUVpKSThiQQ?oc=5)**
+  · _Fortune India_ · 2026-06-01 · score 9 · tags: player
 - **[Life insurers’ NBP jumps 39% to Rs 30,550 crore in April; LIC, SBI Life lead growth](https://news.google.com/rss/articles/CBMi9gFBVV95cUxONDl5Tlc1MU01SDFkdDByaC1ITVVlbVNuek15NkFiT0tSN0pGR19OTE43MWRILXJ1ek50ZmJYTDUxcXNweEdiZjV5aHFyMl9NZHBMeTd6NEk1ZVlHeXlJcEw3LWFFb3JxUnpYVWp2REhkRVFMb05UQTg1RmhlMEdnc2N0ekFDVXZsa3hLVXNTN09kamZXYmxSSEYyc3RxNUR0VGh5YlFDUG1Cc1lLNmc4TlVkZFEtRnhhWFMwRFJWT3VaUXl6SWZNb3dxMjZDT0tpTk9JT1RyLXJ4RlhxWWpYVDE3bU82TGE0YmxtaGNwUGNvSWl0Y3fSAfsBQVVfeXFMT3BYaUxWc0VoVFJ2am5SbGs0Z3NEYWRYVVZIRjcwa1c1ZC1zQ3VxQThWN3FkRUNYRmhpd0djbHBUckU2ZEZnN0ltemxqM1N2OExoUGYzR2pGdGlPRkRNYkhDZUI4OUFyd0E2a1Jjc2w4RHJ3SkxuY2gyOXhOVjB3UWtqUVJZRUU0UDQ3ZlhUblhPdi1NQ0RzeVlOeFg0dm5ISzRZeDFkLUExSDZmeG9EeVpEcnh6ZTRyNEdHanJobDFjMzg2RXJGZmpXRmJTLWlzXzQ2MGVWVzF5aDhhSGdLZHZLNzdBRmh1RDlUUXBVSXIwM2EwQ3g0eGlSY1U?oc=5)**
   · _BFSI News_ · 2026-05-11 · score 9 · tags: player
 - **[Oct-25 robust for NBP growth at LIC as number of policies double](https://news.google.com/rss/articles/CBMioAFBVV95cUxQVWpfZEMwSzNZODVkVVNHb2dIWUZ5VUFxVUNMZm9HbXlkZDBlU1NHVXVxcjhUcG5iM3BGTTJDSW9UcFZ0NXplbFdzVEV5RV94Qzg0dVdRaGgyMEJobUI5YzhyWkVXZVpUMjQxZF9nUGJaMjhEU0RXTWF6S3BzZjB2TkNVZ1IwemxnNWxKa1VGUmt2dy1meU1qeHFINnJ1cjh2?oc=5)**
@@ -192,8 +199,6 @@ This is the internal digest. Pick 3–5 items below and hand them to `whatsapp.p
   · _Passionate In Marketing_ · 2025-11-15 · score 7 · tags: player
 - **[Liberty General Insurance has launched Liberty Cyber Resolution](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRURabWZPbmlCSzY4Ti1OaEpEc01oaGpCdkxsWUItRXoxR3hkSUU2RU5SQnpPVF8wRjZqb1BqYUg3V0xDTkNkYTl5ZWxMeUwyZ01xenVWb0d4NlpyNW9NaWhaaWdXZXE1YkZTODlfTWhIU1hWOUZ4ZE1uQ2FRWkljeEhfLVhCeWZ2RHZ5S19yTFdoOHV6cW9PRjVNLThBOTVuc2NJRXlzNVFqbEU?oc=5)**
   · _Cafemutual_ · 2026-06-08 · score 7 · tags: player
-- **[Liberty General launches cyber cover amidst system failure risks](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPczhBTnMtd1F0NWpUc21yUzA1MEJiSUR3aFZMR1hsTEUxWkRIV21xczVtYXEwTXN0Rmo4SmVvZUpUZmdiWnBobGNOZUVQbUVQOGdYZndmSkJpc3ZFQ2VnXzhFQ09JM0IzN20xUG9CTnM1elgzcDJFRHRaV0YyWDZIQkN2TFN0MXl1bnZxVUxoUnUwSVVTczBnRlgzUHU2QUgzV1BqX0FBenE?oc=5)**
-  · _Insurance Asia_ · 2026-06-08 · score 7 · tags: player
 
 ## General
 
@@ -222,7 +227,7 @@ This is the internal digest. Pick 3–5 items below and hand them to `whatsapp.p
 
 These sources have failed every weekly run for 3+ weeks. Fix the URL, swap to a backup feed, or disable them in sources.yml — their coverage is currently lost.
 
-- `business_standard_finance_rss` — 5 consecutive weeks down
+- `business_standard_finance_rss` — 6 consecutive weeks down
 
 ## Sources that failed this week
 
