@@ -1,6 +1,6 @@
 # Industry Briefing Material — 2026-W27
 
-_Generated 2026-07-03 13:04 UTC. Raw ranked material._
+_Generated 2026-07-03 13:26 UTC. Raw ranked material._
 
 This is the input for the Friday briefing. The final briefing is written in-session in BimaKavach voice from the stories below.
 
@@ -33,6 +33,9 @@ This is the input for the Friday briefing. The final briefing is written in-sess
 - **QBE Insurance Acquires Full Ownership of Raheja QBE General Insurance in India**  
   _Daily Pioneer_ · 2026-07-03 · score 14
   https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeWFvcU5QYkhoTTczekZCckU5S05kVUtRclI4U2MzaXdrZ0JwejRuLTZQdUhVV2MzZm45eUNtUFM0UjUwd09LWndsUVp0SnMwWHZ4aHd3Q2RnZk9vdGp0NkN6QmxFaURYeUU2Sm9GM2VKNy1vNGMyUmRoUG9Wb3d3RW56M01UdmVBZ0dHbkNBNzNjYkJzTjNqdEtuaHhBR040d2Q2VVI3QW0zdw?oc=5
+- **India, Japan chart AI partnership across research, infrastructure and governance**  
+  _BusinessLine_ · 2026-07-02 · score 13
+  https://news.google.com/rss/articles/CBMi3gFBVV95cUxNb21QT0pjRUgwMnFqUkZ2UHdWOVF6cHBVUy1GdEhzSVRHLVpmcWpnZnVndXAxM1NMRWs2bnh6UFU4dWdLNS1LMTRaSFRwdkVlLVNIc0E0blloakRqWWlaQ0JMdk53S29HRWw2R0NMc3pVa0NFVWV2SWlCcVJsbTNnVm9QUU0wQ0JiSG11ZEVLejBmQ2dHYXI2M2Ywa3VQc1F2WHpqTnhHcDFITjBCT0d6eUcyekVPZVhrQzJqTXR3Z0RpdHJaX1kzZDRyNUltYmxWdm1ZeDVNZWFxVWdDd2fSAeQBQVVfeXFMTllVajl1dWJoOUZrXzdTSHBDUUZwS21Ody1HazVSc1prRDBUZUIydkljMlpyMUhNLUZfTTBwWndJNURnQ2ZXT18yMzVRc3ZPel9HbFhuNnhBVDJtZW5zMzB0eVBTOFByQ3pWUVdGdFlhU05ST1R0TjhQMk1iT09obDh1c0MtMHkzdXg1UGM3MzBlU1JSeUlPZnAtY1NnNkZzbVNoOFdWYldqNHZ0UjdLUk50aXdrNVplRVVoUUl3Si1VTmx3SGVhZ1hoYW9qaUxNVmNOQ1V3QzU0NnJvLW13bTdfTjZo?oc=5
 - **Australia’s QBE completes buyout of Indian JV Raheja QBE**  
   _Life Insurance International_ · 2026-07-02 · score 13
   https://news.google.com/rss/articles/CBMihwFBVV95cUxOUEM5dlMxOXIwVmlTa2hCcWRLX1p5bDVHb012WDFaakE1amd1bUR0bUxPdndGNWIxTkJ0dWJneTJTYjVSZndBT21jQVVfTFd6dE82N3hwdlR3Y2Qxd3VOQWRGLVhEbDBLd1JoZHdQV0tzOWFncE9QSHdEUGdlUG1QZS1XZ20xMFE?oc=5
@@ -41,11 +44,6 @@ This is the input for the Friday briefing. The final briefing is written in-sess
   <p>HDFC Life, one of India’s leading private insurers has joined hands with Tata Fintech, a...</p>
 <p>The post <a href="https://bimabazaar.com/journal-books/insurance-articles/hdfc-life-and-the-tata-digital-group-enter-strategic-partnership">HDFC Life and the Tata Digital Group Enter Strategic Partnership</a> first appeared on <a href="https://bimabazaar.com">Bimabazaar.com</a>.</p>
   https://bimabazaar.com/journal-books/insurance-articles/hdfc-life-and-the-tata-digital-group-enter-strategic-partnership
-- **‘We’re in for the long haul’: Valueattics Re targets steady growth with domestic gains, regional moves**  
-  _InsuranceAsia News (India)_ · 2026-06-29 · score 11
-  <p>CEO TA Ramalingam tells InsuranceAsia News’ Between the Lines podcast the Indian reinsurer is building momentum with leadership positions and a disciplined underwriting approach, while laying the foundations for a broader regional presence.</p>
-<p>The post <a href="https://insuranceasianews.com/valueattics-re-doubles-down-on-xol-regional-expansion-as-it-seeks-to-anchor-indias-reinsurance-market/">&#8216;We&#8217;re in for the long haul&#8217;: Valueattics Re targets steady growth with domesti
-  https://insuranceasianews.com/valueattics-re-doubles-down-on-xol-regional-expansion-as-it-seeks-to-anchor-indias-reinsurance-market/
 
 ## Regulatory Actions & Corporate Governance
 
@@ -68,16 +66,16 @@ This is the input for the Friday briefing. The final briefing is written in-sess
   https://news.google.com/rss/articles/CBMiiAJBVV95cUxPZ3p4a0xwVWxLTW9KTFFuMnlkZnRCeDZhcERmNVNweWduNXhHYzdKanF6bkIwMGpnMHJSRW9XWW1mTTB4cDhwR2VTSXJNbVlaeFl4T3ZMeVRPb2NxWURVY010QmJWRGQ0cU1GR3ROMThmdVZrZTFjYzBLVms1dzBpaWxQcEQxNVV4N3ZvNFpycVFxLUpiSXFSZnJOVW9mMl80NHEzbm5kY3JmcVMxZlhEdGF4WFdtbDVIWDRRRG1wMVVvX004ZGs5RFNRci02UFhNMUxhMEdZZEFDanh0RWdzMG1XaFdidXpuUVVyMmJRVzFyaDE1RlhNTHduaUNfLVo1QTlZazlFWE7SAY4CQVVfeXFMTmJNR0FfY29MTHE2RVhHUE5tdHVEcHFLc2F6TlVQVWhPTGNqdkhmUDgzOXkzdkVxLU5SVF9FTkZKcElOQkZyWGI4d3JYV1ZVMEZ6SXEwcUNreVUtS24zRXZUUzhZbTRzNFZtU1pYUTh6QUR2cFA0QldWcG5qRHZJR051QWNRVElUa08tQ212WFI4SFRXN082LTBtdTNvdC1oYktuSUVhVkg4MUZoV3FmRHhCbTdFclRiSU50WEw3SGlMZnJHeGxoR1haTmQ2VlVmQ0VhSHh2QzVGTHN1aXlsWGVCX2dzU0M0UTF6QjRxSUxweXlDMnNkRU1jalhnR3BraVpZSTRFdnFvc18xVnhB?oc=5
 - **Insurance mis-selling: IRDAI wants every policy linked to person who sold it**  
   _India Today_ · 2026-07-01 · score 17
-  https://news.google.com/rss/articles/CBMi4gFBVV95cUxOeXZQc1ktcGdXb2liYlg2Nm5ORnpCZDRZS2xydnpzRDE2NWtQTm5IcC1MYXNUX3haWGcyZ1RYX1VDbzBPT2ZOU0pMbEVaa2VHblc1T3E0ZllScGRadFp6cl9jSlY0QUNBc1ZDanVYOXhaMmV4VW5jS2w0NUVGWGVZLXlkQnItcldsVFpndnhpc0pwRlNGYVN5SW01X00yNGF3VlFUUjZHSXp4dGo0RmFYOUdTYlRicTh6YnlOSXg1cGVmVEhxbndXcW1NWXNjUlZ0dGozMHRKSWlGbVRaYVVNNDd30gHnAUFVX3lxTFB1R09MM21SeE5GamNielhoT3ZtNU9vNmpPTGtjaFc0eGo4enIwV2ZMdGd4aXJSUDEtSkxtQTlKWWd5V3V3akxCdDhUZ0VGWEwzdjhOVW02d3lVNUhUQTV4UWpUbFNRUkFmTndNWkRkc041TjJIRWpaYV9yN2pmVHRwOVVMYm95ZnJITGYxaVRNRGotUjdVZUlualdxMTcxN1lsQVQ2Yi1RdlNtMVc4cFp4UGFJLUtZeEJ4eDNuZEE2R2VMN2tyUnNWUjRBMGEzU3h4b1dMcHBoNjktVzdrSWpPYmVid3B2NA?oc=5
+  https://news.google.com/rss/articles/CBMi5wFBVV95cUxQdUdPTDNtUnhORmpjYnpYaE92bTVPbzZqT0xrY2hXNHhqOHpyMFdmTHRneGlyUlAxLUpMbUE5SllneVd1d2pMQnQ4VGdFRlhMM3Y4TlVtNnd5VTVIVEE1eFFqVGxTUVJBZk53TVpEZHNONU4ySEVqWmFfcjdqZlR0cDlVTGJveWZySExmMWlUTURqLVI3VWVJbmpXcTE3MTdZbEFUNmItUXZTbTFXOHBaeFBhSS1LWXhCeHgzbmRBNkdlTDdrclJzVlI0QTBhM1N4eG9XTHBwaDY5LVc3a0lqT2JlYndwdjTSAecBQVVfeXFMUHVHT0wzbVJ4TkZqY2J6WGhPdm01T282ak9Ma2NoVzR4ajh6cjBXZkx0Z3hpclJQMS1KTG1BOUpZZ3lXdXdqTEJ0OFRnRUZYTDN2OE5VbTZ3eVU1SFRBNXhRalRsU1FSQWZOd01aRGRzTjVOMkhFalphX3I3amZUdHA5VUxib3lmckhMZjFpVE1Eai1SN1VlSW5qV3ExNzE3WWxBVDZiLVF2U20xVzhwWnhQYUktS1l4Qnh4M25kQTZHZUw3a3JSc1ZSNEEwYTNTeHhvV0xwcGg2OS1XN2tJak9iZWJ3cHY0?oc=5
 
 ## Industry & Premium Trends
 
 - **Next Phase Of Insurance Growth To Make It Simpler: Aditya Gupta, Life Insurance Council At Launch Of Irdai Comic Book Series**  
   _Outlook Money_ · 2026-06-30 · score 19
   https://news.google.com/rss/articles/CBMi_AFBVV95cUxNZ0IxSTZ0UlJSVFJpWFZBMjVXNUF3Wmg5YTBqSVA0WjR6NHJmUGI1eUk0YUIxQ0Zjbkx6YWpHVlJFWGE0MFd5eC03bTFwY09NVVJIZzU2QmFUVHlkTUhlX0VxYWpmS2Y0VDQwSjRYWFNvNlUwVGxIT1UwTThzaWJxY0l0Z01sM3JtUXdfSThYZXpBa3VuNHRQMzBVU3NOYVdFSWNJVlZhMEZ0ZUVNNVpieVNFTFBkZHRTT3o2LU00U1ZDV1ZGUnFHWmlSOGVLdmtWRmJLeF9mWnRuRGlid3hBenBvY3lxdGllUVQ1ZUdRM21aSnJFVGdBZXloUzLSAYoCQVVfeXFMTkkwbERSUFBKMGxCbU1fOVJub3hoUTlPcVZlckJYQW4wbTBjdGpibFJWbFpROHd5bjdyTnNvU0JfOTZkQW93TkJmMjF5RWc4cFRQLXZhTGV5TUdJOVBQUGxGWUN1LUhkV2dwbGE4QkNadGN6R202dVdhYnNGVVgyenpNYlBIWUl6dHI0dm9SS1hrVWpiQW1qZWYwRXRpZWdHZE9mYzZFUkJPWXpqV2hCS0RQTnBXR29RTUoxMm1Wc2dTZi1lYmVhU0VfVkNNeWhib3Ztam15U0hRWkM5VHhhUFhySktkNFBNcDh0dHU3VG5lcEU0QkNQSDU1aDVrWFNyM19vWk1YdW51Rnc?oc=5
-- **Misselling: RBI Directions are an additional grievance redressal forum**  
-  _Asia Insurance Review_ · 2026-06-26 · score 14
-  https://news.google.com/rss/articles/CBMif0FVX3lxTE1DNVdvcVM5czk4YThyU05XaGpFODE4RVhMZ3RFNW9ZcF9PWVBIWEhqTkh6R3lfdkstTUEyWHhMQmpsaEZDYU9kVFJaUUhnaGZVcW9DY0JOc1dhUkQtWFMtNld0TnVIYzNZb3FXVXJFZWp6MTZGNE5DWXk1RTJKLVU?oc=5
+- **LIC flags 'rampant mis-selling' in life insurance, warns of fraud in pockets**  
+  _livemint.com_ · 2026-06-30 · score 15
+  https://news.google.com/rss/articles/CBMizgFBVV95cUxNeGtXTEpUQ1ZEcFVNZm9qOEMtd1J0WFdmaEFPZEFVd3J5Ui1iVXdjSDhXYzdLNW5wd1IwdjFRcHpoZ1lOeGNncW9RZ1Fxck9UczY5TnFETVMxQVVVazN1RlgzaUU5YjJKLWhZYVBxQmRMY2g5cWUzMlVNZUZXZ0tTRmJPYnpGSDEwM2NtYUpwS214VDhEZGx2c09kTzRHLUpKVG5ITmxPYWpYRTltREVtWUNmVXFRTXVSeWYwYXNoaXptUHhBdjY1THV5eUJNd9IB0wFBVV95cUxQUmVkazh0ZGRyUjBvQjA2eVJGbFVjT1hxeUtORGthMVpzakV1OE53Vkhpazg4el9KNS0yUVg1dGlHTHdIeWNtSDVaMVVBR1hVZnFEMW5RZ0FVVVNYUUl4WVZoR3UyVHJucEhlNEZidF9sUjF5aGdxdEhtQnJlMWZOU0NUWmFVQ0k5UmwyZkwxcTNoQ3c2YzhER2ctVnJGV3pPeEJLTFhDdUdDN0tzeTM0WkxWaVBmeGo5dzNTOW52WTE0c1RVU19IMnF0N3JCd05aUnNn?oc=5
 - **Private life insurers' commission ratios nearly double since FY22, raising profitability and mis-selling ris**  
   _BFSI News_ · 2026-07-01 · score 14
   https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWXBXUEdkVVpnVkw5UldiZHdwZFRTWU5NcFNCLTNUOWVoaUpYQVJvRjloSjhqaE4td0puUjBQRGZBc3ZlWF9tQW5OQW01dEZMNmx2aXJoLXR1cUMtVG5WZGo3LTBDV0ZCdWU4bjBaRzlvVlpNS1JGbTE2dFFrMEEwZTZ2a0hLRkdFY1hOLXJuM1h2bmtmU05kOS1WREkzalowbVpwOFFGOGRhOXduTlZmUnFqNC1fTGdhQWlGNG50RkRORHNYaHZtdS0zNUlPaTNTM0VVaHFGeGRxc0xNdVFtTnE2TUhvbmFwN3fSAe8BQVVfeXFMT3J1VXpOdHg1WTJpNmI2ckF3ejlwa09BSUozZVVla0pwQ0xaUV9TMXJ6MTRrSEluUXo3cGNSNkJqdmZNV1NwcUlVSEhSLTJHZnJjNXZnbW1wSEk0MGZBV0xySEFrRDYzaU5VUVctbjJHbC1aOF9mOWw1eF9zR0VoeTRRV2lpblFsZlZJSlJDVk1ueXhfdW1fVWE0ZF94X0tCX1ZJU2JkeDNEUnprSUVLb1NXbXNIM1hhZzc3d00xcFIzS2J3akN2Q0JoUWFaM1RnbjFIUUtaWTRGVUtQa0JSeTMzTDN6TGtvRmswYmEzR2M?oc=5

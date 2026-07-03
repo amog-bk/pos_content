@@ -30,10 +30,10 @@
     "total_failures": 1
   },
   "business_standard_finance_rss": {
-    "consecutive_failures": 6,
+    "consecutive_failures": 7,
     "last_error": "2026-W27: HTTP 403",
     "last_ok_week": null,
-    "total_failures": 6
+    "total_failures": 7
   },
   "business_standard_insurance_gnews": {
     "consecutive_failures": 0,
