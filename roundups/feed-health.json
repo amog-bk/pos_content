@@ -1,9 +1,9 @@
 {
   "asia_insurance_post": {
-    "consecutive_failures": 0,
-    "last_error": null,
+    "consecutive_failures": 1,
+    "last_error": "2026-W28: HTTPSConnectionPool(host='asiainsurancepost.com', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='asiainsurancepost.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
     "last_ok_week": "2026-W28",
-    "total_failures": 0
+    "total_failures": 1
   },
   "asia_insurance_post_gnews": {
     "consecutive_failures": 0,
@@ -24,16 +24,16 @@
     "total_failures": 0
   },
   "bimabazaar": {
-    "consecutive_failures": 0,
-    "last_error": null,
+    "consecutive_failures": 1,
+    "last_error": "2026-W28: HTTPSConnectionPool(host='bimabazaar.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='bimabazaar.com', port=443) at 0x7f90c01f7710>, 'Connection to bimabazaar.com timed out. (connect timeout=20)'))",
     "last_ok_week": "2026-W28",
-    "total_failures": 1
+    "total_failures": 2
   },
   "business_standard_finance_rss": {
-    "consecutive_failures": 8,
+    "consecutive_failures": 9,
     "last_error": "2026-W28: HTTP 403",
     "last_ok_week": null,
-    "total_failures": 8
+    "total_failures": 9
   },
   "business_standard_insurance_gnews": {
     "consecutive_failures": 0,
