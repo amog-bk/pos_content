@@ -1,0 +1,87 @@
+# Industry Briefing Material — 2026-W34
+
+_Generated 2026-08-21 03:30 UTC. Raw ranked material._
+
+This is the input for the Friday briefing. The final briefing is written in-session in BimaKavach voice from the stories below.
+
+## Headline candidates (top stories this week)
+
+- **India Competition Regulator Approves Acquisition Of Certain Shareholding In Bharti Life Insurance By Prudential Corporation Holdings**  
+  _TradingView_ · 2026-08-18 · score 26
+  https://news.google.com/rss/articles/CBMiqgJBVV95cUxPRXZBZVRrUnJELV9rX0E2a3ItWVNpTUhDQXA2ZUZkdzVBNzhtQkktZkUxNFdhRXpSaGt5T3h0M1Q2N19qeHExWjJyNTZHVFpCWEVMeEdJRnBSM2Q4Qk94eFM2OWR3d3FHbEVBTnBpUTlFcjI4YXg2VkZzNnFyUm1PR0kyYncxQ3lzQllHRFBfbGt1ZlBxckFPWGhET1p3QTNlWHM5aW13ekxpSzA5V3VaVW5USm9TZ2pLaVpIQzM2TzJfdUN4Mm9zSFU2YzY5MGtXN0pRV3lCMHpmM1pvYUd4OV84VjlVYXZjalFBNnFYeUpnSTB1bEtETFNwcWRWdDUzN0xySUFZUldwRHY0cFhTNld4VHdXX1VZT182amNub0hxV0FXWktVRHl3?oc=5
+- **Axis Max Life Insurance reports 17% YoY growth in Individual Adjusted First Year Premium in 3M FY'27; VNB increases by 33% YoY**  
+  _Business Standard_ · 2026-08-18 · score 24
+  https://news.google.com/rss/articles/CBMirAJBVV95cUxNQ1lGSmN3Y1NzNk5jOTJ2NUZmZWxfenQyVFVMVTlkNXZ6RkcyeGNGcjdYQVdkbjYwNGJDMi10VzRpNnM4U2VaQlRrNTZNV283NjdhUmpjeG9QLUFic1l4WmZuOXJVX1RfejlkTjFoWU1uQ1VLQkV3ZkJCbFJ5SjN6dEJXMXd3TWUyOEdZajhBZWkzeDFKX2Z3OHFmdVNLM2FPZUpzNXJxa29KOGpoTjVyQ2tKT1g0ZlNTeDA4YTc4SGZrZl8wbUsxS0ZRT0c0MF9NOWVabDg5US1CajQwa2VjOHhHd1R0eDdKbjlJZ2daZkVPUlpmalI5bzI1R0JTV3VuSDFnYm5uaTg2M180Ry03ME9lcXpzdmFza1ZwNFZSUVZpd05VdUFiUmVnZkfSAbICQVVfeXFMUGMyLVpMb3Q5V29vdThwUG55SzZTckFlRjhFekVhVDNTR3VnLWpCdHJxSWRGVDl1ODF1ZGJUMzVrLUEwY1RnRnNsN2VSaEVOODB1dzlZSUZLYWRaR3dQRVN5am4zMElyZ1ZLMUJTZHlUYXdDV1ZjcGxETUlKSkd5bXcwODVubW40cUthOEJvSjVmNW9na1B2U0N1VjM5QjdvUjZ1UWNfdVlWVHMyT0NYMExDLU9JT09BMjd5a052NlRGRTBvUF9QWnRXSmVKb1M1YnM2bmlDMElGdTlaazhCYnRFclVlR09ZaEFMUXkxbFZ1anQxdHNXeDZadF9paHJfc2d6NUNXTjhjNzBaa2NqZWFHdEEtZFljNFE4cC0zNmU4VWZudkVjQTJ5Y1dkTElQaVRB?oc=5
+- **IRDAI bars Niva Bupa from new business over EoM violation**  
+  _Rediff MoneyWiz_ · 2026-08-20 · score 21
+  https://news.google.com/rss/articles/CBMirgFBVV95cUxQMkdZemFnZnBnY1BqSzlHWW9vamFxVm0zWGdUUjJXY1pfX0duWE1NZm9hWFgtS3RTd2xNOC1Fai1JY1pPcFBrWDRWR19oNFN5ZUZhVnlVNXViVWpCWVhkVGQtWDBaZjNvdHc4UTVxa3NIYWVfb2xXTEhZMkRuRUhfNy1JTlpfZjBSYWw0SGxiU3ZPY202MEhXeXFMb0Q5bkpOQmJZYUoyejdfbW9JeXfSAbMBQVVfeXFMUHhwMVJVNnZDeVdBRkEtNjZ1N1NtUXJOS1RoMGVVOHZRRzVNNkhvekc3d010QWZxaU9OT3U0Mk96WTdzNFVPX2RSOHJqMVl2VHIxenNURUVUTUFNa0dsc0tsWWpIUENTc0c0UkRhczdMZEFoa2FBQ05iZnllUnhaMl9MV0JieFZsRkVGcE5yQTJuOFdBWHA2Q2poamN2b3hyczl4SnloeVVRWUJfY05nazVydVE?oc=5
+
+## Major Business & Market Deals
+
+- **India Competition Regulator Approves Acquisition Of Certain Shareholding In Bharti Life Insurance By Prudential Corporation Holdings**  
+  _TradingView_ · 2026-08-18 · score 26
+  https://news.google.com/rss/articles/CBMiqgJBVV95cUxPRXZBZVRrUnJELV9rX0E2a3ItWVNpTUhDQXA2ZUZkdzVBNzhtQkktZkUxNFdhRXpSaGt5T3h0M1Q2N19qeHExWjJyNTZHVFpCWEVMeEdJRnBSM2Q4Qk94eFM2OWR3d3FHbEVBTnBpUTlFcjI4YXg2VkZzNnFyUm1PR0kyYncxQ3lzQllHRFBfbGt1ZlBxckFPWGhET1p3QTNlWHM5aW13ekxpSzA5V3VaVW5USm9TZ2pLaVpIQzM2TzJfdUN4Mm9zSFU2YzY5MGtXN0pRV3lCMHpmM1pvYUd4OV84VjlVYXZjalFBNnFYeUpnSTB1bEtETFNwcWRWdDUzN0xySUFZUldwRHY0cFhTNld4VHdXX1VZT182amNub0hxV0FXWktVRHl3?oc=5
+- **Munich Re acquires US based cyber insurtech At-Bay for $575 million**  
+  _Asia Insurance Post_ · 2026-08-19 · score 19
+  <p>The acquisition is a strategic move to strengthen Munich Re’s and HSB’s position as a leader in the cyber market by combining insurance with proactive risk mitigation and a state-of-the-art technology platform. It also positions the company for greater access to a cyber market that is rapidly evolving from standalone coverage—which Munich Re already provides—towards [&#8230;]</p>
+<p>The post <a href="https://asiainsurancepost.com/archives/83112">Munich Re acquires US based cyber insurtech At-
+  https://asiainsurancepost.com/archives/83112
+- **Prudential gets CCI nod to acquire 75 pc stake in Bharti Life Insurance**  
+  _bfsi.economictimes.indiatimes.com_ · 2026-08-19 · score 18
+  https://news.google.com/rss/articles/CBMizAFBVV95cUxPMDNVR1pQaDkxNnNvU1d0a1RMclV4VnZndjRBYXZGbVZDdko2Ukd3SmdmRVN2YVBGbXdlRFhMVXlzM0lMMVVhemZ5aUtLZ3VidXkteG1PRVJvRzBHX0lYbXlnN2oyUWFZeHdpZElMSHFtMGw5ckhLRHBfekt1VzhPR3FhZVZUaXd4WG0teFhZaDNXYXR3cF9UdGpvT3NIdUNhS2p4Um9Hay1aSWU2QXJnOUNjQUMyRFF4S0thYlFfcUpDNnFsUlE5amZpa2fSAdIBQVVfeXFMTWVrNVRzSDlUQkdCbkc3bnFqdW5TSlFacUxyU2RlMG9BRVZYelRrSGxocnRUWVAzQnpzUGZjQmxQMnljdFYxUEF0bzNSeGdscG5od0NZQ0szaDVRVUM2S2kwNXJBVFNIR1VlMlB5WDNoZGZWYm5pSmVTekxxcmhmU3htdnM0ZWVtQk5BdC1pN3ZSMGRXRWNWOTZ2M0pib0gzeW54ZmllMEdkeVZjajVuMlA4S096RC1kazllTzc1d2hELWVXMlQxd2ZpcWVpdEI5eGxn?oc=5
+- **Irdai bars Niva Bupa's branch expansion for six months**  
+  _The Times of India_ · 2026-08-21 · score 18
+  https://news.google.com/rss/articles/CBMi1gFBVV95cUxNX2I0Nk9Zd25ySnc1c2RWUldfWXd5YncyUVNQNWlTTEwxdkZhS2ZwblZVV0dpaGluaEFFUnIyNDNSUEY2Z19HWVdUNEVPMnFyNThSQmtYa2xySllQOUpwR0FRa1Jtc2tVa1pMTDJ4Y0Zramd5ZEVsZjRXQ2ljZUlvNU1RbWJoTjY4MzZQcklpUW5nVmRBRnRBMjlVazZSQzBIUTh0dHNXd2V0LUxSRjdqMjU0eExxRTRTSVRyVkNpcW5zSHZhYVdBR1pBWExCQkoxb1d6QUp30gHbAUFVX3lxTE1kOTlEdkc3T1ptUzBlSFplNEp1eGpOZ3JvRjFDRGpFMWtPSjJEcWM5SlFYU2tnbTNWZmxsaF9aZnRGS0JaNkZOU0QzY3dRTzl6N1hEU3d1NzUtYThHYWJFVjQtUUlqVGZTMVpBQmp2TVVJeFdxaFoxZ1ptT0swWDdrQjhBbnNJZUZ0R1BNbmhBQm9EUzJCNUI5SWJINjVnQ09YUnN5UDNWRW1mVTVuQTl4NUgwUnMybHRaaUw5clJZQ2hiZjJHcnByTW00eGsta1pySE4xZ3pvYjNNSQ?oc=5
+- **Niva Bupa warned by IRDAI over FY25 expense limits, barred from opening new offices for 6 months**  
+  _CNBC TV18_ · 2026-08-20 · score 18
+  https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcllHXzczQkxYQkgtaVU0US1jR19RMHdOY2JLTlFkNnhsckZnb1pCVGNNVVBlOEFxTnZTbGdGTVpscG9jUk40RldVVkNFSVhpS0dzdTUzSU03VE9FZ0ZFV1h2VjZNUkZtSGNjazkxeHppT1BxTGtoRG84REpfaktVcGQ3STY2bW9oa3E1VHlteTZEUllpaGVkeGxReFRxR0U2OWQyajl0SWYyQU1MeWF1OG9KRWNLc2VkNUg3WFVvbk1VNDlSeTdZdGFsU19sZ2JrYThteFRHOWMyWkMwdGIyTmU0bXR6NDlFOEZsSWdvVHLSAfYBQVVfeXFMTnRxSGZMdE5pN3RKMFNQeEZDdW95bC1WYjhpWXJzcnVSSXVodUdyWEJHRjFUSE5Cb2V3SW5mcWxLTG1yMTZtQ1pKbDNEM0Q2OUo0YTdZZThHSi1pNGJtODhZT3RvS3d5VDdrZG5BazYxNnJRUE1fVzZqQkVFWFB4ejBra2R2QVRBTTNjYzktUnZ4RGFlQXlJZTY1NXgzQktKNGllRmhvank0ZHUxa21Jdy1oc1ctdWpWT3ExMVBKSHpjbmpNYW5rQ0h4blZMNVNxdUViNUxHOWhRSVlKRTczU0ptVDZkYVFNSVBCaWw0ODBQV1pTQm93?oc=5
+- **CCI approves acquisition of additional shareholding of Acko Technology & Services Pvt Ltd. by General Atlantic Singapore ACK Pte. Ltd**  
+  _India Education Diary_ · 2026-08-19 · score 17
+  https://news.google.com/rss/articles/CBMi8wFBVV95cUxOR0gzdFNmaU5WTWlMVHJsNE5RUkhfUUVtSmVwRHdFYUROX1dEVWNVM29nTzV0ZlhFYldVSEVja2lONEFnYWRwWGZNeDRXQW1BOFFJeEl2dHNNb3N2MVVOTmRYbjRZMnZMU2k1LWR1Vm5GZjlGTzFwSmctbU1ZaThTVTlORmRDUVNIbjVTd1dscTZpU3FOZTlZSFpnXzVLVDlBN2U5OW9IbGt1ZmtuQ0tYOENjX3ZmN2ZHbmtSV2ZvU3FFRHY1OEJvc2Y5ODA1ZFZPWUJiMHJwZzVzZC1WQXhsRHhmY3FZUXE2TXQ0R0prMmpPdzg?oc=5
+
+## Regulatory Actions & Corporate Governance
+
+- **IRDAI bars Niva Bupa from new business over EoM violation**  
+  _Rediff MoneyWiz_ · 2026-08-20 · score 21
+  https://news.google.com/rss/articles/CBMirgFBVV95cUxQMkdZemFnZnBnY1BqSzlHWW9vamFxVm0zWGdUUjJXY1pfX0duWE1NZm9hWFgtS3RTd2xNOC1Fai1JY1pPcFBrWDRWR19oNFN5ZUZhVnlVNXViVWpCWVhkVGQtWDBaZjNvdHc4UTVxa3NIYWVfb2xXTEhZMkRuRUhfNy1JTlpfZjBSYWw0SGxiU3ZPY202MEhXeXFMb0Q5bkpOQmJZYUoyejdfbW9JeXfSAbMBQVVfeXFMUHhwMVJVNnZDeVdBRkEtNjZ1N1NtUXJOS1RoMGVVOHZRRzVNNkhvekc3d010QWZxaU9OT3U0Mk96WTdzNFVPX2RSOHJqMVl2VHIxenNURUVUTUFNa0dsc0tsWWpIUENTc0c0UkRhczdMZEFoa2FBQ05iZnllUnhaMl9MV0JieFZsRkVGcE5yQTJuOFdBWHA2Q2poamN2b3hyczl4SnloeVVRWUJfY05nazVydVE?oc=5
+- **HDFC Life Gets IRDAI Approval For Vibha Padalkar's Re-Appointment As MD & CEO**  
+  _Sahi_ · 2026-08-19 · score 19
+  https://news.google.com/rss/articles/CBMitAFBVV95cUxOVFNING5wTTBaaUJDLTN3Ml91dnIxUklyRDVqNUpLcVRIUk9DbnRZMHlHX1E3UXpiX2NKNVhFaGhjbjF2dzdXWkZyLWZtaGI2OUQwSDhQLVRyQVBuM3NNMHE2Y2g0NVFqeEo5NVlfcEJBbWVjMWloWUp3bnVOMkZqYTNJdnZlVU1OalVKSlJ2VUJhcWZuaW1JRkQ3YTdLQld3V1JNa2dpSDdHZm1YVE9jLTNzTkE?oc=5
+- **Niva Bupa, Acko General Insurance barred from opening places of biz for 6 months**  
+  _Economic Times Banking & Finance_ · 2026-08-20 · score 13
+  Niva Bupa's allowable expense for FY25 was Rs 2,403.75 crore, while its actual expenses stood at Rs 2,652.12 crore, exceeding the limit by Rs 248.37 crore, according to the regulator's order. Irdai has prescribed limits to ensure insurers control management and operating costs so that a reasonable portion of premiums collected from policyholders is available for providing insurance cover and settling claims.
+  https://economictimes.indiatimes.com/industry/banking/finance/insure/niva-bupa-acko-general-insurance-barred-from-opening-places-of-biz-for-6-months/articleshow/133385688.cms
+- **IRDAI warns Niva Bupa over FY25 expense management limit breach**  
+  _ETLegalWorld.com_ · 2026-08-20 · score 12
+  https://news.google.com/rss/articles/CBMizAFBVV95cUxNdmZaYkc4alo0clhaa2pYSUlGbEVOT3E1R09odWxqazViTWFDUENlSm5Na1BBWWlCUzRnWUcyTkxkeURqXzlyeWFBQldoZmVoako3bXhDa05BTFdRWWtQRGpYekZ3VDA2dG8zQVBDeHBrckc4NkFJVFEtOHVHcllKSERfamlwQ0JWZ1JHYkZCM21nQUd3aGUxYUtncHVkZUh5dVBZWFJlSC0tMi1mZUJ3dS0xVk5QaHlPQWhfUVBORjNYNnhYcXFFTkhCcEfSAdIBQVVfeXFMUEJyeHJEWlNjX0lyamkxSXQxTTV3dFU0NUtMb0M3TzJnaHBUejlZdDNObjB4T1hYNUluTzFJT29SNzQ5MnJHZjZTaUNld2x6Ni1DMlZoWEx4cGxKbDM2SVZkcUIyamtNZWNibFUxZGFoZHBoRVNJT2doOFJTVjBGalIzMU5xZ05ZZ3hXTGdBNWw3SUtOSGdTSy00ZmJSalhYNEFCd1hOSHhrVmU3N0NvN2VWT0lIM2xmWThXT1RqX2hodEUtcnRBSVZyM0dRU3puV1hR?oc=5
+- **IIRM Holdings subsidiary receives IRDAI corporate agent registration**  
+  _scanx.trade_ · 2026-08-19 · score 12
+  https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRXhmV2dfQUdlVHIyb0UwQWwtUklaQzhQd0ZoOGZaME9ic1NoTWVON3F0VW9zeXdYaENHQVFOTHQ5UjFZcXlWVmltTk53NjRQYm1pZDM3bWQ4UVpsam5aSUxtNURpSzU2WEs2Y2tnc0FNaHgzM19VX050bkVNTWt0YVlqaFhGSXVCcGJSVlg3WU10RTZIVThYUTdGMmtCMXJVd19mcFoyaUVQSXBEb0E2eXVsa2E0N2xjdE5leUJFak9tdDQ?oc=5
+- **RBI slaps penalty on IndusInd Bank, three NBFCs for regulatory lapses**  
+  _Business Standard_ · 2026-08-14 · score 11
+  https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcVNQZUxSczVjLWJ1WWxqS0d5WXJRSXAtQkZ0ZUd5M0tnTVlJNF8tNkgza2ppcDVFYnNEbjh2WFdIODZVb0lLRER5ZFplcXdXTTJfV1hhQWYzQzlWOE8taHQ0Yy1JQ1VSMEpqWmZ1LVprVDFzTXpZUEhDZVRpWFA5S1d1OV83R0szTG1lSVQ4YlhGMHFTYzNnc1lFOEd3ck4yVXgzajNTZkdxTTAzTWdVN1hmNi1QcGtvSEpldF9iYkJXdWRpMXdUN2VWSkJZdnJ5U3VsZmlR0gHbAUFVX3lxTE5ubGZfN0RQNUZYUHg4aWpLbDFvdHRTTGhHR19ZazdWdXVPUTc2SEJISzh6MXpFaXVnSFdpczJVVk1rWmxsSWY2OFJ2Z1JwRkhPSThNa2lwSVdZSHNVUW56REFSUlQyMzJYWl93RXlVVGtYek5sLUl5SW1ISm1keldmSzRPOHNnaXRCMTJlV3IzTkI2STlrVFh6a2szYkVRbktRUnZnT01VQUZ4TlpzRnM3bkZjanJzNTVpYkRwTUY4Z3ZveHZyUDN5Z0hObk9tNjhfdmlKNDJRSFZkVQ?oc=5
+
+## Industry & Premium Trends
+
+- **Axis Max Life Insurance reports 17% YoY growth in Individual Adjusted First Year Premium in 3M FY'27; VNB increases by 33% YoY**  
+  _Business Standard_ · 2026-08-18 · score 24
+  https://news.google.com/rss/articles/CBMirAJBVV95cUxNQ1lGSmN3Y1NzNk5jOTJ2NUZmZWxfenQyVFVMVTlkNXZ6RkcyeGNGcjdYQVdkbjYwNGJDMi10VzRpNnM4U2VaQlRrNTZNV283NjdhUmpjeG9QLUFic1l4WmZuOXJVX1RfejlkTjFoWU1uQ1VLQkV3ZkJCbFJ5SjN6dEJXMXd3TWUyOEdZajhBZWkzeDFKX2Z3OHFmdVNLM2FPZUpzNXJxa29KOGpoTjVyQ2tKT1g0ZlNTeDA4YTc4SGZrZl8wbUsxS0ZRT0c0MF9NOWVabDg5US1CajQwa2VjOHhHd1R0eDdKbjlJZ2daZkVPUlpmalI5bzI1R0JTV3VuSDFnYm5uaTg2M180Ry03ME9lcXpzdmFza1ZwNFZSUVZpd05VdUFiUmVnZkfSAbICQVVfeXFMUGMyLVpMb3Q5V29vdThwUG55SzZTckFlRjhFekVhVDNTR3VnLWpCdHJxSWRGVDl1ODF1ZGJUMzVrLUEwY1RnRnNsN2VSaEVOODB1dzlZSUZLYWRaR3dQRVN5am4zMElyZ1ZLMUJTZHlUYXdDV1ZjcGxETUlKSkd5bXcwODVubW40cUthOEJvSjVmNW9na1B2U0N1VjM5QjdvUjZ1UWNfdVlWVHMyT0NYMExDLU9JT09BMjd5a052NlRGRTBvUF9QWnRXSmVKb1M1YnM2bmlDMElGdTlaazhCYnRFclVlR09ZaEFMUXkxbFZ1anQxdHNXeDZadF9paHJfc2d6NUNXTjhjNzBaa2NqZWFHdEEtZFljNFE4cC0zNmU4VWZudkVjQTJ5Y1dkTElQaVRB?oc=5
+- **Insurance sector set for stronger year as life, health insurers post robust growth: Kotak**  
+  _Asia Insurance Post_ · 2026-08-20 · score 18
+  <p>Non-life insurance growth is likely to remain moderated as weakness in commercial segments, particularly fire insurance, weighs on overall premiums, according to Kotak Institutional Equities New Delhi: India&#8217;s non-life insurance industry is expected to see continued support from strong retail health and motor insurance demand, but growth is likely to remain moderated as weakness in [&#8230;]</p>
+<p>The post <a href="https://asiainsurancepost.com/archives/83183">Insurance sector set for
+  https://asiainsurancepost.com/archives/83183
+- **China’s insurance sector likely to see modest growth in 2026:Fitch**  
+  _Asia Insurance Post_ · 2026-08-20 · score 15
+  <p>Government and regulatory initiatives continue to support demand for motor insurance and selected non-motor lines. Non-life insurers should maintain stable operating performance through disciplined underwriting, pricing improvements and cost controls, despite modest premium growth in motor insurance. Hong Kong:China’s insurance sector is likely to see modest growth in 2026, following a small rise in life [&#8230;]</p>
+<p>The post <a href="https://asiainsurancepost.com/archives/83185">China’s
+  https://asiainsurancepost.com/archives/83185
+- **J&K Consumer Commission Directs New India Assurance To Pay ₹9.95 Lakh Over Unsettled Insurance Claim**  
+  _Live Law_ · 2026-08-16 · score 15
+  https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdTYwRmw5eGdjMDVGTElwQlJUc1k5dUM2QnhGZWJOc0dwRDdnSElKbGd4VFdGQktBUXBIRjRaSTFlQ1Y5MWtxaHQtUU83TzZWbHk1YVo2UFlZakZNdzZGMGNpX0Jlci1INkpMSzhsUEdYTHdMZ1hEMWlJVlBWeF9BcGFKclFNbWpVRUh6T0ROSXhCMXhpX2F4MVFtZ3ZhYnU4YS1jMkxxcHZmejBNWWdQOE90RG50Q0llMVdkWU1yYTZBNkJ1QVU1ODBIbEs2N0k2aFFhRlFYbVhyUdIB3wFBVV95cUxQbHlZa0d4bDlNQ2pLR2d2Z3pwVEp3X3ZxMFBSVXl0ZkZ4b3RQYjhvU003R1cwcTUzVXNaRkk0MG1SOElEUk5nR240dnlkTU9NWTdDTEljWjdXUk9HS2JkSDlZOVJNeHhjLUEwTUdUbk1xQ0xxcFR5dmFYLS05NmdLcy1kZ1JOY09QZVdzX2R5Z1IwVUZzRko1TTN5WlpadjJycmJabU5lZDdhTDk4TzVMWllUMk96d3J6VjBfVkVWb3dMd0I0dnNkTkl3MEJYeV9UMWNLcnl0VC1tbzV3VEcw?oc=5
+- **India's non-life insurance premium growth slows to 5.7% in July**  
+  _Asia Insurance Review_ · 2026-08-21 · score 13
+  https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZmtqazcyek8tS1ZBZDI0Yk1tMnpwVVc2ZjZ5TGRXaDJJRDc0RzdLQllHYVpjVEVKZUVBMjhvcFF3Ry1SN01DVGpYSThqaDczTWNrNGpYaWlsSEU0Tk02TU5KUzFaX1pZNlBhMzhLX21JRGgwUVBIVnhEZ1hmcXhkQlRMTG5CZzlUdGd1RUFUU29aYVVOc2xNaEQ3SGJGc2M3MnRtX3k1WWQzN2tKN3BodDBQWlpVTDhkajVsb0dRZjNKRDcwZmpyM1JWQm1weXpzV1dRNmw2Z3BkVnFKcWtz?oc=5
+- **Retail Health and Motor Insurance Drive India's Non-life Industry Amidst Commercial Segment Challenges**  
+  _Devdiscourse_ · 2026-08-20 · score 13
+  https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQVVTSzhiT3FMZGhGX0ZZc084WS0teHZadjJYOEJVV0xrcWhWX2tCdVlaeHJzQWc3SFRUYUhodi1Cd2xtaV90YkpqbkstZllvU2ZMSTdtTEtWWVIwS3NGZmVUU2VsUVc0VWw0cU9VSlZJcndEZ0s0R1hLbUlxdW4taGo4QmVTclFoQkY5aEVBWHYyWkdjZGlqcFVOTFVyVXNpa1JXUGRreU4zWEVxeVBCSG5ldk9VeWI1NElwdy0tTFl5RFN1NjB4ZENBX0poc3NwVzBtSThnRjhjZGZXdFpCdTk0UGx6TGdzbldUVTdJUlnSAfABQVVfeXFMUEFVU0s4Yk9xTGRoRl9GWXNPOFktLXh2WnYyWDhCVVdMa3FoVl9rQnVZWnhyc0FnN0hUVGFIaHYtQndsbWlfdGJKam5LLWZZb1NmTEk3bUxLVllSMEtzRmZlVFNlbFFXNFVsNHFPVUpWSXJ3RGdLNEdYS21JcXVuLWhqOEJlU3JRaEJGOWhFQVh2MlpHY2RpanBVTkxVclVzaWtSV1Bka3lOM1hFcXlQQkhuZXZPVXliNTRJcHctLUxZeURTdTYweGRDQV9KaHNzcFcwbUk4Z0Y4Y2RmV3RaQnU5NFBsekxnc25XVFU3SVJZ?oc=5
