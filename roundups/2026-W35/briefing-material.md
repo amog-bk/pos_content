@@ -1,0 +1,86 @@
+# Industry Briefing Material — 2026-W35
+
+_Generated 2026-08-28 14:31 UTC. Raw ranked material._
+
+This is the input for the Friday briefing. The final briefing is written in-session in BimaKavach voice from the stories below.
+
+## Headline candidates (top stories this week)
+
+- **IRDAI EoM limits crackdown tests insurers’ cost discipline | Policy Circle**  
+  _Policy Circle_ · 2026-08-26 · score 23
+  https://news.google.com/rss/articles/CBMic0FVX3lxTE5fQnhSVXhESkM0c0pOeE1FX2pWTUxSUTRxYnY4cUY4ZHIwNy1VdnRRNGpnbGI4bW00NWJaLWJlc1NmTHRxWVpoMENlbGV6UzlUM2FpUTRfa195Q1hNazJ0YzhrMTZ6bF9Dd1ZBWmtXeFUwemvSAXhBVV95cUxPSnd6ZlVMOXhmQkV6LVAxcjdVZTI0MkkwSGdxSi15RmJkczdNb1BTaWk0ZUctOEJ4amd6NGpzajBrMkY0TEJWWmNPckZja1NZSXRBbTkyRHUtOU04bFhvT3F3bnMwZHVyVHZJMEd5ckl5dlFwUnY4c3o?oc=5
+- **LIC stake sale in IDBI Bank: Officers’ body seeks IRDAI intervention**  
+  _BusinessLine_ · 2026-08-24 · score 22
+  https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYlpLMTJKbGdoTzVwX2F5aHdLQ3ozamU0bUZrTTY2ZXdLRkwyTnNoQ0VrNll6S1hsa3hLOUZncFIzUmJsMHFVT3JhanZZeVN4TGpjWDcxQUJaUkxBZk5pVkVja0VKbGZ0b2JWNkpJcTRiZ05abER2MjR2S0QwLW1DQXdrMVVITmlQNVVDanVDdWdsRlotYnBGZk1fTHExWTVSYWp5R25oRmdZRWxqU1J3VXcxbm9aeDBaRy15VU9xQ3hZSlFDRFZwUTV4N1B0NVBpM0tNNFRBRTPSAd8BQVVfeXFMTkJWaEhoU0MxV1NMYUdFeE9hb05GMlo1azJHdWtGZkZ0bUtRVjhIWHRLeXQtOG5sdkpXRjd2dG9BQ2ZHUmhyVC1lY28tMjdLX25PREVxM0dFOU1XSnNNQktrMk5vTDIwTDdQbWFLQUozQk5faENoN2lSdWdfLW5tSGF6Wk5FWFB1LUlKNUtKa0Vpd25yTUVQSmwzN3JsbUFkWVNRN0ZlcTFVbVdJLWlwUUtwY2YtZ1U1U2NEenpTbXJ1a3VJZ0VCNEdXLV9VbWFqNXhxYWNvZ3lkaVhfNldOOA?oc=5
+- **IndiaFirst Life redrafts its IPO plans, to deploy Salesforce Agentforce for AI overhaul**  
+  _Asia Insurance Post_ · 2026-08-27 · score 20
+  <p>Rushabh Gandhi, Managing Director &#38; CEO, IndiaFirst Life Insurance and Arundhati Bhattacharya, President and CEO, Salesforce – South Asia at an event in Mumbai to announce partnership between IndiaFirst Life Insurance and Saleforce Rushabh Gandhi, Managing Director &#38; CEO, IndiaFirst Life Insurance, said, “With Agentforce, we are building on this foundation by bringing AI agents [&#8230;]</p>
+<p>The post <a href="https://asiainsurancepost.com/archives/83355">IndiaFirst Life redrafts it
+  https://asiainsurancepost.com/archives/83355
+
+## Major Business & Market Deals
+
+- **LIC stake sale in IDBI Bank: Officers’ body seeks IRDAI intervention**  
+  _BusinessLine_ · 2026-08-24 · score 22
+  https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYlpLMTJKbGdoTzVwX2F5aHdLQ3ozamU0bUZrTTY2ZXdLRkwyTnNoQ0VrNll6S1hsa3hLOUZncFIzUmJsMHFVT3JhanZZeVN4TGpjWDcxQUJaUkxBZk5pVkVja0VKbGZ0b2JWNkpJcTRiZ05abER2MjR2S0QwLW1DQXdrMVVITmlQNVVDanVDdWdsRlotYnBGZk1fTHExWTVSYWp5R25oRmdZRWxqU1J3VXcxbm9aeDBaRy15VU9xQ3hZSlFDRFZwUTV4N1B0NVBpM0tNNFRBRTPSAd8BQVVfeXFMTkJWaEhoU0MxV1NMYUdFeE9hb05GMlo1azJHdWtGZkZ0bUtRVjhIWHRLeXQtOG5sdkpXRjd2dG9BQ2ZHUmhyVC1lY28tMjdLX25PREVxM0dFOU1XSnNNQktrMk5vTDIwTDdQbWFLQUozQk5faENoN2lSdWdfLW5tSGF6Wk5FWFB1LUlKNUtKa0Vpd25yTUVQSmwzN3JsbUFkWVNRN0ZlcTFVbVdJLWlwUUtwY2YtZ1U1U2NEenpTbXJ1a3VJZ0VCNEdXLV9VbWFqNXhxYWNvZ3lkaVhfNldOOA?oc=5
+- **IndiaFirst Life redrafts its IPO plans, to deploy Salesforce Agentforce for AI overhaul**  
+  _Asia Insurance Post_ · 2026-08-27 · score 20
+  <p>Rushabh Gandhi, Managing Director &#38; CEO, IndiaFirst Life Insurance and Arundhati Bhattacharya, President and CEO, Salesforce – South Asia at an event in Mumbai to announce partnership between IndiaFirst Life Insurance and Saleforce Rushabh Gandhi, Managing Director &#38; CEO, IndiaFirst Life Insurance, said, “With Agentforce, we are building on this foundation by bringing AI agents [&#8230;]</p>
+<p>The post <a href="https://asiainsurancepost.com/archives/83355">IndiaFirst Life redrafts it
+  https://asiainsurancepost.com/archives/83355
+- **Prudential stock holds after H1 2026 growth and India stake sale**  
+  _Ad-hoc-news.de_ · 2026-08-27 · score 17
+  https://news.google.com/rss/articles/CBMixgFBVV95cUxPWUtZdWpqWWxxWk9yY1JuODhXN0JYZFJjWkwtZFJqUE9ZWWFoQjlWZ2R2WlRBZDkxMzBQczRHcU9pbENpa1lqVkZWZVJEa0w5VVdOVVNiYWFyRTU5ck1TNk5WYUVfV0theDFSY19WX2tFR3pHaUFLeWNTLVFHdGFQNzlIVEh0eVpaY0tkbmh2UkxzODUxa0N3OEltZFc4dElDZ3pFbXU4SjFXN3VYejltZG1qNFB0ZmlVWmZHMk1QcW5uYlFwR0E?oc=5
+- **IRDAI bans four insurers from opening new branches for six months**  
+  _Cafemutual_ · 2026-08-28 · score 16
+  https://news.google.com/rss/articles/CBMirgFBVV95cUxPS2xucmZVeXVZWElGVklGUU5BbkdYaTctZzdxRGY2Q3FfQnJzazNOay1VbTc5OExCalF3eklORTMybnhSdTlLa2JLLU5rY2V0Q2hJYVktMzJiZGFMa0tjVzY1SV9ydDV5WmVMY2h1WUYzUW1ZcGhaWFgxalB5VXRDMTcxNW4zYU9tSmJrMzZZMGNCb2FTdl82VkJYT2NlODdTWFQwcmxDU19QaDZMX3c?oc=5
+- **Prudential posts 8% new business profit growth. The bancassurance channel drove it**  
+  _Insurance Business_ · 2026-08-27 · score 16
+  https://news.google.com/rss/articles/CBMi6wFBVV95cUxOelFFZEE3cFRSd2lEX2hnUDNzWUlpVHQ2MFM4OXhzVWN6bW9kUnQ3WXJBVGhwZ0VWRVFxbWowZGdqOTlsSjF2ckxmNkRaMVlHXzdyWkQxalBscXNvRWdZdUN0SlJjSXhnWVpqSF9QQXFibVZQclpGLXItd2VfM3FKbXlnSnNLRVl4M3lGREsxdktSWTRNNm5DcDNtZnVOOUprdHFBQUZlbmxQakdBRE03clVtNzIzNU1NcU1Pcjl4MlFIN181ajNydjh4M29nQ2Vub3hsRUtPcUFsQW4wMDJJY0ZlS0pMRjJvZEhV?oc=5
+- **Govt achieves 78% of FY27 divestment, asset monetisation Budget target in Apr-Aug**  
+  _Asia Insurance Post_ · 2026-08-28 · score 15
+  <p>A strategic sale in IDBI Bank is on the table. After a failed attempt earlier this year to sell it, the government has received revised bids from Dubai-based Emirates NDB and Prem Watsa-led Fairfax Financial Holdings. New Delhi: The government has achieved about 78 per cent of the FY27 budgeted disinvestment and asset monetisation target [&#8230;]</p>
+<p>The post <a href="https://asiainsurancepost.com/archives/83378">Govt achieves 78% of FY27 divestment, asset monetisation Budget target in Ap
+  https://asiainsurancepost.com/archives/83378
+
+## Regulatory Actions & Corporate Governance
+
+- **IRDAI EoM limits crackdown tests insurers’ cost discipline | Policy Circle**  
+  _Policy Circle_ · 2026-08-26 · score 23
+  https://news.google.com/rss/articles/CBMic0FVX3lxTE5fQnhSVXhESkM0c0pOeE1FX2pWTUxSUTRxYnY4cUY4ZHIwNy1VdnRRNGpnbGI4bW00NWJaLWJlc1NmTHRxWVpoMENlbGV6UzlUM2FpUTRfa195Q1hNazJ0YzhrMTZ6bF9Dd1ZBWmtXeFUwemvSAXhBVV95cUxPSnd6ZlVMOXhmQkV6LVAxcjdVZTI0MkkwSGdxSi15RmJkczdNb1BTaWk0ZUctOEJ4amd6NGpzajBrMkY0TEJWWmNPckZja1NZSXRBbTkyRHUtOU04bFhvT3F3bnMwZHVyVHZJMEd5ckl5dlFwUnY4c3o?oc=5
+- **Irdai's crackdown on insurer operating costs signals stricter compliance**  
+  _Rediff_ · 2026-08-24 · score 18
+  https://news.google.com/rss/articles/CBMizAFBVV95cUxPSzJjVkNDOW9NRzcyNkVvcDVkTDJmMGdEVXpxZUlKdjVjcU9GNjFSUldGeEUwOVVhdldreHFlTEtSaUpYRm9rNlh4OFN2U0xSc1gzZGlkblBjaEhQOFdwSDZVU1hvZ1VVY0h4bDAxSDJqX285MzFqTEwyaGR3ZWZpQUxWNk1xb3BhbzV1anM2bWVlMlp4NXJ1Uzkwc1N5VXpBdWFMUmhhZ0VUTlJRc2NmcEd3T0Z6T0lKNEotZjB0UjhDWDVrQ0dmY0FMYm_SAc8BQVVfeXFMTVNITFRldUg5dTJvMzJtTkxpMlcwaUxkSXoyWU0xeXA0Mk1MekFocy02Q2JZakdjTElZVWVjWi16RThPQnFRTUl4U0tJQU03U3c3cXc4UzBFVHRtQzFxS2hHanl3VEFnejVRT1ZpRmVkQVk3U3N6RENmdi04b3JURUt2NFhqZEZxSWJuREdVSC1iS21LSWltSUJHUVFlSk40NUpMNTU5eEFPaVBaajdmZExWWmtENEZlN1BzZmNjWFlpLTRlbEpzM3lWdnRBSEFN?oc=5
+- **After four insurers, more could face IRDAI action over EoM breaches**  
+  _Moneycontrol.com_ · 2026-08-24 · score 15
+  https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUk5xUUw1amdsTWZGbnFyS2p1YTRZaUprcTBBcTE2SVJ1ZXJ2TFU2Vmc1X3hudHdVa0djLTV0VWllMnFSSzByc2NpcmEtWnlfSVdoRk45VGZSQWNLeWtzWndLX3I4RkJhU3RTcGlIRG1acXRWNmFQWWNZS1haemtmN1dVeXFTd3ExWDRrc0ZaWFRPNXhFeWFkbFV5QXIzbnpWRFNmeTBYcnhabmJteDFEYVc3NENROElrZHNpUlBJOUU3amJ4UklZNdIBzgFBVV95cUxQZXI0TTBzdlFfclo3YTdmdGJCRTBlOE9BaC1fS0ZSMzFYMEF0bXFUaHRrTVoza3lvb3VsQnhGcnVkY3JSVVFkZUZxdXZXdko1c2ZYTzlBcDJSNnVObWFKVWpRQ1FDMUhWVHg0ckpmNTI0OG54WVRiZEtqWUtNMV9KWW0yeG10NGRRcVowR3BRNHlORWhWd1RNa2lxSHVpX3NkNzFsVlFMSy1jRUpOWmlmN3FjZ0J3LWVueUtfcjNhVXo1Z0xNdkVvOE84ZE95QQ?oc=5
+- **BFSI leadership shuffle: S Somanath joins RBI board; Airtel Payments Bank, HDFC Life, MobiKwik, KVB make key**  
+  _bfsi.economictimes.indiatimes.com_ · 2026-08-21 · score 13
+  https://news.google.com/rss/articles/CBMi_wFBVV95cUxQS1ZtN01pOEI5ZlI3c0FtUVR0R1J2eUtuS3NFSVlJa0p1RHZTNjlzTjlGdENYZkYyVUZHSVRhYmpDTnlEQzY2QjUwYUhhVlFsdDdDUWdqMXdvdXYtaTBBbnFrMVhCRWNSZFVwbTF3QTEwT1BWSzQ5c0FheEpFZlR5ZGtYUmZmVkRiQTdxVDRuWEx3eWxPNmFNUHF3Q0J6QVIySUgxOEhUVi05eWxTZzZ5ZmxVazBYRHhKMTlJUTlsZEpxb3R4OHRLVG5NLVNnbDgyR3RtZ1BHc29MMWUyclg3bUJ5c0t4VldzeGdYRmVybG1LemRHXzdWVTd5elpZWWPSAYQCQVVfeXFMTmRQMFpCSUEwSF9rODE4SGU1bUUtZXh6MDc0NWJrdVFNckFsZjdEdndIczcxenZ6dmtxV3RqbERGSnczbkFvZ0k5NlJWTE9rOEt1RndaMWw4am9kYkFUSEFUdGlEemNnVFZMREtpX2VFbjl4Rk1HcjNwSmNSWWl6SVh3SWFPMG9pdWVmSHVQQVJSYTBZMzlWTnFHVzNKaVp5cERlVFRlY3RxNXYxVkYxTDg0blZTeG45VHdzaHVCN3g3Um9uMDN0S2JuZkEzajg0ZlpmNGJxOHpHYURLR0d4YTBxSmJIYWg2dGM4S0ZTZEg3R0c1dXpab2lXTXpsVkswMDMta1k?oc=5
+- **Under Ajay Seth, IRDAI steps up supervision and enforcement**  
+  _Moneycontrol.com_ · 2026-08-26 · score 13
+  https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbE1SZXhxVXFPSEc2ekg4NGJFdWlyeF9XaGV0Y1pVYmprcl9kVUM1azJNS2ZOUnYta0oyZ0hyRjF5d3BZUFVKaDFCSTE3OUlBQVhPbVBxMzRBenhZc1dKazFOamgzanJCTmJSR3RjeUNzWEZnUVl4Mm0zTjltWW9adkZUU1FXLTBuOW43T1R5RmlFTVVpM25rLU9wVXBrczRkTHZtaGxJUjRrSjN0QVRPMVpyOXhMUnB00gG-AUFVX3lxTE5tN2x0b3hVLWdudnlvdlZoemY4Q2NrVmpGcmJMVTM0X2xBTDEwUmEydFRhN09GTHQ4YWFUNmZiOGFtbUEwdVVxMGMwOVMzWFNGQ05FNFA2VU1MZkhuMjFHd1JxWlFrNkZpbzJ0NVdRZ1pMNEwzSTByN3dncTNNeFptZ3NJUHNkamxmNVJYU2JMRC1XdUo0UDR4a2ZWR1NxbDN1R216SFNTMW9fOGE1RDhxNzVsMURiWGYzWFUxc3c?oc=5
+- **The Insurance Regulatory and Development Authority of India (IRDAI) Cyber Security Guidelines 2026**  
+  _CyberPeace_ · 2026-08-28 · score 12
+  https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZ3htUGs0czN2eHV2OUhrQkFDRzZndkJWU0s2U3hhTmtmQnVHbV9FVEQxSGVkX1pZVVZlbjM0QkNPR1RranM0RWtNcDZrOTRxaUZwWTNpNGhGUWFKTnFyZDJqdFFJYW5BcU1hZWhHTmJldFVmb1hXOWd1clc2aVJ5M25WeS0zNWJFdjhmTkstYlprYVdfX2UwUWNhZmtEY1VoLUJxYzBkS3lHMm56U2ZhcWZsczg3eFpGZk54bUtyaXBnaGlCck9HaUZaUk1ncGRK?oc=5
+
+## Industry & Premium Trends
+
+- **Supreme Court’s big move against motor insurance fraud: Why it wants SITs in every state**  
+  _Moneycontrol.com_ · 2026-08-26 · score 13
+  https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeFRHMjk2RXB3NUo3STBrY0lhMmhpMWhOZUQ3akVJcE1ybW1jRWdOQUdsNmxIWWgyazBSMEdINENoRld5VWpMb0xUUWhybndjWnp1SU5tRzlfS0hLaURYTHFZMjdvVmpkb0RjN1lsRGRheEdhTzh4YUpfSXRobmJSUUN2SmFkWWVpcnRXYVpuM011M3l3X2tfUHkwNGJqcU9xVkdvYktncnFoV0ZNbENMdmFjb0NhNUJqRGQxalUyazhYQTB0bEp2c0tLeWxobjVubnZOV29Nd0PSAd4BQVVfeXFMTm1DaFFsNlJTVHkzN0JudHJmc1dUMVB1Y3FHY1diNnJZanI4NnlIT015SGxqWU54RHo2cms4bF93ZGFxdmdpNU1qY3plamc2QnFub1ZGNGdYV1RBcHd1VFI3TDEwSHc1cUpIeHRXcWo4cWRyMnh5QVdmV0VENXRieXM0ZDBPYTJzcEFHd3RURWhYV2tUbE9JQk9nc3ZtVVV2UEp6c0JxRmtSU1BlQlhVbVpadG01cjRZUXloSTR0b2Uxd3NUay10cFZ3QnB3Rjh3QlNnc3ZHaEpmSldzYndB?oc=5
+- **Fire insurance premiums fall 28% in Q1 amid deep discounting**  
+  _The Economic Times_ · 2026-08-26 · score 12
+  https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMVFKQVZ4MU9iYm1STndYcENfcXZxcG5fYV8zOFB0VGxqOTNEMnluNDIzNjE1SGJ3RGdNUUdrRHlwTm55ejFvTVhpQmtwcU9vUDFnbi1KUWljTFF3Nm9DQ0VpdjZQaXJWOTBrZFRPd2h5eFExMV9ndkJ1dC1pdFVacXhtSVo5MGR0UGYxbWt6TGkyODgxd1pZOHNIMDNENlFyUXpzcFdFSUlnMmhqbTAwazJwbVh0WXAwZko4TFNabmhYTlVDRzNnM3ZHb3UtcWxFTzhxRDl6dUx1akRuMVHSAeMBQVVfeXFMT0pTOUlOMHktc2x2MDFmancwSTRhYTFtVUowYlVyMGpld1VqVTI0N2Uyd1Q1LUVOMXc4bm41bG5OcllPMnVMUjJ1dUZOblN2SERQeVRaSTNuQUJYM2RYTVRXY0QyWXpFdlVHUVc4eE1yYU55cEJXRmdET0RySWJCSDd5ZlpDMmR4TmdxZmpQMkJJNGR2RHY2YlVHNGxfVG5fX2xsdEJja3BvT2RiTGxGNThHeDlqSVdGbjRvcWRZbGFoYWw1bDJSQm5UbzF6UlZvTVc0Ujl4Z1ZZdm1sd2JhdFd4MFk?oc=5
+- **'Claim Rejection On Technical Grounds Amounts To Deficiency In Service': LIC Ordered To Pay Rs 70 Lakh To Nominee In Hyderabad**  
+  _ETV Bharat_ · 2026-08-22 · score 11
+  https://news.google.com/rss/articles/CBMigwJBVV95cUxQcklIY2E3RkttQWRGMk5jSnlIeDdUdUlyMW9hRzBrUng5bWQxeUJndW5malZXSGo4WjlGTi1LakJCQUxKSnZDdGFsOHV3MUxJa21JQVZLOHkzTGZKNUg2WkszcnlCNlRfdktiZFMycE1XNkx2eVhLUC03MUFjY0NUazA4X1hrdlcwWUNiTVhJbURWdm9sVXZSQ2hCcjN5TzV6bHBQWFkzM1BmcnAxalpDRjlXcmwzWjRVYlRUYTl6UGt5OFdETi1ncG5rdWpkRk1SLWZsWjlWc3prYzBWN2hoSVdRc1llY29HX1I2Qjk1dDkzVHRENnhJclljSTc3RWJfem1R0gGIAkFVX3lxTE1uYjYxVlhGTkhocVdKWjVwZXdOTVkxMFJobGxUVlNYWm4zSXhVX05hQlBUZkRsNk1vVXY1ZThZYUNNcnZTcXZRQjVjbU5WQXNTX0ZKWnJTUEU3ZUNrZnZHRlFQUlJoTHg4Zzg4Q042bGtZbWo5UWU2dUtBaW9acXRMQ2tGYVJ3N0szbEx4ZkdmZ1hQMDlCVF9YWTgyWGxYRUl2THJVUURTMzR4YVNuU1pUOG90NFhiRHFFNWZRV0d3LXRRc080S0J3bnRLR09CVlpqb2VXN1dHQXRRQV9oalJfdHF1azZEUW1XWWZadGtKekZMdHFyeFBVbndRMTF0SUlla1VXZDR0ZA?oc=5
+- **Prudential bets on India and bancassurance as Asia's protection gap widens**  
+  _Insurance Business_ · 2026-08-27 · score 11
+  https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbTlGODVUekc2V0hvTEJkWF9PRlhOYmNESWhyR01NaDU2UEdwbXRuM3RTMkFpN1R0VkMwd2M1X3lrSUtUbUlDdjU3TkU0T3NUVU1JUEtzRGZqSlBpVllUUTRLaVRxazc3NmJkNnNxNlRvRExITm40MFpZU1lpSnJPSFNyeFkxLWExNkhCWE5mX0lTV3RWUUt2cVdJZnlFR0xmcDljRlhnUGt2dV9PNm4yX1J2dGI3ZVFkRU1QaUZ5cXp3LXl1Szl6N294T0JNUC1ib0U0VHNyNmxBckZVSG9DSw?oc=5
+- **What is instant claim payout feature under term insurance plans? What policyholders need to know**  
+  _Moneycontrol.com_ · 2026-08-26 · score 10
+  https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRUx5Z09CMk9KSm5JanA5WE9RVVpFdUFDUE9TX09OMFVsTV9DNGJoWWpQdWJTX1A3bHQwZGZFdV83VHVzSm16MmdQWE5jOU0zSjRHbUlnVG5GZmFnLWh0QXFNTG5FVUxfWUJPUjl5c1R4Ul9rdVhZZEQ4enR3Y1piOUVjT2MtMkxPVmpPLXVrc0JGbnFrTUxiWEZhczFzeEJ0VlFpU3pwblQxLThXeXUtZGM4V2ZndFpLSjhRWHA4cng0ZjI2dGFiX19vMm5zekFQNHlOdnBKX0xWV2IxN3FkdnV4SzZUeTBjbTg5eW4yTXp1a01xT2d6WHU1dHFQQQ?oc=5
+- **Supreme Court orders SITs in all states to probe suspected insurance fraud**  
+  _India Today_ · 2026-08-25 · score 10
+  https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUVkxWUxISmJSbHVTTGI2bFJKZTVpMGRoU1JHdHNYUW1jNlhYaUl1aE9JXzZsQ05LR1FkQ2NCV3ZveENEc0x3QndmaHBJbFlLcW5WOXY5NmZGWFFmbzdsSmVURmJFZUJBRkEyU1VqZmxFS3pPSGlYcHg5aE9ya01uMkJxUWdyRERWUmtYX1ltVVBnVW9sekRXcklPeXRvYTBDNm5DZ0ZxX2lBeDVPZVdPQW9ETW82SlBnYVJKUWJQaDdmS0ZhQVFvbzEteTNyUTM3dGkydC130gHbAUFVX3lxTE1qM2FnMzhESl9PbFdXMUM4ODlVOVFfX1hTcHJpblR3RmRKWU1wMWZScVBVY056UVVsTHFUdkdJVXdJQ09iRzgtcVhudHJqUkZYUGdVNFNXaU9OZ016UHhQNmJmZkszeWt1azVEalNFSS1LWFhJUlZHUUNlWE9VVU43WTJaTzJ6TXZVblBIYTc1N1hReU5TYmFGTFpFTzJSb2k2Z2FzNEtZZWQ1YUcwVTBtUVgzV0E2YWRHSUt1aXk3MlpLenIxcG1XdXRHQzR2cVdsdHNMVWdFNjJFdw?oc=5
